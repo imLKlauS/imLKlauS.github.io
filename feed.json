@@ -1,0 +1,13 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "云游君的小站",
+    "home_page_url": "https://www.yunyoujun.cn/",
+    "feed_url": "https://www.yunyoujun.cn/feed.json",
+    "description": "希望能成为一个有趣的人",
+    "icon": "https://www.yunyoujun.cn/images/avatar.jpg",
+    "author": {
+        "name": "云游君",
+        "url": "https://valaxy.site"
+    },
+    "items": []
+}
