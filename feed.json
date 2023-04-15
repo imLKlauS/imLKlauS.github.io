@@ -1,0 +1,13 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "imklaus's blog ",
+    "home_page_url": "https://imlklaus.github.io/",
+    "feed_url": "https://imlklaus.github.io/feed.json",
+    "description": "今天冷的天气~",
+    "icon": "https://www.yunyoujun.cn/images/avatar.jpg",
+    "author": {
+        "name": "imklaus",
+        "url": "https://valaxy.site"
+    },
+    "items": []
+}
