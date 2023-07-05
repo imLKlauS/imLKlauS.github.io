@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>imklaus's blog </title>
+        <link>https://imlklaus.github.io/</link>
+        <description>今天冷的天气~</description>
+        <lastBuildDate>Wed, 05 Jul 2023 10:51:57 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>imklaus's blog </title>
+            <url>https://imlklaus.github.io/images/avatar.jpg</url>
+            <link>https://imlklaus.github.io/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2023 © imklaus</copyright>
+        <atom:link href="https://imlklaus.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    </channel>
+</rss>
