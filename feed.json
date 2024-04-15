@@ -1,0 +1,325 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "imklaus's Blog ",
+    "home_page_url": "https://imlklaus.github.io/",
+    "feed_url": "https://imlklaus.github.io/feed.json",
+    "icon": "https://imlklaus.github.io/images/avatar.jpg",
+    "author": {
+        "name": "imklaus",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "",
+            "content_html": "<h1>并发编程整理版</h1>\n<p>参考视频：<a href=\"https://www.bilibili.com/video/BV16J411h7Rd\">https://www.bilibili.com/video/BV16J411h7Rd</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n",
+            "url": "https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-Basic+Synchronous",
+            "title": "并发编程整理版-基础/同步",
+            "date_modified": "2023-08-24T18:49:36.000Z",
+            "date_published": "2024-04-09T08:46:11.266Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>如何使用线程池不容易出故障</h1>\n<p>你是否在项目中使用线程池遇到过以下问题？</p>\n<ul>\n<li>创建线程池核心参数不好评估，随着业务流量的波动，极有可能出现生产故障。</li>\n<li>不支持优雅关闭，当项目关闭时，大</li>\n</ul>\n",
+            "url": "https://imlklaus.github.io/posts/DynamicThreadPool",
+            "date_modified": "2024-03-19T08:56:29.628Z",
+            "date_published": "2024-03-19T08:56:29.628Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>框架篇</h1>\n<h2>1. Spring refresh 流程</h2>\n<h3><strong>Spring refresh 概述</strong></h3>\n<p>refresh 是 AbstractApplicationCont</p>\n",
+            "url": "https://imlklaus.github.io/posts/Java_Interview_Topics-Framework",
+            "title": "Java面试专题-框架篇",
+            "date_modified": "2023-04-21T19:52:05.000Z",
+            "date_published": "2023-12-07T14:29:20.893Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>基础篇</h1>\n<h2>1. ArrayList</h2>\n<p><strong>要求</strong></p>\n<ul>\n<li>掌握 ArrayList 扩容规则</li>\n</ul>\n<p><strong>扩容规则</strong></p>\n<ol>\n<li><strong>ArrayList()</strong> 会使用**长</li>\n</ol>\n",
+            "url": "https://imlklaus.github.io/posts/Java_Interview_Topics-Basic",
+            "title": "Java面试专题-基础篇",
+            "date_modified": "2023-04-18T14:52:05.000Z",
+            "date_published": "2023-11-27T16:29:09.722Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>虚拟机篇</h1>\n<h2>1. JVM 内存结构</h2>\n<p><strong>要求</strong></p>\n<ul>\n<li>掌握 JVM 内存结构划分</li>\n<li>尤其要知道方法区、永久代、元空间的关系</li>\n</ul>\n<p>**结合一段 java 代码的执行理</p>\n",
+            "url": "https://imlklaus.github.io/posts/Java_Interview_Topics-JVM",
+            "title": "Java面试专题-虚拟机篇",
+            "date_modified": "2023-04-16T14:52:05.000Z",
+            "date_published": "2023-11-27T10:51:19.006Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>利用valaxy+github搭建个人博客图片不显示?</h1>\n<ul>\n<li>使用图床传输图片\n<ul>\n<li>问题：使用牛七、Gitee图床均有问题</li>\n</ul>\n</li>\n</ul>\n<h1>2023使用picgo + github搭建图床</h1>\n",
+            "url": "https://imlklaus.github.io/posts/Using_valaxy+github+PicGo_Building_github_Graph_bed_problem",
+            "title": "利用valaxy+github+PicGo搭建github图床问题",
+            "date_modified": "2023-04-17T01:10:32.000Z",
+            "date_published": "2023-11-27T10:51:18.678Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>并发编程整理版</h1>\n<p>参考视频：<a href=\"https://www.bilibili.com/video/BV16J411h7Rd\">https://www.bilibili.com/video/BV16J411h7Rd</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n",
+            "url": "https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-Synchronizer",
+            "title": "并发编程整理版-同步器",
+            "date_modified": "2023-08-24T19:11:16.000Z",
+            "date_published": "2023-11-27T09:44:46.254Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>并发编程整理版</h1>\n<p>参考视频：<a href=\"https://www.bilibili.com/video/BV16J411h7Rd\">https://www.bilibili.com/video/BV16J411h7Rd</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n",
+            "url": "https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-threadPool",
+            "title": "并发编程整理版-线程池",
+            "date_modified": "2023-08-24T19:03:22.000Z",
+            "date_published": "2023-11-26T12:38:22.141Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>并发编程整理版</h1>\n<p>参考视频：<a href=\"https://www.bilibili.com/video/BV16J411h7Rd\">https://www.bilibili.com/video/BV16J411h7Rd</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n",
+            "url": "https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-Lock_Free",
+            "title": "并发编程整理版-无锁",
+            "date_modified": "2023-08-24T18:49:36.000Z",
+            "date_published": "2023-11-25T16:53:42.456Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>并发编程整理版</h1>\n<p>参考视频：<a href=\"https://www.bilibili.com/video/BV16J411h7Rd\">https://www.bilibili.com/video/BV16J411h7Rd</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n",
+            "url": "https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-Memory",
+            "title": "并发编程整理版-内存",
+            "date_modified": "2023-11-22T23:57:58.000Z",
+            "date_published": "2023-11-23T16:11:39.067Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>认证授权</h1>\n<h2><strong>1 模块需求分析</strong></h2>\n<h3><strong>1.1 什么是认证授权</strong></h3>\n<p>截至目前，项目已经完成了课程发布功能，课程发布后用户通过在线学习页面点播视频进行学习。如何去</p>\n",
+            "url": "https://imlklaus.github.io/posts/Authentication_authorization-Spring-Security",
+            "title": "认证授权-Spring Security",
+            "date_modified": "2023-07-05T21:50:51.000Z",
+            "date_published": "2023-11-21T10:33:21.597Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<hr>\n<h2>Ⅰ.仿京东购物车系统</h2>\n<ul>\n<li>购物车Redis数据结构选型：\n<ul>\n<li>双层 Map：<code>Map&lt;String,Map&lt;String,String&gt;&gt;</code>\n<ul>\n<li>第一层</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n",
+            "url": "https://imlklaus.github.io/posts/Application_of_Cache+distributed_locking_in_Java_project",
+            "title": "缓存+分布式锁在Java项目中的应用",
+            "date_modified": "2023-04-24T19:32:34.000Z",
+            "date_published": "2023-11-21T10:33:21.136Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<ul>\n<li>秒杀系统笔记：\n<ul>\n<li>1）如何设计一个秒杀系统？  2）秒杀系统项目实战</li>\n</ul>\n</li>\n</ul>\n",
+            "url": "https://imlklaus.github.io/posts/Flash_killing",
+            "title": "秒杀",
+            "date_modified": "2023-04-27T13:43:29.000Z",
+            "date_published": "2023-11-21T10:33:20.506Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2><strong>一 分布式文件系统</strong></h2>\n<h3><strong>1.1 什么是分布式文件系统</strong></h3>\n<p>要理解分布式文件系统首先了解什么是文件系统。</p>\n<p>查阅百度百科：</p>\n<p>![img](https://</p>\n",
+            "url": "https://imlklaus.github.io/posts/Distributed_File_System-minio",
+            "title": "分布式文件系统-minio",
+            "date_modified": "2023-07-04T21:21:17.000Z",
+            "date_published": "2023-11-21T10:33:20.483Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2><strong>一 分布式任务处理</strong></h2>\n<h3><strong>1.1 什么是分布式任务调度</strong></h3>\n<p>对一个视频的转码可以理解为一个任务的执行，如果视频的数量比较多，如何去高效处理一批任务呢？</p>\n",
+            "url": "https://imlklaus.github.io/posts/Distributed_Task_Scheduling-xxlJob",
+            "title": "分布式任务调度-xxlJob",
+            "date_modified": "2023-07-05T18:00:06.000Z",
+            "date_published": "2023-11-21T10:33:20.483Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>My name is klaus,I enjoy studying Java</p>\n<h1>项目总结</h1>\n<p>![mall](<a href=\"https://jsd.onmicrosoft.cn/gh/imLKlauS/blo\">https://jsd.onmicrosoft.cn/gh/imLKlauS/blo</a></p>\n",
+            "url": "https://imlklaus.github.io/posts/mall",
+            "title": "mall项目总结",
+            "summary": "基于微服务架构的商品贸易平台",
+            "date_modified": "2023-04-12T00:45:36.000Z",
+            "date_published": "2023-11-21T10:33:20.483Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>Using Valaxy+github to create a personal blog showing 404 errors{lang=&quot;en&quot;}</h2>\n<p>::: en<br>\nWhen set</p>\n",
+            "url": "https://imlklaus.github.io/posts/Using_Valaxy+github_to_create_a_personal_blog_showing_404_errors",
+            "title": "Valaxy+github-pages部署问题",
+            "date_modified": "2023-04-16T19:40:50.000Z",
+            "date_published": "2023-11-21T10:33:20.483Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>系统接口</h1>\n<h2>基本介绍</h2>\n<p><a href=\"http://doc.ruoyi.vip/ruoyi/document/htsc.html#%E7%B3%BB%E7%BB%9F%E6%8E%A5%E5%8F%A3\">参考系统接口实现</a></p>\n<p>在现在的开发过程中还有</p>\n",
+            "url": "https://imlklaus.github.io/posts/System_interface",
+            "title": "系统接口",
+            "date_modified": "2023-04-26T15:50:12.000Z",
+            "date_published": "2023-11-21T10:33:20.482Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>死磕设计模式之抽象责任链模式</h1>\n<h2>责任链模式</h2>\n<h3>1. 什么是责任链</h3>\n<p>责任链设计模式是一种行为型设计模式，其主要目的是解耦请求发送者和请求接收者，让多个对象都有机会处理</p>\n",
+            "url": "https://imlklaus.github.io/posts/Abstract_Responsibility_Chain_Pattern_of_Design_Patterns-Chain",
+            "title": "设计模式之抽象责任链模式-Chain",
+            "date_modified": "2023-09-02T00:46:45.000Z",
+            "date_published": "2023-10-02T09:51:28.060Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>死磕设计模式之抽象策略模式</h1>\n<h2>策略模式是什么</h2>\n<p>策略模式在 GoF 的《设计模式》一书中，是这样定义的：</p>\n<blockquote>\n<p>Define a family of algorithms,</p>\n</blockquote>\n",
+            "url": "https://imlklaus.github.io/posts/Abstract_Strategy_Pattern_of_Design_Patterns-Strategy",
+            "title": "设计模式之抽象策略模式-Strategy",
+            "date_modified": "2023-09-01T19:57:12.000Z",
+            "date_published": "2023-10-02T09:50:58.168Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>一、幂等性的意义</h2>\n<h3><strong>1、什么是幂等性</strong></h3>\n<ul>\n<li>看一下维基百科怎么说的：</li>\n</ul>\n<p>![image-20230429205227388](<a href=\"https://jsd.onmicr\">https://jsd.onmicr</a></p>\n",
+            "url": "https://imlklaus.github.io/posts/Idempotence_of_interfaces",
+            "title": "接口幂等性",
+            "date_modified": "2023-04-27T13:43:29.000Z",
+            "date_published": "2023-10-02T09:20:41.382Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>并发编程整理版</h1>\n<p>参考视频：<a href=\"https://www.bilibili.com/video/BV16J411h7Rd\">https://www.bilibili.com/video/BV16J411h7Rd</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<h1></h1>\n",
+            "url": "https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-JUC",
+            "title": "并发编程整理版-JUC",
+            "date_modified": "2023-08-24T19:13:57.000Z",
+            "date_published": "2023-10-02T09:18:15.944Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>并发篇</h1>\n<h2>1. 线程状态</h2>\n<p><strong>要求</strong></p>\n<ul>\n<li>掌握 Java 线程六种状态</li>\n<li>掌握 Java 线程状态转换</li>\n<li>能理解五种状态与六种状态两种说法的区别</li>\n</ul>\n<h3></h3>\n",
+            "url": "https://imlklaus.github.io/posts/Java_Interview_Topics-Concurrent",
+            "title": "Java面试专题-并发篇",
+            "date_modified": "2023-04-19T14:52:05.000Z",
+            "date_published": "2023-10-02T09:13:22.000Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>What is Valaxy? {lang=&quot;en&quot;}</h2>\n<p>::: en<br>\nValaxy aims to be a next generation of static blogging f</p>\n",
+            "url": "https://imlklaus.github.io/posts/hello-valaxy",
+            "title": "Hello, Valaxy!",
+            "date_modified": "2023-04-16T14:52:05.000Z",
+            "date_published": "2023-10-02T09:13:06.718Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "",
+            "url": "https://imlklaus.github.io/posts/Deep_learning_Redis",
+            "title": "深入学习Redis",
+            "date_modified": "2023-05-03T20:00:10.000Z",
+            "date_published": "2023-10-02T07:30:25.576Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>一、SpringCloud Alibaba</h1>\n<h2>1、SpringCloud Alibaba 简介</h2>\n<h3>1）、简介</h3>\n<ul>\n<li>Spring Cloud Alibaba 致力于提</li>\n</ul>\n",
+            "url": "https://imlklaus.github.io/posts/SpringCloud-Component",
+            "title": "Spring Cloud组件",
+            "date_modified": "2023-04-26T15:50:12.000Z",
+            "date_published": "2023-04-26T23:30:14.000Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}
