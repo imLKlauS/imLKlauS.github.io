@@ -1,0 +1,1 @@
+import{o}from"./app.zU3Rr8FA.js";import{c as r}from"./framework.CXYGarVr.js";function s(s){if(!s)return{color:"",icon:"",styles:void 0};const t=o();s in t.value.types||(s="link");const c=t.value.types[s].color,e=t.value.types[s].icon,i=r((()=>s?{"--card-c-primary":c}:void 0));return{color:c,icon:e,styles:i}}export{s as u};
