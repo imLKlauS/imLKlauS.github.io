@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>imklaus's Blog </title>
+        <link>https://imlklaus.github.io/</link>
+        <description></description>
+        <lastBuildDate>Sun, 09 Mar 2025 17:07:15 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>imklaus's Blog </title>
+            <url>https://imlklaus.github.io/images/tiamat2.jpg</url>
+            <link>https://imlklaus.github.io/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2025 © imklaus</copyright>
+        <atom:link href="https://imlklaus.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[系统接口]]></title>
+            <link>https://imlklaus.github.io/posts/System_interface</link>
+            <guid>https://imlklaus.github.io/posts/System_interface</guid>
+            <pubDate>Sun, 09 Mar 2025 16:46:34 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>基本介绍</h2>
+<p><a href="http://doc.ruoyi.vip/ruoyi/document/htsc.html#%E7%B3%BB%E7%BB%9F%E6%8E%A5%E5%8F%A3">参考系统接口实现</a></p>
+<p>在现在的开发过程中还有很大一部分公司都是以口口相传的方式来进行前后端的联调，而接口文档很大一部分都只停留在了说说而已的地步，或者写了代码再写文档。 还有一点就是文档的修改，定义好的接口并不是一成不变的，可能在开发过程中文档修改不止一次的变化，这个时候就会很难受了。 只要不是强制性要求，没人会愿意写这东西，而且在写的过程中，一个字母的错误就会导致联调时候的很大麻烦，但是通过<code>Swagger</code>，我们可以省略了这一步，而且文档出错率近乎于零， 只要你在写代码的时候，稍加几个注解，文档自动生成。</p>
+<br/><p>访问 <a href="https://imlklaus.github.io/posts/System_interface" target="_blank">https://imlklaus.github.io/posts/System_interface</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[mall项目总结]]></title>
+            <link>https://imlklaus.github.io/posts/mall</link>
+            <guid>https://imlklaus.github.io/posts/mall</guid>
+            <pubDate>Sun, 09 Mar 2025 16:46:19 GMT</pubDate>
+            <description><![CDATA[基于微服务架构的商品贸易平台]]></description>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1np4y1C7Yf/">雷神谷粒商城项目</a></p>
+<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20230315150052611.png" alt="mall"></p>
+<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20230315145952769.png" alt="mall"></p>
+<h2>项目名称</h2>
+<ul>
+<li>书阁”图书商城管理系统、微盟电子商城网络交易系统、高校闲置资源交易系统</li>
+<li>购物在“e”零售商城平台、惠农通—智慧农资商城 、农产品轻量级微商城系统</li>
+<li>精美鞋业贸易系统</li>
+</ul>
+<h2>项目简介</h2>
+<ul>
+<li>本系统采用微服务架构设计，在分布式环境下利用Spring Cloud框架，通过业务划分，设计独立模块的微服务，拆分为订单服务、购物车服务、支付服务、用户管理服务、商品管理服务、文件上传服务等模块，结合了当前比较流行的互联网电商模式，为消费者提供商品贸易平台。</li>
+</ul>
+<br/><p>访问 <a href="https://imlklaus.github.io/posts/mall" target="_blank">https://imlklaus.github.io/posts/mall</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[接口幂等性]]></title>
+            <link>https://imlklaus.github.io/posts/Idempotence_of_interfaces</link>
+            <guid>https://imlklaus.github.io/posts/Idempotence_of_interfaces</guid>
+            <pubDate>Sun, 09 Mar 2025 16:46:14 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>一、幂等性的意义</h2>
+<h3><strong>1、什么是幂等性</strong></h3>
+<ul>
+<li>看一下维基百科怎么说的：</li>
+</ul>
+<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20230429205227388.png" alt="image-20230429205227388"></p>
+<ul>
+<li><strong>接口幂等性就是用户对于同一操作发起的一次请求或者多次请求的结果是一致的</strong>，不会因为多次点击而产生了副作用；比如说支付场景，用户购买了商品支付扣款成功，但是返回结果的时候网络异常，此时钱已经扣了，用户再次点击按钮，此时会进行第二次扣款，返回结果成功，用户查询余额返发现多扣钱了，流水记录也变成了两条......，这就没有保证接口的幂等性。</li>
+</ul>
+<br/><p>访问 <a href="https://imlklaus.github.io/posts/Idempotence_of_interfaces" target="_blank">https://imlklaus.github.io/posts/Idempotence_of_interfaces</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[秒杀]]></title>
+            <link>https://imlklaus.github.io/posts/Flash_killing</link>
+            <guid>https://imlklaus.github.io/posts/Flash_killing</guid>
+            <pubDate>Sun, 09 Mar 2025 16:45:46 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>如何设计一个秒杀系统？</h2>
+<ul>
+<li>
+<p>高并发下如何设计秒杀系统？这是一个高频面试题。这个问题看似简单，但是里面的水很深，它考查的是高并发场景下，从前端到后端多方面的知识。</p>
+</li>
+<li>
+<p>秒杀一般出现在商城的促销活动中，指定了一定数量（比如：10个）的商品（比如：手机），以极低的价格（比如：0.1元），让大量用户参与活动，但只有极少数用户能够购买成功。这类活动商家绝大部分是不赚钱的，说白了是找个噱头宣传自己。</p>
+</li>
+<li>
+<p>虽说秒杀只是一个促销活动，但对技术要求不低。下面给大家总结一下设计秒杀系统需要注意的9个细节。</p>
+</li>
+</ul>
+<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20230429153744600.png" alt="image-20230429153744600"></p>
+<br/><p>访问 <a href="https://imlklaus.github.io/posts/Flash_killing" target="_blank">https://imlklaus.github.io/posts/Flash_killing</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[分布式任务调度-xxlJob]]></title>
+            <link>https://imlklaus.github.io/posts/Distributed_Task_Scheduling-xxlJob</link>
+            <guid>https://imlklaus.github.io/posts/Distributed_Task_Scheduling-xxlJob</guid>
+            <pubDate>Sun, 09 Mar 2025 16:45:39 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1j8411N7Bm/">黑马学成在线项目</a></p>
+<br/><p>访问 <a href="https://imlklaus.github.io/posts/Distributed_Task_Scheduling-xxlJob" target="_blank">https://imlklaus.github.io/posts/Distributed_Task_Scheduling-xxlJob</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[分布式文件系统-minio]]></title>
+            <link>https://imlklaus.github.io/posts/Distributed_File_System-minio</link>
+            <guid>https://imlklaus.github.io/posts/Distributed_File_System-minio</guid>
+            <pubDate>Sun, 09 Mar 2025 16:45:32 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1j8411N7Bm/">黑马学成在线项目</a></p>
+<br/><p>访问 <a href="https://imlklaus.github.io/posts/Distributed_File_System-minio" target="_blank">https://imlklaus.github.io/posts/Distributed_File_System-minio</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[认证授权-Spring Security]]></title>
+            <link>https://imlklaus.github.io/posts/Authentication_authorization-Spring-Security</link>
+            <guid>https://imlklaus.github.io/posts/Authentication_authorization-Spring-Security</guid>
+            <pubDate>Sun, 09 Mar 2025 16:45:20 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1j8411N7Bm/">黑马学成在线项目</a></p>
+<br/><p>访问 <a href="https://imlklaus.github.io/posts/Authentication_authorization-Spring-Security" target="_blank">https://imlklaus.github.io/posts/Authentication_authorization-Spring-Security</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[缓存+分布式锁在Java项目中的应用]]></title>
+            <link>https://imlklaus.github.io/posts/Application_of_Cache+distributed_locking_in_Java_project</link>
+            <guid>https://imlklaus.github.io/posts/Application_of_Cache+distributed_locking_in_Java_project</guid>
+            <pubDate>Sun, 09 Mar 2025 16:45:14 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1np4y1C7Yf/">雷神谷粒商城项目</a></p>
+<br/><p>访问 <a href="https://imlklaus.github.io/posts/Application_of_Cache+distributed_locking_in_Java_project" target="_blank">https://imlklaus.github.io/posts/Application_of_Cache+distributed_locking_in_Java_project</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[设计模式之抽象策略模式-Strategy]]></title>
+            <link>https://imlklaus.github.io/posts/Abstract_Strategy_Pattern_of_Design_Patterns-Strategy</link>
+            <guid>https://imlklaus.github.io/posts/Abstract_Strategy_Pattern_of_Design_Patterns-Strategy</guid>
+            <pubDate>Sun, 09 Mar 2025 16:45:03 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>策略模式是什么</h2>
+<p>策略模式在 GoF 的《设计模式》一书中，是这样定义的：</p>
+<blockquote>
+<p>Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.</p>
+</blockquote>
+<p>策略设计模式（Strategy Pattern）是一种面向对象设计模式，它定义了一系列算法，并将每个算法封装起来，使它们可以相互替换。这种模式使得算法可以独立于使用它们的客户端而变化。</p>
+<br/><p>访问 <a href="https://imlklaus.github.io/posts/Abstract_Strategy_Pattern_of_Design_Patterns-Strategy" target="_blank">https://imlklaus.github.io/posts/Abstract_Strategy_Pattern_of_Design_Patterns-Strategy</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[设计模式之抽象责任链模式-Chain]]></title>
+            <link>https://imlklaus.github.io/posts/Abstract_Responsibility_Chain_Pattern_of_Design_Patterns-Chain</link>
+            <guid>https://imlklaus.github.io/posts/Abstract_Responsibility_Chain_Pattern_of_Design_Patterns-Chain</guid>
+            <pubDate>Sun, 09 Mar 2025 16:44:59 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>责任链模式</h2>
+<h3>1. 什么是责任链</h3>
+<p>责任链设计模式是一种行为型设计模式，其主要目的是解耦请求发送者和请求接收者，让多个对象都有机会处理请求，从而避免请求发送者和接收者之间的紧耦合。</p>
+<br/><p>访问 <a href="https://imlklaus.github.io/posts/Abstract_Responsibility_Chain_Pattern_of_Design_Patterns-Chain" target="_blank">https://imlklaus.github.io/posts/Abstract_Responsibility_Chain_Pattern_of_Design_Patterns-Chain</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[Hello, Valaxy!]]></title>
+            <link>https://imlklaus.github.io/posts/hello-valaxy</link>
+            <guid>https://imlklaus.github.io/posts/hello-valaxy</guid>
+            <pubDate>Sat, 08 Mar 2025 16:45:22 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>What is Valaxy? {lang=&quot;en&quot;}</h2>
+<p>::: en<br>
+Valaxy aims to be a next generation of static blogging frameworks/generators.<br>
+:::</p>
+<h2>什么是 Valaxy? {lang=&quot;zh-CN&quot;}</h2>
+<p>::: zh-CN<br>
+Valaxy 的目标是成为新一代的静态博客框架/生成器。<br>
+:::</p>
+<p>More info see <a href="https://valaxy.site">valaxy.site</a>.</p>
+<pre><code class="language-ts">/**
+ * User Config
+ * do not use export const, because c12 will set as child property
+ */
+export default defineValaxyConfig&lt;ThemeConfig&gt;({
+  theme: 'yun',
+
+  themeConfig: {
+    banner: {
+      enable: true,
+      title: '云游君的小站',
+    },
+  },
+})
+</code></pre>
+<h2>配置{lang=&quot;zh-CN&quot;}</h2>
+<p>::: zh-CN</p>
+<p>结合<a href="https://valaxy.site/">https://valaxy.site/</a> 与 <a href="https://www.yuumi.link/posts/valaxy">超可爱！使用 Valaxy 搭建自己的博客 - -Yuumi's Blog-</a>来看</p>
+<p>:::</p>
+<h2>Config{lang=&quot;en&quot;}</h2>
+<p>::: en</p>
+<p>Combinedhttps://valaxy.site/ with <a href="https://www.yuumi.link/posts/valaxy">Super cute! Build your own Blog with Valaxy -Yuumi's Blog-</a></p>
+<p>:::</p>
+<br/><p>访问 <a href="https://imlklaus.github.io/posts/hello-valaxy" target="_blank">https://imlklaus.github.io/posts/hello-valaxy</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[利用valaxy+github+PicGo搭建github图床问题]]></title>
+            <link>https://imlklaus.github.io/posts/Using_valaxy+github+PicGo_Building_github_Graph_bed_problem</link>
+            <guid>https://imlklaus.github.io/posts/Using_valaxy+github+PicGo_Building_github_Graph_bed_problem</guid>
+            <pubDate>Sat, 08 Mar 2025 16:45:13 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::warning NEW CDN!!!</p>
+<blockquote>
+<p><code>https://gcore.jsdelivr.net/gh/ {{owner}}/{{repo}}@{{branch}}/{{path}}</code></p>
+</blockquote>
+<p>:::</p>
+<p>::: details 已失效解决方法</p>
+<ol>
+<li>利用valaxy+github搭建个人博客图片不显示?</li>
+</ol>
+<ul>
+<li>使用图床传输图片
+<ul>
+<li>问题：使用牛七、Gitee图床均有问题</li>
+</ul>
+</li>
+</ul>
+<ol start="2">
+<li>2023使用picgo + github搭建图床（typora）,解决jsdelivr问题</li>
+</ol>
+<p>:::</p>
+<br/><p>访问 <a href="https://imlklaus.github.io/posts/Using_valaxy+github+PicGo_Building_github_Graph_bed_problem" target="_blank">https://imlklaus.github.io/posts/Using_valaxy+github+PicGo_Building_github_Graph_bed_problem</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[Valaxy+github-pages部署问题]]></title>
+            <link>https://imlklaus.github.io/posts/Using_Valaxy+github_to_create_a_personal_blog_showing_404_errors</link>
+            <guid>https://imlklaus.github.io/posts/Using_Valaxy+github_to_create_a_personal_blog_showing_404_errors</guid>
+            <pubDate>Sat, 08 Mar 2025 16:45:07 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Using Valaxy+github to create a personal blog showing 404 errors{lang=&quot;en&quot;}</h2>
+<p>::: en<br>
+When setting up a personal blog, because the project name is not case sensitive when creating the repository, then deploy access to 404 as shown in the image below：<img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/20190917114816230.png" alt="1"><br>
+:::</p>
+<p>::: en</p>
+<p>But if you set the project name in the repository to your github username +.github+.io, you'll be able to access it immediately It must be your github user name, which should be consistent with the github user name. If you do not want to access the address with the <a href="http://suffix.io">suffix.io</a>, you can purchase a personal domain and deploy it in your github project settings</p>
+<p>:::</p>
+<h1>利用Valaxy+github搭建个人博客显示404错误? {lang=&quot;zh-CN&quot;}</h1>
+<p>::: zh-CN<br>
+在搭建个人博客的时候，因为创建仓库设置项目名时没注意大小写，然后部署访问一直404。像下图这样：<img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/20190917114816230.png" alt="1"></p>
+<p>:::</p>
+<p>::: zh-CN</p>
+<p>后来全部改成小写也没有用，翻盘重新安装也没有用。<br>
+但是如果把仓库中设置的项目名设置为：<a href="http://xn--github+-l45kw16a8u9a7s7beodga.github+.io">你的github的用户名+.github+.io</a>,马上就可以访问啦。一定要是你github的用户名，要和github的用户名保持一致，如果不想要这种后缀为.io的访问地址，后期可以购买一个个人域名部署上去。在你github项目的settings里面设置一下就好了。</p>
+<p>:::</p>
+<br/><p>访问 <a href="https://imlklaus.github.io/posts/Using_Valaxy+github_to_create_a_personal_blog_showing_404_errors" target="_blank">https://imlklaus.github.io/posts/Using_Valaxy+github_to_create_a_personal_blog_showing_404_errors</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[Java面试专题-虚拟机篇]]></title>
+            <link>https://imlklaus.github.io/posts/Java_Interview_Topics-JVM</link>
+            <guid>https://imlklaus.github.io/posts/Java_Interview_Topics-JVM</guid>
+            <pubDate>Sat, 08 Mar 2025 16:00:12 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV15b4y117RJ">满神Java面试专题</a></p>
+<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
+<br/><p>访问 <a href="https://imlklaus.github.io/posts/Java_Interview_Topics-JVM" target="_blank">https://imlklaus.github.io/posts/Java_Interview_Topics-JVM</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[Java面试专题-框架篇]]></title>
+            <link>https://imlklaus.github.io/posts/Java_Interview_Topics-Framework</link>
+            <guid>https://imlklaus.github.io/posts/Java_Interview_Topics-Framework</guid>
+            <pubDate>Sat, 08 Mar 2025 16:00:03 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV15b4y117RJ">满神Java面试专题</a></p>
+<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
+<br/><p>访问 <a href="https://imlklaus.github.io/posts/Java_Interview_Topics-Framework" target="_blank">https://imlklaus.github.io/posts/Java_Interview_Topics-Framework</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[Java面试专题-并发篇]]></title>
+            <link>https://imlklaus.github.io/posts/Java_Interview_Topics-Concurrent</link>
+            <guid>https://imlklaus.github.io/posts/Java_Interview_Topics-Concurrent</guid>
+            <pubDate>Sat, 08 Mar 2025 15:59:58 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV15b4y117RJ">满神Java面试专题</a></p>
+<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
+<br/><p>访问 <a href="https://imlklaus.github.io/posts/Java_Interview_Topics-Concurrent" target="_blank">https://imlklaus.github.io/posts/Java_Interview_Topics-Concurrent</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[Java面试专题-基础篇]]></title>
+            <link>https://imlklaus.github.io/posts/Java_Interview_Topics-Basic</link>
+            <guid>https://imlklaus.github.io/posts/Java_Interview_Topics-Basic</guid>
+            <pubDate>Sat, 08 Mar 2025 15:59:34 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV15b4y117RJ">满神Java面试专题</a></p>
+<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
+<br/><p>访问 <a href="https://imlklaus.github.io/posts/Java_Interview_Topics-Basic" target="_blank">https://imlklaus.github.io/posts/Java_Interview_Topics-Basic</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[如何使用线程池不容易出故障]]></title>
+            <link>https://imlklaus.github.io/posts/DynamicThreadPool</link>
+            <guid>https://imlklaus.github.io/posts/DynamicThreadPool</guid>
+            <pubDate>Sat, 08 Mar 2025 14:30:04 GMT</pubDate>
+            <content:encoded><![CDATA[<p>你是否在项目中使用线程池遇到过以下问题？</p>
+<ul>
+<li>创建线程池核心参数不好评估，随着业务流量的波动，极有可能出现生产故障。</li>
+<li>不支持优雅关闭，当项目关闭时，大量正在运行的线程池任务被丢弃。</li>
+<li>不支持运行时监控，使用过程中业务无响应，不知道是不是线程池引起。</li>
+<li>三方框架 RocketMQ、Dubbo 等线程池无法动态修改参数，修改后只能重启应用。</li>
+</ul>
+<br/><p>访问 <a href="https://imlklaus.github.io/posts/DynamicThreadPool" target="_blank">https://imlklaus.github.io/posts/DynamicThreadPool</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[并发编程整理版-JUC]]></title>
+            <link>https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-JUC</link>
+            <guid>https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-JUC</guid>
+            <pubDate>Sat, 08 Mar 2025 12:48:18 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV16J411h7Rd">满神JUC并发编程全套教程</a></p>
+<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
+<br/><p>访问 <a href="https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-JUC" target="_blank">https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-JUC</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[Netty]]></title>
+            <link>https://imlklaus.github.io/posts/Netty</link>
+            <guid>https://imlklaus.github.io/posts/Netty</guid>
+            <pubDate>Sat, 08 Mar 2025 12:37:49 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1py4y1E7oA">满神Netty深入浅出Java网络编程教程</a></p>
+<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
+<br/><p>访问 <a href="https://imlklaus.github.io/posts/Netty" target="_blank">https://imlklaus.github.io/posts/Netty</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[并发编程整理版-基础/同步]]></title>
+            <link>https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-Basic+Synchronous</link>
+            <guid>https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-Basic+Synchronous</guid>
+            <pubDate>Sat, 08 Mar 2025 12:21:08 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV16J411h7Rd">满神JUC并发编程全套教程</a></p>
+<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
+<br/><p>访问 <a href="https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-Basic+Synchronous" target="_blank">https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-Basic+Synchronous</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[并发编程整理版-无锁]]></title>
+            <link>https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-Lock_Free</link>
+            <guid>https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-Lock_Free</guid>
+            <pubDate>Sat, 08 Mar 2025 12:18:25 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV16J411h7Rd">满神JUC并发编程全套教程</a></p>
+<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
+<br/><p>访问 <a href="https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-Lock_Free" target="_blank">https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-Lock_Free</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[并发编程整理版-线程池]]></title>
+            <link>https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-threadPool</link>
+            <guid>https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-threadPool</guid>
+            <pubDate>Sat, 08 Mar 2025 12:06:18 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV16J411h7Rd">满神JUC并发编程全套教程</a></p>
+<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
+<br/><p>访问 <a href="https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-threadPool" target="_blank">https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-threadPool</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[并发编程整理版-内存]]></title>
+            <link>https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-Memory</link>
+            <guid>https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-Memory</guid>
+            <pubDate>Sat, 08 Mar 2025 11:55:08 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV16J411h7Rd">满神JUC并发编程全套教程</a></p>
+<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
+<br/><p>访问 <a href="https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-Memory" target="_blank">https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-Memory</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[并发编程整理版-同步器]]></title>
+            <link>https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-Synchronizer</link>
+            <guid>https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-Synchronizer</guid>
+            <pubDate>Sat, 08 Mar 2025 11:02:09 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV16J411h7Rd">满神JUC并发编程全套教程</a></p>
+<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
+<br/><p>访问 <a href="https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-Synchronizer" target="_blank">https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-Synchronizer</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[Spring Cloud组件]]></title>
+            <link>https://imlklaus.github.io/posts/SpringCloud-Component</link>
+            <guid>https://imlklaus.github.io/posts/SpringCloud-Component</guid>
+            <pubDate>Wed, 26 Apr 2023 23:30:14 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>1、SpringCloud Alibaba 简介</h2>
+<h3>1）、简介</h3>
+<ul>
+<li>
+<p>Spring Cloud Alibaba 致力于提供微服务开发的一站式解决方案。此项目包含开发分布式应用微服务的必需组件，方便开发者通过 Spring Cloud 编程模型轻松使用这些组件来开发分布式应用服务。</p>
+</li>
+<li>
+<p>依托 Spring Cloud Alibaba，您只需要添加一些注解和少量配置，就可以将 Spring Cloud 应用接入阿里微服务解决方案，通过阿里中间件来迅速搭建分布式应用系统。</p>
+</li>
+<li>
+<p><a href="https://github.com/alibaba/spring-cloud-alibaba">https://github.com/alibaba/spring-cloud-alibaba</a></p>
+</li>
+</ul>
+<br/><p>访问 <a href="https://imlklaus.github.io/posts/SpringCloud-Component" target="_blank">https://imlklaus.github.io/posts/SpringCloud-Component</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (imklaus)</author>
+        </item>
+    </channel>
+</rss>
