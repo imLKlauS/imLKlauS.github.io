@@ -1,0 +1,68 @@
+[
+    {
+        "url": "https://krau.top/",
+        "avatar": "https://krau.top/photo/avatar/avatar.jpg",
+        "name": "krau",
+        "blog": "柯罗krau",
+        "desc": "能写一辈子博客吗?",
+        "color": "#697895"
+    },
+    {
+        "url": "https://xiaolincoding.com/",
+        "avatar": "https://cdn.xiaolincoding.com/logo.png",
+        "name": "小林",
+        "blog": "小林coding",
+        "desc": "图解计算机网络、操作系统、计算机组成、MySQL、Redis，让天下没有难懂的八股文！",
+        "color": "#28538D"
+    },
+    {
+        "url": "https://www.yunyoujun.cn/",
+        "avatar": "https://www.yunyoujun.cn/images/avatar.jpg",
+        "name": "云游君",
+        "blog": "云游君的小站",
+        "desc": "All at sea.",
+        "color": "#0078e7"
+    },
+    {
+        "url": "https://tobebetterjavaer.com/",
+        "avatar": "https://avatars.githubusercontent.com/u/6011374?v=4",
+        "name": "沉默王二 itwanger",
+        "blog": "二哥的Java进阶之路",
+        "desc": "沉默王二BB：这是一份通俗易懂、风趣幽默的Java学习指南，内容涵盖Java基础、Java并发编程、Java虚拟机、Java企业级开发、Java面试等核心知识点。学Java，就认准二哥的Java进阶之路😄",
+        "color": "#FFA500"
+    },
+    {
+        "url": "https://yuumi.link",
+        "avatar": "https://cdn.yuumi.link/images/settings/favicon.png",
+        "name": "Yuumi",
+        "blog": "-Yuumi's Blog-",
+        "desc": "続きを鳴らそう——",
+        "color": "#D69B54"
+    },
+
+    {
+        "url": "https://refactoringguru.cn/",
+        "avatar": "https://avatars.githubusercontent.com/u/8557932?s=200&v=4",
+        "name": "Refactoring.Guru",
+        "blog": "设计模式学习博客",
+        "desc": "图解与重构设计模式",
+        "color": "#E65343"
+    },
+    {
+        "url": "https://www.r2coding.com/",
+        "avatar": "https://avatars.githubusercontent.com/u/82109230?v=4",
+        "name": "r2coding",
+        "blog": "程序羊编程学习小站",
+        "desc": "本站取名 r2coding，即 Road To Coding，意为「编程自学之路」，是自学编程以来所用资源和分享内容的大聚合。",
+        "color": "#42B983"
+    },
+    {
+        "url": "https://bugstack.cn/",
+        "avatar": "https://bugstack.cn/images/system/blog-03.png",
+        "name": "bugstack",
+        "blog": "小傅哥bugstack",
+        "desc": "包含: Java 基础，面经手册，Netty4.x，手写MyBatis，用Java实现JVM，重学Java设计模式，SpringBoot中间件开发，IDEA插件开发，大营销抽奖系统，Java 实战项目训练，字节码编程...",
+        "color": "#438066"
+    }
+  ]
+  
