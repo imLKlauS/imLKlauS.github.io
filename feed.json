@@ -11,11 +11,11 @@
     "items": [
         {
             "id": "",
-            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV1py4y1E7oA\">满神Netty深入浅出Java网络编程教程</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Netty\" target=\"_blank\">https://imlklaus.github.io/posts/Netty</a> 阅读全文。</p>",
-            "url": "https://imlklaus.github.io/posts/Netty",
-            "title": "Netty",
-            "date_modified": "2024-10-06T22:58:47.000Z",
-            "date_published": "2025-03-11T08:21:02.194Z",
+            "content_html": "<p>:::warning NEW CDN!!!</p>\n<blockquote>\n<p><code>https://gcore.jsdelivr.net/gh/ {{owner}}/{{repo}}@{{branch}}/{{path}}</code></p>\n</blockquote>\n<p>:::</p>\n<p>::: details 已失效解决方法</p>\n<ol>\n<li>利用valaxy+github搭建个人博客图片不显示?</li>\n</ol>\n<ul>\n<li>使用图床传输图片\n<ul>\n<li>问题：使用牛七、Gitee图床均有问题</li>\n</ul>\n</li>\n</ul>\n<ol start=\"2\">\n<li>2023使用picgo + github搭建图床（typora）,解决jsdelivr问题</li>\n</ol>\n<p>:::</p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Using_valaxy+github+PicGo_Building_github_Graph_bed_problem\" target=\"_blank\">https://imlklaus.github.io/posts/Using_valaxy+github+PicGo_Building_github_Graph_bed_problem</a> 阅读全文。</p>",
+            "url": "https://imlklaus.github.io/posts/Using_valaxy+github+PicGo_Building_github_Graph_bed_problem",
+            "title": "利用valaxy+github+PicGo搭建github图床问题",
+            "date_modified": "2023-04-17T01:10:32.000Z",
+            "date_published": "2025-03-11T08:54:37.208Z",
             "author": {
                 "name": "imklaus",
                 "url": "https://imlklaus.github.io/"
@@ -23,95 +23,11 @@
         },
         {
             "id": "",
-            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV1np4y1C7Yf/\">雷神谷粒商城项目</a></p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Application_of_Cache+distributed_locking_in_Java_project\" target=\"_blank\">https://imlklaus.github.io/posts/Application_of_Cache+distributed_locking_in_Java_project</a> 阅读全文。</p>",
-            "url": "https://imlklaus.github.io/posts/Application_of_Cache+distributed_locking_in_Java_project",
-            "title": "缓存+分布式锁在Java项目中的应用",
-            "date_modified": "2023-04-24T19:32:34.000Z",
-            "date_published": "2025-03-10T15:59:41.255Z",
-            "author": {
-                "name": "imklaus",
-                "url": "https://imlklaus.github.io/"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV1j8411N7Bm/\">黑马学成在线项目</a></p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Distributed_Task_Scheduling-xxlJob\" target=\"_blank\">https://imlklaus.github.io/posts/Distributed_Task_Scheduling-xxlJob</a> 阅读全文。</p>",
-            "url": "https://imlklaus.github.io/posts/Distributed_Task_Scheduling-xxlJob",
-            "title": "分布式任务调度-xxlJob",
-            "date_modified": "2023-07-05T18:00:06.000Z",
-            "date_published": "2025-03-10T15:56:15.224Z",
-            "author": {
-                "name": "imklaus",
-                "url": "https://imlklaus.github.io/"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV1j8411N7Bm/\">黑马学成在线项目</a></p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Authentication_authorization-Spring-Security\" target=\"_blank\">https://imlklaus.github.io/posts/Authentication_authorization-Spring-Security</a> 阅读全文。</p>",
-            "url": "https://imlklaus.github.io/posts/Authentication_authorization-Spring-Security",
-            "title": "认证授权-Spring Security",
-            "date_modified": "2023-07-05T21:50:51.000Z",
-            "date_published": "2025-03-10T15:54:09.076Z",
-            "author": {
-                "name": "imklaus",
-                "url": "https://imlklaus.github.io/"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV1j8411N7Bm/\">黑马学成在线项目</a></p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Distributed_File_System-minio\" target=\"_blank\">https://imlklaus.github.io/posts/Distributed_File_System-minio</a> 阅读全文。</p>",
-            "url": "https://imlklaus.github.io/posts/Distributed_File_System-minio",
-            "title": "分布式文件系统-minio",
-            "date_modified": "2023-07-04T21:21:17.000Z",
-            "date_published": "2025-03-10T15:48:48.098Z",
-            "author": {
-                "name": "imklaus",
-                "url": "https://imlklaus.github.io/"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV15b4y117RJ\">满神Java面试专题</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Java_Interview_Topics-JVM\" target=\"_blank\">https://imlklaus.github.io/posts/Java_Interview_Topics-JVM</a> 阅读全文。</p>",
-            "url": "https://imlklaus.github.io/posts/Java_Interview_Topics-JVM",
-            "title": "Java面试专题-虚拟机篇",
-            "date_modified": "2023-04-16T14:52:05.000Z",
-            "date_published": "2025-03-10T15:39:49.670Z",
-            "author": {
-                "name": "imklaus",
-                "url": "https://imlklaus.github.io/"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV15b4y117RJ\">满神Java面试专题</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Java_Interview_Topics-Basic\" target=\"_blank\">https://imlklaus.github.io/posts/Java_Interview_Topics-Basic</a> 阅读全文。</p>",
-            "url": "https://imlklaus.github.io/posts/Java_Interview_Topics-Basic",
-            "title": "Java面试专题-基础篇",
-            "date_modified": "2023-04-18T14:52:05.000Z",
-            "date_published": "2025-03-10T15:39:06.940Z",
-            "author": {
-                "name": "imklaus",
-                "url": "https://imlklaus.github.io/"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV15b4y117RJ\">满神Java面试专题</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Java_Interview_Topics-Concurrent\" target=\"_blank\">https://imlklaus.github.io/posts/Java_Interview_Topics-Concurrent</a> 阅读全文。</p>",
-            "url": "https://imlklaus.github.io/posts/Java_Interview_Topics-Concurrent",
-            "title": "Java面试专题-并发篇",
-            "date_modified": "2023-04-19T14:52:05.000Z",
-            "date_published": "2025-03-10T15:38:43.508Z",
-            "author": {
-                "name": "imklaus",
-                "url": "https://imlklaus.github.io/"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV15b4y117RJ\">满神Java面试专题</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Java_Interview_Topics-Framework\" target=\"_blank\">https://imlklaus.github.io/posts/Java_Interview_Topics-Framework</a> 阅读全文。</p>",
-            "url": "https://imlklaus.github.io/posts/Java_Interview_Topics-Framework",
-            "title": "Java面试专题-框架篇",
-            "date_modified": "2023-04-21T19:52:05.000Z",
-            "date_published": "2025-03-10T14:13:39.662Z",
+            "content_html": "<h2>Using Valaxy+github to create a personal blog showing 404 errors{lang=&quot;en&quot;}</h2>\n<p>::: en<br>\nWhen setting up a personal blog, because the project name is not case sensitive when creating the repository, then deploy access to 404 as shown in the image below：<img src=\"https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/20190917114816230.png\" alt=\"1\"><br>\n:::</p>\n<p>::: en</p>\n<p>But if you set the project name in the repository to your github username +.github+.io, you'll be able to access it immediately It must be your github user name, which should be consistent with the github user name. If you do not want to access the address with the <a href=\"http://suffix.io\">suffix.io</a>, you can purchase a personal domain and deploy it in your github project settings</p>\n<p>:::</p>\n<h1>利用Valaxy+github搭建个人博客显示404错误? {lang=&quot;zh-CN&quot;}</h1>\n<p>::: zh-CN<br>\n在搭建个人博客的时候，因为创建仓库设置项目名时没注意大小写，然后部署访问一直404。像下图这样：<img src=\"https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/20190917114816230.png\" alt=\"1\"></p>\n<p>:::</p>\n<p>::: zh-CN</p>\n<p>后来全部改成小写也没有用，翻盘重新安装也没有用。<br>\n但是如果把仓库中设置的项目名设置为：<a href=\"http://xn--github+-l45kw16a8u9a7s7beodga.github+.io\">你的github的用户名+.github+.io</a>,马上就可以访问啦。一定要是你github的用户名，要和github的用户名保持一致，如果不想要这种后缀为.io的访问地址，后期可以购买一个个人域名部署上去。在你github项目的settings里面设置一下就好了。</p>\n<p>:::</p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Using_Valaxy+github_to_create_a_personal_blog_showing_404_errors\" target=\"_blank\">https://imlklaus.github.io/posts/Using_Valaxy+github_to_create_a_personal_blog_showing_404_errors</a> 阅读全文。</p>",
+            "url": "https://imlklaus.github.io/posts/Using_Valaxy+github_to_create_a_personal_blog_showing_404_errors",
+            "title": "Valaxy+github-pages部署问题",
+            "date_modified": "2023-04-16T19:40:50.000Z",
+            "date_published": "2025-03-11T08:54:28.246Z",
             "author": {
                 "name": "imklaus",
                 "url": "https://imlklaus.github.io/"
@@ -123,7 +39,7 @@
             "url": "https://imlklaus.github.io/posts/System_interface",
             "title": "系统接口",
             "date_modified": "2023-04-26T15:50:12.000Z",
-            "date_published": "2025-03-09T16:46:34.440Z",
+            "date_published": "2025-03-11T08:54:24.101Z",
             "author": {
                 "name": "imklaus",
                 "url": "https://imlklaus.github.io/"
@@ -136,55 +52,7 @@
             "title": "mall项目总结",
             "summary": "基于微服务架构的商品贸易平台",
             "date_modified": "2023-04-12T00:45:36.000Z",
-            "date_published": "2025-03-09T16:46:19.615Z",
-            "author": {
-                "name": "imklaus",
-                "url": "https://imlklaus.github.io/"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<h2>一、幂等性的意义</h2>\n<h3><strong>1、什么是幂等性</strong></h3>\n<ul>\n<li>看一下维基百科怎么说的：</li>\n</ul>\n<p><img src=\"https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20230429205227388.png\" alt=\"image-20230429205227388\"></p>\n<ul>\n<li><strong>接口幂等性就是用户对于同一操作发起的一次请求或者多次请求的结果是一致的</strong>，不会因为多次点击而产生了副作用；比如说支付场景，用户购买了商品支付扣款成功，但是返回结果的时候网络异常，此时钱已经扣了，用户再次点击按钮，此时会进行第二次扣款，返回结果成功，用户查询余额返发现多扣钱了，流水记录也变成了两条......，这就没有保证接口的幂等性。</li>\n</ul>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Idempotence_of_interfaces\" target=\"_blank\">https://imlklaus.github.io/posts/Idempotence_of_interfaces</a> 阅读全文。</p>",
-            "url": "https://imlklaus.github.io/posts/Idempotence_of_interfaces",
-            "title": "接口幂等性",
-            "date_modified": "2023-04-27T13:43:29.000Z",
-            "date_published": "2025-03-09T16:46:14.921Z",
-            "author": {
-                "name": "imklaus",
-                "url": "https://imlklaus.github.io/"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<h2>如何设计一个秒杀系统？</h2>\n<ul>\n<li>\n<p>高并发下如何设计秒杀系统？这是一个高频面试题。这个问题看似简单，但是里面的水很深，它考查的是高并发场景下，从前端到后端多方面的知识。</p>\n</li>\n<li>\n<p>秒杀一般出现在商城的促销活动中，指定了一定数量（比如：10个）的商品（比如：手机），以极低的价格（比如：0.1元），让大量用户参与活动，但只有极少数用户能够购买成功。这类活动商家绝大部分是不赚钱的，说白了是找个噱头宣传自己。</p>\n</li>\n<li>\n<p>虽说秒杀只是一个促销活动，但对技术要求不低。下面给大家总结一下设计秒杀系统需要注意的9个细节。</p>\n</li>\n</ul>\n<p><img src=\"https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20230429153744600.png\" alt=\"image-20230429153744600\"></p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Flash_killing\" target=\"_blank\">https://imlklaus.github.io/posts/Flash_killing</a> 阅读全文。</p>",
-            "url": "https://imlklaus.github.io/posts/Flash_killing",
-            "title": "秒杀",
-            "date_modified": "2023-04-27T13:43:29.000Z",
-            "date_published": "2025-03-09T16:45:46.358Z",
-            "author": {
-                "name": "imklaus",
-                "url": "https://imlklaus.github.io/"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<h2>策略模式是什么</h2>\n<p>策略模式在 GoF 的《设计模式》一书中，是这样定义的：</p>\n<blockquote>\n<p>Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.</p>\n</blockquote>\n<p>策略设计模式（Strategy Pattern）是一种面向对象设计模式，它定义了一系列算法，并将每个算法封装起来，使它们可以相互替换。这种模式使得算法可以独立于使用它们的客户端而变化。</p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Abstract_Strategy_Pattern_of_Design_Patterns-Strategy\" target=\"_blank\">https://imlklaus.github.io/posts/Abstract_Strategy_Pattern_of_Design_Patterns-Strategy</a> 阅读全文。</p>",
-            "url": "https://imlklaus.github.io/posts/Abstract_Strategy_Pattern_of_Design_Patterns-Strategy",
-            "title": "设计模式之抽象策略模式-Strategy",
-            "date_modified": "2023-09-01T19:57:12.000Z",
-            "date_published": "2025-03-09T16:45:03.733Z",
-            "author": {
-                "name": "imklaus",
-                "url": "https://imlklaus.github.io/"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<h2>责任链模式</h2>\n<h3>1. 什么是责任链</h3>\n<p>责任链设计模式是一种行为型设计模式，其主要目的是解耦请求发送者和请求接收者，让多个对象都有机会处理请求，从而避免请求发送者和接收者之间的紧耦合。</p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Abstract_Responsibility_Chain_Pattern_of_Design_Patterns-Chain\" target=\"_blank\">https://imlklaus.github.io/posts/Abstract_Responsibility_Chain_Pattern_of_Design_Patterns-Chain</a> 阅读全文。</p>",
-            "url": "https://imlklaus.github.io/posts/Abstract_Responsibility_Chain_Pattern_of_Design_Patterns-Chain",
-            "title": "设计模式之抽象责任链模式-Chain",
-            "date_modified": "2023-09-02T00:46:45.000Z",
-            "date_published": "2025-03-09T16:44:59.042Z",
+            "date_published": "2025-03-11T08:54:14.004Z",
             "author": {
                 "name": "imklaus",
                 "url": "https://imlklaus.github.io/"
@@ -196,7 +64,7 @@
             "url": "https://imlklaus.github.io/posts/hello-valaxy",
             "title": "Hello, Valaxy!",
             "date_modified": "2023-04-16T14:52:05.000Z",
-            "date_published": "2025-03-08T16:45:22.261Z",
+            "date_published": "2025-03-11T08:53:59.943Z",
             "author": {
                 "name": "imklaus",
                 "url": "https://imlklaus.github.io/"
@@ -204,11 +72,11 @@
         },
         {
             "id": "",
-            "content_html": "<p>:::warning NEW CDN!!!</p>\n<blockquote>\n<p><code>https://gcore.jsdelivr.net/gh/ {{owner}}/{{repo}}@{{branch}}/{{path}}</code></p>\n</blockquote>\n<p>:::</p>\n<p>::: details 已失效解决方法</p>\n<ol>\n<li>利用valaxy+github搭建个人博客图片不显示?</li>\n</ol>\n<ul>\n<li>使用图床传输图片\n<ul>\n<li>问题：使用牛七、Gitee图床均有问题</li>\n</ul>\n</li>\n</ul>\n<ol start=\"2\">\n<li>2023使用picgo + github搭建图床（typora）,解决jsdelivr问题</li>\n</ol>\n<p>:::</p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Using_valaxy+github+PicGo_Building_github_Graph_bed_problem\" target=\"_blank\">https://imlklaus.github.io/posts/Using_valaxy+github+PicGo_Building_github_Graph_bed_problem</a> 阅读全文。</p>",
-            "url": "https://imlklaus.github.io/posts/Using_valaxy+github+PicGo_Building_github_Graph_bed_problem",
-            "title": "利用valaxy+github+PicGo搭建github图床问题",
-            "date_modified": "2023-04-17T01:10:32.000Z",
-            "date_published": "2025-03-08T16:45:13.032Z",
+            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV1j8411N7Bm/\">黑马学成在线项目</a></p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Distributed_Task_Scheduling-xxlJob\" target=\"_blank\">https://imlklaus.github.io/posts/Distributed_Task_Scheduling-xxlJob</a> 阅读全文。</p>",
+            "url": "https://imlklaus.github.io/posts/Distributed_Task_Scheduling-xxlJob",
+            "title": "分布式任务调度-xxlJob",
+            "date_modified": "2023-07-05T18:00:06.000Z",
+            "date_published": "2025-03-11T08:53:45.691Z",
             "author": {
                 "name": "imklaus",
                 "url": "https://imlklaus.github.io/"
@@ -216,47 +84,11 @@
         },
         {
             "id": "",
-            "content_html": "<h2>Using Valaxy+github to create a personal blog showing 404 errors{lang=&quot;en&quot;}</h2>\n<p>::: en<br>\nWhen setting up a personal blog, because the project name is not case sensitive when creating the repository, then deploy access to 404 as shown in the image below：<img src=\"https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/20190917114816230.png\" alt=\"1\"><br>\n:::</p>\n<p>::: en</p>\n<p>But if you set the project name in the repository to your github username +.github+.io, you'll be able to access it immediately It must be your github user name, which should be consistent with the github user name. If you do not want to access the address with the <a href=\"http://suffix.io\">suffix.io</a>, you can purchase a personal domain and deploy it in your github project settings</p>\n<p>:::</p>\n<h1>利用Valaxy+github搭建个人博客显示404错误? {lang=&quot;zh-CN&quot;}</h1>\n<p>::: zh-CN<br>\n在搭建个人博客的时候，因为创建仓库设置项目名时没注意大小写，然后部署访问一直404。像下图这样：<img src=\"https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/20190917114816230.png\" alt=\"1\"></p>\n<p>:::</p>\n<p>::: zh-CN</p>\n<p>后来全部改成小写也没有用，翻盘重新安装也没有用。<br>\n但是如果把仓库中设置的项目名设置为：<a href=\"http://xn--github+-l45kw16a8u9a7s7beodga.github+.io\">你的github的用户名+.github+.io</a>,马上就可以访问啦。一定要是你github的用户名，要和github的用户名保持一致，如果不想要这种后缀为.io的访问地址，后期可以购买一个个人域名部署上去。在你github项目的settings里面设置一下就好了。</p>\n<p>:::</p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Using_Valaxy+github_to_create_a_personal_blog_showing_404_errors\" target=\"_blank\">https://imlklaus.github.io/posts/Using_Valaxy+github_to_create_a_personal_blog_showing_404_errors</a> 阅读全文。</p>",
-            "url": "https://imlklaus.github.io/posts/Using_Valaxy+github_to_create_a_personal_blog_showing_404_errors",
-            "title": "Valaxy+github-pages部署问题",
-            "date_modified": "2023-04-16T19:40:50.000Z",
-            "date_published": "2025-03-08T16:45:07.418Z",
-            "author": {
-                "name": "imklaus",
-                "url": "https://imlklaus.github.io/"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<p>你是否在项目中使用线程池遇到过以下问题？</p>\n<ul>\n<li>创建线程池核心参数不好评估，随着业务流量的波动，极有可能出现生产故障。</li>\n<li>不支持优雅关闭，当项目关闭时，大量正在运行的线程池任务被丢弃。</li>\n<li>不支持运行时监控，使用过程中业务无响应，不知道是不是线程池引起。</li>\n<li>三方框架 RocketMQ、Dubbo 等线程池无法动态修改参数，修改后只能重启应用。</li>\n</ul>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/DynamicThreadPool\" target=\"_blank\">https://imlklaus.github.io/posts/DynamicThreadPool</a> 阅读全文。</p>",
-            "url": "https://imlklaus.github.io/posts/DynamicThreadPool",
-            "title": "如何使用线程池不容易出故障",
-            "date_modified": "2024-03-19T19:03:22.000Z",
-            "date_published": "2025-03-08T14:30:04.298Z",
-            "author": {
-                "name": "imklaus",
-                "url": "https://imlklaus.github.io/"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV16J411h7Rd\">满神JUC并发编程全套教程</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-JUC\" target=\"_blank\">https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-JUC</a> 阅读全文。</p>",
-            "url": "https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-JUC",
-            "title": "并发编程整理版-JUC",
-            "date_modified": "2023-08-24T19:13:57.000Z",
-            "date_published": "2025-03-08T12:48:18.079Z",
-            "author": {
-                "name": "imklaus",
-                "url": "https://imlklaus.github.io/"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV16J411h7Rd\">满神JUC并发编程全套教程</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-Basic+Synchronous\" target=\"_blank\">https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-Basic+Synchronous</a> 阅读全文。</p>",
-            "url": "https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-Basic+Synchronous",
-            "title": "并发编程整理版-基础/同步",
-            "date_modified": "2023-08-24T18:49:36.000Z",
-            "date_published": "2025-03-08T12:21:08.864Z",
+            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV1j8411N7Bm/\">黑马学成在线项目</a></p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Distributed_File_System-minio\" target=\"_blank\">https://imlklaus.github.io/posts/Distributed_File_System-minio</a> 阅读全文。</p>",
+            "url": "https://imlklaus.github.io/posts/Distributed_File_System-minio",
+            "title": "分布式文件系统-minio",
+            "date_modified": "2023-07-04T21:21:17.000Z",
+            "date_published": "2025-03-11T08:53:37.550Z",
             "author": {
                 "name": "imklaus",
                 "url": "https://imlklaus.github.io/"
@@ -268,19 +100,7 @@
             "url": "https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-Lock_Free",
             "title": "并发编程整理版-无锁",
             "date_modified": "2023-08-24T18:49:36.000Z",
-            "date_published": "2025-03-08T12:18:25.815Z",
-            "author": {
-                "name": "imklaus",
-                "url": "https://imlklaus.github.io/"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV16J411h7Rd\">满神JUC并发编程全套教程</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-threadPool\" target=\"_blank\">https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-threadPool</a> 阅读全文。</p>",
-            "url": "https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-threadPool",
-            "title": "并发编程整理版-线程池",
-            "date_modified": "2023-08-24T19:03:22.000Z",
-            "date_published": "2025-03-08T12:06:18.134Z",
+            "date_published": "2025-03-11T08:52:22.689Z",
             "author": {
                 "name": "imklaus",
                 "url": "https://imlklaus.github.io/"
@@ -292,7 +112,7 @@
             "url": "https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-Memory",
             "title": "并发编程整理版-内存",
             "date_modified": "2023-11-22T23:57:58.000Z",
-            "date_published": "2025-03-08T11:55:08.730Z",
+            "date_published": "2025-03-11T08:52:22.689Z",
             "author": {
                 "name": "imklaus",
                 "url": "https://imlklaus.github.io/"
@@ -304,7 +124,187 @@
             "url": "https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-Synchronizer",
             "title": "并发编程整理版-同步器",
             "date_modified": "2023-08-24T19:11:16.000Z",
-            "date_published": "2025-03-08T11:02:09.649Z",
+            "date_published": "2025-03-11T08:52:22.689Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://imlklaus.github.io/"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV16J411h7Rd\">满神JUC并发编程全套教程</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-threadPool\" target=\"_blank\">https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-threadPool</a> 阅读全文。</p>",
+            "url": "https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-threadPool",
+            "title": "并发编程整理版-线程池",
+            "date_modified": "2023-08-24T19:03:22.000Z",
+            "date_published": "2025-03-11T08:52:22.689Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://imlklaus.github.io/"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>如何设计一个秒杀系统？</h2>\n<ul>\n<li>\n<p>高并发下如何设计秒杀系统？这是一个高频面试题。这个问题看似简单，但是里面的水很深，它考查的是高并发场景下，从前端到后端多方面的知识。</p>\n</li>\n<li>\n<p>秒杀一般出现在商城的促销活动中，指定了一定数量（比如：10个）的商品（比如：手机），以极低的价格（比如：0.1元），让大量用户参与活动，但只有极少数用户能够购买成功。这类活动商家绝大部分是不赚钱的，说白了是找个噱头宣传自己。</p>\n</li>\n<li>\n<p>虽说秒杀只是一个促销活动，但对技术要求不低。下面给大家总结一下设计秒杀系统需要注意的9个细节。</p>\n</li>\n</ul>\n<p><img src=\"https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20230429153744600.png\" alt=\"image-20230429153744600\"></p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Flash_killing\" target=\"_blank\">https://imlklaus.github.io/posts/Flash_killing</a> 阅读全文。</p>",
+            "url": "https://imlklaus.github.io/posts/Flash_killing",
+            "title": "秒杀",
+            "date_modified": "2023-04-27T13:43:29.000Z",
+            "date_published": "2025-03-11T08:52:22.689Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://imlklaus.github.io/"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>你是否在项目中使用线程池遇到过以下问题？</p>\n<ul>\n<li>创建线程池核心参数不好评估，随着业务流量的波动，极有可能出现生产故障。</li>\n<li>不支持优雅关闭，当项目关闭时，大量正在运行的线程池任务被丢弃。</li>\n<li>不支持运行时监控，使用过程中业务无响应，不知道是不是线程池引起。</li>\n<li>三方框架 RocketMQ、Dubbo 等线程池无法动态修改参数，修改后只能重启应用。</li>\n</ul>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/DynamicThreadPool\" target=\"_blank\">https://imlklaus.github.io/posts/DynamicThreadPool</a> 阅读全文。</p>",
+            "url": "https://imlklaus.github.io/posts/DynamicThreadPool",
+            "title": "如何使用线程池不容易出故障",
+            "date_modified": "2024-03-19T19:03:22.000Z",
+            "date_published": "2025-03-11T08:52:22.688Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://imlklaus.github.io/"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>一、幂等性的意义</h2>\n<h3><strong>1、什么是幂等性</strong></h3>\n<ul>\n<li>看一下维基百科怎么说的：</li>\n</ul>\n<p><img src=\"https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20230429205227388.png\" alt=\"image-20230429205227388\"></p>\n<ul>\n<li><strong>接口幂等性就是用户对于同一操作发起的一次请求或者多次请求的结果是一致的</strong>，不会因为多次点击而产生了副作用；比如说支付场景，用户购买了商品支付扣款成功，但是返回结果的时候网络异常，此时钱已经扣了，用户再次点击按钮，此时会进行第二次扣款，返回结果成功，用户查询余额返发现多扣钱了，流水记录也变成了两条......，这就没有保证接口的幂等性。</li>\n</ul>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Idempotence_of_interfaces\" target=\"_blank\">https://imlklaus.github.io/posts/Idempotence_of_interfaces</a> 阅读全文。</p>",
+            "url": "https://imlklaus.github.io/posts/Idempotence_of_interfaces",
+            "title": "接口幂等性",
+            "date_modified": "2023-04-27T13:43:29.000Z",
+            "date_published": "2025-03-11T08:52:22.688Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://imlklaus.github.io/"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV15b4y117RJ\">满神Java面试专题</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Java_Interview_Topics-Basic\" target=\"_blank\">https://imlklaus.github.io/posts/Java_Interview_Topics-Basic</a> 阅读全文。</p>",
+            "url": "https://imlklaus.github.io/posts/Java_Interview_Topics-Basic",
+            "title": "Java面试专题-基础篇",
+            "date_modified": "2023-04-18T14:52:05.000Z",
+            "date_published": "2025-03-11T08:52:22.688Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://imlklaus.github.io/"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV15b4y117RJ\">满神Java面试专题</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Java_Interview_Topics-Concurrent\" target=\"_blank\">https://imlklaus.github.io/posts/Java_Interview_Topics-Concurrent</a> 阅读全文。</p>",
+            "url": "https://imlklaus.github.io/posts/Java_Interview_Topics-Concurrent",
+            "title": "Java面试专题-并发篇",
+            "date_modified": "2023-04-19T14:52:05.000Z",
+            "date_published": "2025-03-11T08:52:22.688Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://imlklaus.github.io/"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV15b4y117RJ\">满神Java面试专题</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Java_Interview_Topics-Framework\" target=\"_blank\">https://imlklaus.github.io/posts/Java_Interview_Topics-Framework</a> 阅读全文。</p>",
+            "url": "https://imlklaus.github.io/posts/Java_Interview_Topics-Framework",
+            "title": "Java面试专题-框架篇",
+            "date_modified": "2023-04-21T19:52:05.000Z",
+            "date_published": "2025-03-11T08:52:22.688Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://imlklaus.github.io/"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV15b4y117RJ\">满神Java面试专题</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Java_Interview_Topics-JVM\" target=\"_blank\">https://imlklaus.github.io/posts/Java_Interview_Topics-JVM</a> 阅读全文。</p>",
+            "url": "https://imlklaus.github.io/posts/Java_Interview_Topics-JVM",
+            "title": "Java面试专题-虚拟机篇",
+            "date_modified": "2023-04-16T14:52:05.000Z",
+            "date_published": "2025-03-11T08:52:22.688Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://imlklaus.github.io/"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV16J411h7Rd\">满神JUC并发编程全套教程</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-JUC\" target=\"_blank\">https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-JUC</a> 阅读全文。</p>",
+            "url": "https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-JUC",
+            "title": "并发编程整理版-JUC",
+            "date_modified": "2023-08-24T19:13:57.000Z",
+            "date_published": "2025-03-11T08:52:22.390Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://imlklaus.github.io/"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV16J411h7Rd\">满神JUC并发编程全套教程</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-Basic+Synchronous\" target=\"_blank\">https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-Basic+Synchronous</a> 阅读全文。</p>",
+            "url": "https://imlklaus.github.io/posts/Concurrent_Programming_Compilation_Version-Basic+Synchronous",
+            "title": "并发编程整理版-基础/同步",
+            "date_modified": "2023-08-24T18:49:36.000Z",
+            "date_published": "2025-03-11T08:51:32.552Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://imlklaus.github.io/"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV1j8411N7Bm/\">黑马学成在线项目</a></p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Authentication_authorization-Spring-Security\" target=\"_blank\">https://imlklaus.github.io/posts/Authentication_authorization-Spring-Security</a> 阅读全文。</p>",
+            "url": "https://imlklaus.github.io/posts/Authentication_authorization-Spring-Security",
+            "title": "认证授权-Spring Security",
+            "date_modified": "2023-07-05T21:50:51.000Z",
+            "date_published": "2025-03-11T08:51:20.685Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://imlklaus.github.io/"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV1np4y1C7Yf/\">雷神谷粒商城项目</a></p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Application_of_Cache+distributed_locking_in_Java_project\" target=\"_blank\">https://imlklaus.github.io/posts/Application_of_Cache+distributed_locking_in_Java_project</a> 阅读全文。</p>",
+            "url": "https://imlklaus.github.io/posts/Application_of_Cache+distributed_locking_in_Java_project",
+            "title": "缓存+分布式锁在Java项目中的应用",
+            "date_modified": "2023-04-24T19:32:34.000Z",
+            "date_published": "2025-03-11T08:51:15.488Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://imlklaus.github.io/"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>策略模式是什么</h2>\n<p>策略模式在 GoF 的《设计模式》一书中，是这样定义的：</p>\n<blockquote>\n<p>Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.</p>\n</blockquote>\n<p>策略设计模式（Strategy Pattern）是一种面向对象设计模式，它定义了一系列算法，并将每个算法封装起来，使它们可以相互替换。这种模式使得算法可以独立于使用它们的客户端而变化。</p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Abstract_Strategy_Pattern_of_Design_Patterns-Strategy\" target=\"_blank\">https://imlklaus.github.io/posts/Abstract_Strategy_Pattern_of_Design_Patterns-Strategy</a> 阅读全文。</p>",
+            "url": "https://imlklaus.github.io/posts/Abstract_Strategy_Pattern_of_Design_Patterns-Strategy",
+            "title": "设计模式之抽象策略模式-Strategy",
+            "date_modified": "2023-09-01T19:57:12.000Z",
+            "date_published": "2025-03-11T08:51:08.112Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://imlklaus.github.io/"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>责任链模式</h2>\n<h3>1. 什么是责任链</h3>\n<p>责任链设计模式是一种行为型设计模式，其主要目的是解耦请求发送者和请求接收者，让多个对象都有机会处理请求，从而避免请求发送者和接收者之间的紧耦合。</p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Abstract_Responsibility_Chain_Pattern_of_Design_Patterns-Chain\" target=\"_blank\">https://imlklaus.github.io/posts/Abstract_Responsibility_Chain_Pattern_of_Design_Patterns-Chain</a> 阅读全文。</p>",
+            "url": "https://imlklaus.github.io/posts/Abstract_Responsibility_Chain_Pattern_of_Design_Patterns-Chain",
+            "title": "设计模式之抽象责任链模式-Chain",
+            "date_modified": "2023-09-02T00:46:45.000Z",
+            "date_published": "2025-03-11T08:50:59.516Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://imlklaus.github.io/"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV1py4y1E7oA\">满神Netty深入浅出Java网络编程教程</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Netty\" target=\"_blank\">https://imlklaus.github.io/posts/Netty</a> 阅读全文。</p>",
+            "url": "https://imlklaus.github.io/posts/Netty",
+            "title": "Netty",
+            "date_modified": "2024-10-06T22:58:47.000Z",
+            "date_published": "2025-03-11T08:50:49.005Z",
             "author": {
                 "name": "imklaus",
                 "url": "https://imlklaus.github.io/"
