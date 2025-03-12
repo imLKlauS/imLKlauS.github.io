@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://imlklaus.github.io/</id>
     <title>imklaus's Blog </title>
-    <updated>2025-03-11T19:40:22.516Z</updated>
+    <updated>2025-03-12T14:39:36.623Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>imklaus</name>
@@ -11,7 +11,7 @@
     </author>
     <link rel="alternate" href="https://imlklaus.github.io/"/>
     <link rel="self" href="https://imlklaus.github.io/atom.xml"/>
-    <logo>https://imlklaus.github.io/images/tiamat2.png</logo>
+    <logo>https://imlklaus.github.io/images/tiamat8.jpg</logo>
     <icon>https://imlklaus.github.io/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2025 © imklaus</rights>
     <entry>
