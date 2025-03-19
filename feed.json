@@ -11,6 +11,126 @@
     "items": [
         {
             "id": "",
+            "content_html": "<h3>基本介绍</h3>\n<p>主从复制是指将主数据库的 DDL 和 DML 操作通过二进制日志传到从库服务器中，然后在从库上对这些日志重新执行（也叫重做），从而使得从库和主库的数据保持同步</p>\n<p>MySQL 支持一台主库同时向多台从库进行复制，从库同时也可以作为其他从服务器的主库，实现链状复制</p>\n<p>MySQL 复制的优点主要包含以下三个方面：</p>\n<ul>\n<li>\n<p>主库出现问题，可以快速切换到从库提供服务</p>\n</li>\n<li>\n<p>可以在从库上执行查询操作，从主库中更新，实现读写分离</p>\n</li>\n<li>\n<p>可以在从库中执行备份，以避免备份期间影响主库的服务（备份时会加全局读锁）</p>\n</li>\n</ul>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/MySQL_Master_Slave\" target=\"_blank\">https://imlklaus.github.io/posts/MySQL_Master_Slave</a> 阅读全文。</p>",
+            "url": "https://imlklaus.github.io/posts/MySQL_Master_Slave",
+            "title": "MySQL - 主从",
+            "date_modified": "2025-03-18T16:58:52.000Z",
+            "date_published": "2025-03-19T18:01:02.516Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://imlklaus.github.io/"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>目录指引：</p>\n<p>[[toc]]</p>\n<h2>表优化</h2>\n<h3>分区表</h3>\n<h4>基本介绍</h4>\n<p>分区表是将大表的数据按分区字段分成许多小的子集，建立一个以 ftime 年份为分区的表：</p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/MySQL_Optimization\" target=\"_blank\">https://imlklaus.github.io/posts/MySQL_Optimization</a> 阅读全文。</p>",
+            "url": "https://imlklaus.github.io/posts/MySQL_Optimization",
+            "title": "MySQL - 优化",
+            "date_modified": "2025-03-18T16:38:32.000Z",
+            "date_published": "2025-03-19T17:57:18.423Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://imlklaus.github.io/"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h3>基本介绍</h3>\n<p>事务（Transaction）是访问和更新数据库的程序执行单元；事务中可能包含一个或多个 SQL 语句，这些语句要么都执行，要么都不执行，作为一个关系型数据库，MySQL 支持事务。</p>\n<p>单元中的每条 SQL 语句都相互依赖，形成一个整体</p>\n<ul>\n<li>\n<p>如果某条 SQL 语句执行失败或者出现错误，那么整个单元就会回滚，撤回到事务最初的状态</p>\n</li>\n<li>\n<p>如果单元中所有的 SQL 语句都执行成功，则事务就顺利执行</p>\n</li>\n</ul>\n<p>事务的四大特征：ACID</p>\n<ul>\n<li>原子性 (atomicity)</li>\n<li>一致性 (consistency)</li>\n<li>隔离性 (isolaction)</li>\n<li>持久性 (durability)</li>\n</ul>\n<p>事务的几种状态：</p>\n<ul>\n<li>活动的（active）：事务对应的数据库操作正在执行中</li>\n<li>部分提交的（partially committed）：事务的最后一个操作执行完，但是内存还没刷新至磁盘</li>\n<li>失败的（failed）：当事务处于活动状态或部分提交状态时，如果数据库遇到了错误或刷脏失败，或者用户主动停止当前的事务</li>\n<li>中止的（aborted）：失败状态的事务回滚完成后的状态</li>\n<li>提交的（committed）：当处于部分提交状态的事务刷脏成功，就处于提交状态</li>\n</ul>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/MySQL_Transaction\" target=\"_blank\">https://imlklaus.github.io/posts/MySQL_Transaction</a> 阅读全文。</p>",
+            "url": "https://imlklaus.github.io/posts/MySQL_Transaction",
+            "title": "MySQL - 事务",
+            "date_modified": "2025-03-18T16:49:55.000Z",
+            "date_published": "2025-03-19T17:53:14.099Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://imlklaus.github.io/"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>单表操作</h2>\n<h3>SQL</h3>\n<ul>\n<li>\n<p>SQL</p>\n<ul>\n<li>Structured Query Language：结构化查询语言</li>\n<li>定义了操作所有关系型数据库的规则，每种数据库操作的方式可能会存在不一样的地方，称为“方言”</li>\n</ul>\n</li>\n<li>\n<p>SQL 通用语法</p>\n<ul>\n<li>SQL 语句可以单行或多行书写，以<strong>分号结尾</strong>。</li>\n<li>可使用空格和缩进来增强语句的可读性。</li>\n<li>MySQL 数据库的 SQL 语句不区分大小写，<strong>关键字建议使用大写</strong>。</li>\n<li>数据库的注释：\n<ul>\n<li>单行注释：-- 注释内容       #注释内容（MySQL 特有）</li>\n<li>多行注释：/* 注释内容 */</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p>SQL 分类</p>\n<ul>\n<li>\n<p>DDL（Data Definition Language）数据定义语言</p>\n<ul>\n<li>用来定义数据库对象：数据库，表，列等。关键字：create、drop,、alter 等</li>\n</ul>\n</li>\n<li>\n<p>DML（Data Manipulation Language）数据操作语言</p>\n<ul>\n<li>用来对数据库中表的数据进行增删改。关键字：insert、delete、update 等</li>\n</ul>\n</li>\n<li>\n<p>DQL（Data Query Language）数据查询语言</p>\n<ul>\n<li>用来查询数据库中表的记录(数据)。关键字：select、where 等</li>\n</ul>\n</li>\n<li>\n<p>DCL（Data Control Language）数据控制语言</p>\n<ul>\n<li>用来定义数据库的访问权限和安全级别，及创建用户。关键字：grant， revoke等</li>\n</ul>\n<p><img src=\"https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20250320013733663.png\" alt=\"image-20250320013733663\"></p>\n</li>\n</ul>\n</li>\n</ul>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/MySQL_Table\" target=\"_blank\">https://imlklaus.github.io/posts/MySQL_Table</a> 阅读全文。</p>",
+            "url": "https://imlklaus.github.io/posts/MySQL_Table",
+            "title": "MySQL - 表",
+            "date_modified": "2025-03-18T17:55:11.000Z",
+            "date_published": "2025-03-19T17:53:10.893Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://imlklaus.github.io/"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h3>日志分类</h3>\n<p>在任何一种数据库中，都会有各种各样的日志，记录着数据库工作的过程，可以帮助数据库管理员追踪数据库曾经发生过的各种事件</p>\n<p>MySQL日志主要包括六种：</p>\n<ol>\n<li>重做日志（redo log）</li>\n<li>回滚日志（undo log）</li>\n<li>归档日志（binlog）（二进制日志）</li>\n<li>错误日志（errorlog）</li>\n<li>慢查询日志（slow query log）</li>\n<li>一般查询日志（general log）</li>\n<li>中继日志（relay log）</li>\n</ol>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/MySQL_Log\" target=\"_blank\">https://imlklaus.github.io/posts/MySQL_Log</a> 阅读全文。</p>",
+            "url": "https://imlklaus.github.io/posts/MySQL_Log",
+            "title": "MySQL - 日志",
+            "date_modified": "2025-03-18T17:00:07.000Z",
+            "date_published": "2025-03-19T17:53:02.560Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://imlklaus.github.io/"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h3>基本介绍</h3>\n<p>锁机制：数据库为了保证数据的一致性，在共享的资源被并发访问时变得安全有序所设计的一种规则</p>\n<p>利用 MVCC 性质进行读取的操作叫<strong>一致性读</strong>，读取数据前加锁的操作叫<strong>锁定读</strong></p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/MySQL_Lock\" target=\"_blank\">https://imlklaus.github.io/posts/MySQL_Lock</a> 阅读全文。</p>",
+            "url": "https://imlklaus.github.io/posts/MySQL_Lock",
+            "title": "MySQL - 锁",
+            "date_modified": "2025-03-18T16:54:45.000Z",
+            "date_published": "2025-03-19T17:52:59.932Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://imlklaus.github.io/"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>存储引擎</h2>\n<h3>基本介绍</h3>\n<p>对比其他数据库，MySQL 的架构可以在不同场景应用并发挥良好作用，主要体现在存储引擎，插件式的存储引擎架构将查询处理和其他的系统任务以及数据的存储提取分离，可以针对不同的存储需求可以选择最优的存储引擎</p>\n<p>存储引擎的介绍：</p>\n<ul>\n<li>MySQL 数据库使用不同的机制存取表文件 , 机制的差别在于不同的存储方式、索引技巧、锁定水平等不同的功能和能力，在 MySQL 中，将这些不同的技术及配套的功能称为存储引擎</li>\n<li>Oracle、SqlServer 等数据库只有一种存储引擎，MySQL <strong>提供了插件式的存储引擎架构</strong>，所以 MySQL 存在多种存储引擎 , 就会让数据库采取了不同的处理数据的方式和扩展功能</li>\n<li>在关系型数据库中数据的存储是以表的形式存进行，所以存储引擎也称为表类型（存储和操作此表的类型）</li>\n<li>通过选择不同的引擎，能够获取最佳的方案,  也能够获得额外的速度或者功能，提高程序的整体效果。</li>\n</ul>\n<p>MySQL 支持的存储引擎：</p>\n<ul>\n<li>MySQL 支持的引擎包括：InnoDB、MyISAM、MEMORY、Archive、Federate、CSV、BLACKHOLE 等</li>\n<li>MySQL5.5 之前的默认存储引擎是 MyISAM，5.5 之后就改为了 InnoDB</li>\n</ul>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/MySQL_Index\" target=\"_blank\">https://imlklaus.github.io/posts/MySQL_Index</a> 阅读全文。</p>",
+            "url": "https://imlklaus.github.io/posts/MySQL_Index",
+            "title": "MySQL - 存储引擎与索引",
+            "date_modified": "2025-03-18T16:14:40.000Z",
+            "date_published": "2025-03-19T17:52:57.070Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://imlklaus.github.io/"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>简介</h2>\n<h3>数据库</h3>\n<p>数据库：DataBase，简称 DB，存储和管理数据的仓库</p>\n<p>数据库的优势：</p>\n<ul>\n<li>可以持久化存储数据</li>\n<li>方便存储和管理数据</li>\n<li>使用了统一的方式操作数据库 SQL</li>\n</ul>\n<p>数据库、数据表、数据的关系介绍：</p>\n<ul>\n<li>\n<p>数据库</p>\n<ul>\n<li>用于存储和管理数据的仓库</li>\n<li>一个库中可以包含多个数据表</li>\n</ul>\n</li>\n<li>\n<p>数据表</p>\n<ul>\n<li>数据库最重要的组成部分之一</li>\n<li>由纵向的列和横向的行组成（类似 excel 表格）</li>\n<li>可以指定列名、数据类型、约束等</li>\n<li>一个表中可以存储多条数据</li>\n</ul>\n</li>\n<li>\n<p>数据：想要永久化存储的数据</p>\n</li>\n</ul>\n<p>参考视频：<a href=\"https://www.bilibili.com/video/BV1zJ411M7TB\">https://www.bilibili.com/video/BV1zJ411M7TB</a></p>\n<p>参考专栏：<a href=\"https://time.geekbang.org/column/intro/139\">https://time.geekbang.org/column/intro/139</a></p>\n<p>参考书籍：<a href=\"https://book.douban.com/subject/35231266/\">https://book.douban.com/subject/35231266/</a></p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/MySQL_Basic\" target=\"_blank\">https://imlklaus.github.io/posts/MySQL_Basic</a> 阅读全文。</p>",
+            "url": "https://imlklaus.github.io/posts/MySQL_Basic",
+            "title": "MySQL - 简介与架构",
+            "date_modified": "2025-03-18T16:01:20.000Z",
+            "date_published": "2025-03-19T17:52:46.257Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://imlklaus.github.io/"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>你是否在项目中使用线程池遇到过以下问题？</p>\n<ul>\n<li>创建线程池核心参数不好评估，随着业务流量的波动，极有可能出现生产故障。</li>\n<li>不支持优雅关闭，当项目关闭时，大量正在运行的线程池任务被丢弃。</li>\n<li>不支持运行时监控，使用过程中业务无响应，不知道是不是线程池引起。</li>\n<li>三方框架 RocketMQ、Dubbo 等线程池无法动态修改参数，修改后只能重启应用。</li>\n</ul>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/DynamicThreadPool\" target=\"_blank\">https://imlklaus.github.io/posts/DynamicThreadPool</a> 阅读全文。</p>",
+            "url": "https://imlklaus.github.io/posts/DynamicThreadPool",
+            "title": "如何使用线程池不容易出故障",
+            "date_modified": "2024-03-19T11:03:22.000Z",
+            "date_published": "2025-03-19T17:51:53.665Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://imlklaus.github.io/"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV1j8411N7Bm/\">黑马学成在线项目</a></p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/minio\" target=\"_blank\">https://imlklaus.github.io/posts/minio</a> 阅读全文。</p>",
+            "url": "https://imlklaus.github.io/posts/minio",
+            "title": "分布式文件系统-minio",
+            "date_modified": "2023-07-04T13:21:17.000Z",
+            "date_published": "2025-03-19T17:36:10.772Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://imlklaus.github.io/"
+            }
+        },
+        {
+            "id": "",
             "content_html": "<h2>一、幂等性的意义</h2>\n<h3><strong>1、什么是幂等性</strong></h3>\n<ul>\n<li>看一下维基百科怎么说的：</li>\n</ul>\n<p><img src=\"https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20230429205227388.png\" alt=\"image-20230429205227388\"></p>\n<ul>\n<li><strong>接口幂等性就是用户对于同一操作发起的一次请求或者多次请求的结果是一致的</strong>，不会因为多次点击而产生了副作用；比如说支付场景，用户购买了商品支付扣款成功，但是返回结果的时候网络异常，此时钱已经扣了，用户再次点击按钮，此时会进行第二次扣款，返回结果成功，用户查询余额返发现多扣钱了，流水记录也变成了两条......，这就没有保证接口的幂等性。</li>\n</ul>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Idempotence_of_interfaces\" target=\"_blank\">https://imlklaus.github.io/posts/Idempotence_of_interfaces</a> 阅读全文。</p>",
             "url": "https://imlklaus.github.io/posts/Idempotence_of_interfaces",
             "title": "接口幂等性",
@@ -59,18 +179,6 @@
         },
         {
             "id": "",
-            "content_html": "<p>你是否在项目中使用线程池遇到过以下问题？</p>\n<ul>\n<li>创建线程池核心参数不好评估，随着业务流量的波动，极有可能出现生产故障。</li>\n<li>不支持优雅关闭，当项目关闭时，大量正在运行的线程池任务被丢弃。</li>\n<li>不支持运行时监控，使用过程中业务无响应，不知道是不是线程池引起。</li>\n<li>三方框架 RocketMQ、Dubbo 等线程池无法动态修改参数，修改后只能重启应用。</li>\n</ul>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/DynamicThreadPool\" target=\"_blank\">https://imlklaus.github.io/posts/DynamicThreadPool</a> 阅读全文。</p>",
-            "url": "https://imlklaus.github.io/posts/DynamicThreadPool",
-            "title": "如何使用线程池不容易出故障",
-            "date_modified": "2024-03-19T11:03:22.000Z",
-            "date_published": "2025-03-18T18:10:12.583Z",
-            "author": {
-                "name": "imklaus",
-                "url": "https://imlklaus.github.io/"
-            }
-        },
-        {
-            "id": "",
             "content_html": "<h2>如何设计一个秒杀系统？</h2>\n<ul>\n<li>\n<p>高并发下如何设计秒杀系统？这是一个高频面试题。这个问题看似简单，但是里面的水很深，它考查的是高并发场景下，从前端到后端多方面的知识。</p>\n</li>\n<li>\n<p>秒杀一般出现在商城的促销活动中，指定了一定数量（比如：10个）的商品（比如：手机），以极低的价格（比如：0.1元），让大量用户参与活动，但只有极少数用户能够购买成功。这类活动商家绝大部分是不赚钱的，说白了是找个噱头宣传自己。</p>\n</li>\n<li>\n<p>虽说秒杀只是一个促销活动，但对技术要求不低。下面给大家总结一下设计秒杀系统需要注意的9个细节。</p>\n</li>\n</ul>\n<p><img src=\"https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20230429153744600.png\" alt=\"image-20230429153744600\"></p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/Flash_killing\" target=\"_blank\">https://imlklaus.github.io/posts/Flash_killing</a> 阅读全文。</p>",
             "url": "https://imlklaus.github.io/posts/Flash_killing",
             "title": "秒杀",
@@ -88,18 +196,6 @@
             "title": "Java面试专题-框架篇",
             "date_modified": "2023-04-21T11:52:05.000Z",
             "date_published": "2025-03-18T18:10:12.583Z",
-            "author": {
-                "name": "imklaus",
-                "url": "https://imlklaus.github.io/"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV1j8411N7Bm/\">黑马学成在线项目</a></p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/minio\" target=\"_blank\">https://imlklaus.github.io/posts/minio</a> 阅读全文。</p>",
-            "url": "https://imlklaus.github.io/posts/minio",
-            "title": "分布式文件系统-minio",
-            "date_modified": "2023-07-04T13:21:17.000Z",
-            "date_published": "2025-03-18T18:10:12.072Z",
             "author": {
                 "name": "imklaus",
                 "url": "https://imlklaus.github.io/"
@@ -137,102 +233,6 @@
             "summary": "基于微服务架构的商品贸易平台",
             "date_modified": "2023-04-11T16:45:36.000Z",
             "date_published": "2025-03-18T18:09:06.621Z",
-            "author": {
-                "name": "imklaus",
-                "url": "https://imlklaus.github.io/"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<h3>基本介绍</h3>\n<p>主从复制是指将主数据库的 DDL 和 DML 操作通过二进制日志传到从库服务器中，然后在从库上对这些日志重新执行（也叫重做），从而使得从库和主库的数据保持同步</p>\n<p>MySQL 支持一台主库同时向多台从库进行复制，从库同时也可以作为其他从服务器的主库，实现链状复制</p>\n<p>MySQL 复制的优点主要包含以下三个方面：</p>\n<ul>\n<li>\n<p>主库出现问题，可以快速切换到从库提供服务</p>\n</li>\n<li>\n<p>可以在从库上执行查询操作，从主库中更新，实现读写分离</p>\n</li>\n<li>\n<p>可以在从库中执行备份，以避免备份期间影响主库的服务（备份时会加全局读锁）</p>\n</li>\n</ul>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/MySQL_Master_Slave\" target=\"_blank\">https://imlklaus.github.io/posts/MySQL_Master_Slave</a> 阅读全文。</p>",
-            "url": "https://imlklaus.github.io/posts/MySQL_Master_Slave",
-            "title": "MySQL - 主从",
-            "date_modified": "2025-03-18T16:58:52.000Z",
-            "date_published": "2025-03-18T18:01:41.113Z",
-            "author": {
-                "name": "imklaus",
-                "url": "https://imlklaus.github.io/"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<h3>日志分类</h3>\n<p>在任何一种数据库中，都会有各种各样的日志，记录着数据库工作的过程，可以帮助数据库管理员追踪数据库曾经发生过的各种事件</p>\n<p>MySQL日志主要包括六种：</p>\n<ol>\n<li>重做日志（redo log）</li>\n<li>回滚日志（undo log）</li>\n<li>归档日志（binlog）（二进制日志）</li>\n<li>错误日志（errorlog）</li>\n<li>慢查询日志（slow query log）</li>\n<li>一般查询日志（general log）</li>\n<li>中继日志（relay log）</li>\n</ol>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/MySQL_Log\" target=\"_blank\">https://imlklaus.github.io/posts/MySQL_Log</a> 阅读全文。</p>",
-            "url": "https://imlklaus.github.io/posts/MySQL_Log",
-            "title": "MySQL - 日志",
-            "date_modified": "2025-03-18T17:00:07.000Z",
-            "date_published": "2025-03-18T18:01:34.168Z",
-            "author": {
-                "name": "imklaus",
-                "url": "https://imlklaus.github.io/"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<h3>基本介绍</h3>\n<p>锁机制：数据库为了保证数据的一致性，在共享的资源被并发访问时变得安全有序所设计的一种规则</p>\n<p>利用 MVCC 性质进行读取的操作叫<strong>一致性读</strong>，读取数据前加锁的操作叫<strong>锁定读</strong></p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/MySQL_Lock\" target=\"_blank\">https://imlklaus.github.io/posts/MySQL_Lock</a> 阅读全文。</p>",
-            "url": "https://imlklaus.github.io/posts/MySQL_Lock",
-            "title": "MySQL - 锁",
-            "date_modified": "2025-03-18T16:54:45.000Z",
-            "date_published": "2025-03-18T18:01:29.291Z",
-            "author": {
-                "name": "imklaus",
-                "url": "https://imlklaus.github.io/"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<h3>基本介绍</h3>\n<p>事务（Transaction）是访问和更新数据库的程序执行单元；事务中可能包含一个或多个 SQL 语句，这些语句要么都执行，要么都不执行，作为一个关系型数据库，MySQL 支持事务。</p>\n<p>单元中的每条 SQL 语句都相互依赖，形成一个整体</p>\n<ul>\n<li>\n<p>如果某条 SQL 语句执行失败或者出现错误，那么整个单元就会回滚，撤回到事务最初的状态</p>\n</li>\n<li>\n<p>如果单元中所有的 SQL 语句都执行成功，则事务就顺利执行</p>\n</li>\n</ul>\n<p>事务的四大特征：ACID</p>\n<ul>\n<li>原子性 (atomicity)</li>\n<li>一致性 (consistency)</li>\n<li>隔离性 (isolaction)</li>\n<li>持久性 (durability)</li>\n</ul>\n<p>事务的几种状态：</p>\n<ul>\n<li>活动的（active）：事务对应的数据库操作正在执行中</li>\n<li>部分提交的（partially committed）：事务的最后一个操作执行完，但是内存还没刷新至磁盘</li>\n<li>失败的（failed）：当事务处于活动状态或部分提交状态时，如果数据库遇到了错误或刷脏失败，或者用户主动停止当前的事务</li>\n<li>中止的（aborted）：失败状态的事务回滚完成后的状态</li>\n<li>提交的（committed）：当处于部分提交状态的事务刷脏成功，就处于提交状态</li>\n</ul>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/MySQL_Transaction\" target=\"_blank\">https://imlklaus.github.io/posts/MySQL_Transaction</a> 阅读全文。</p>",
-            "url": "https://imlklaus.github.io/posts/MySQL_Transaction",
-            "title": "MySQL - 事务",
-            "date_modified": "2025-03-18T16:49:55.000Z",
-            "date_published": "2025-03-18T18:01:18.981Z",
-            "author": {
-                "name": "imklaus",
-                "url": "https://imlklaus.github.io/"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<h2>单表操作</h2>\n<h3>SQL</h3>\n<ul>\n<li>\n<p>SQL</p>\n<ul>\n<li>Structured Query Language：结构化查询语言</li>\n<li>定义了操作所有关系型数据库的规则，每种数据库操作的方式可能会存在不一样的地方，称为“方言”</li>\n</ul>\n</li>\n<li>\n<p>SQL 通用语法</p>\n<ul>\n<li>SQL 语句可以单行或多行书写，以<strong>分号结尾</strong>。</li>\n<li>可使用空格和缩进来增强语句的可读性。</li>\n<li>MySQL 数据库的 SQL 语句不区分大小写，<strong>关键字建议使用大写</strong>。</li>\n<li>数据库的注释：\n<ul>\n<li>单行注释：-- 注释内容       #注释内容（MySQL 特有）</li>\n<li>多行注释：/* 注释内容 */</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p>SQL 分类</p>\n<ul>\n<li>\n<p>DDL（Data Definition Language）数据定义语言</p>\n<ul>\n<li>用来定义数据库对象：数据库，表，列等。关键字：create、drop,、alter 等</li>\n</ul>\n</li>\n<li>\n<p>DML（Data Manipulation Language）数据操作语言</p>\n<ul>\n<li>用来对数据库中表的数据进行增删改。关键字：insert、delete、update 等</li>\n</ul>\n</li>\n<li>\n<p>DQL（Data Query Language）数据查询语言</p>\n<ul>\n<li>用来查询数据库中表的记录(数据)。关键字：select、where 等</li>\n</ul>\n</li>\n<li>\n<p>DCL（Data Control Language）数据控制语言</p>\n<ul>\n<li>用来定义数据库的访问权限和安全级别，及创建用户。关键字：grant， revoke等</li>\n</ul>\n<p><img src=\"https://seazean.oss-cn-beijing.aliyuncs.com/img/DB/MySQL-SQL%E5%88%86%E7%B1%BB.png\" alt=\"\"></p>\n</li>\n</ul>\n</li>\n</ul>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/MySQL_Table\" target=\"_blank\">https://imlklaus.github.io/posts/MySQL_Table</a> 阅读全文。</p>",
-            "url": "https://imlklaus.github.io/posts/MySQL_Table",
-            "title": "MySQL - 表",
-            "date_modified": "2025-03-18T17:55:11.000Z",
-            "date_published": "2025-03-18T17:58:20.027Z",
-            "author": {
-                "name": "imklaus",
-                "url": "https://imlklaus.github.io/"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<h2>存储引擎</h2>\n<h3>基本介绍</h3>\n<p>对比其他数据库，MySQL 的架构可以在不同场景应用并发挥良好作用，主要体现在存储引擎，插件式的存储引擎架构将查询处理和其他的系统任务以及数据的存储提取分离，可以针对不同的存储需求可以选择最优的存储引擎</p>\n<p>存储引擎的介绍：</p>\n<ul>\n<li>MySQL 数据库使用不同的机制存取表文件 , 机制的差别在于不同的存储方式、索引技巧、锁定水平等不同的功能和能力，在 MySQL 中，将这些不同的技术及配套的功能称为存储引擎</li>\n<li>Oracle、SqlServer 等数据库只有一种存储引擎，MySQL <strong>提供了插件式的存储引擎架构</strong>，所以 MySQL 存在多种存储引擎 , 就会让数据库采取了不同的处理数据的方式和扩展功能</li>\n<li>在关系型数据库中数据的存储是以表的形式存进行，所以存储引擎也称为表类型（存储和操作此表的类型）</li>\n<li>通过选择不同的引擎，能够获取最佳的方案,  也能够获得额外的速度或者功能，提高程序的整体效果。</li>\n</ul>\n<p>MySQL 支持的存储引擎：</p>\n<ul>\n<li>MySQL 支持的引擎包括：InnoDB、MyISAM、MEMORY、Archive、Federate、CSV、BLACKHOLE 等</li>\n<li>MySQL5.5 之前的默认存储引擎是 MyISAM，5.5 之后就改为了 InnoDB</li>\n</ul>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/MySQL_Index\" target=\"_blank\">https://imlklaus.github.io/posts/MySQL_Index</a> 阅读全文。</p>",
-            "url": "https://imlklaus.github.io/posts/MySQL_Index",
-            "title": "MySQL - 存储引擎与索引",
-            "date_modified": "2025-03-18T16:14:40.000Z",
-            "date_published": "2025-03-18T17:39:13.545Z",
-            "author": {
-                "name": "imklaus",
-                "url": "https://imlklaus.github.io/"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<h2>简介</h2>\n<h3>数据库</h3>\n<p>数据库：DataBase，简称 DB，存储和管理数据的仓库</p>\n<p>数据库的优势：</p>\n<ul>\n<li>可以持久化存储数据</li>\n<li>方便存储和管理数据</li>\n<li>使用了统一的方式操作数据库 SQL</li>\n</ul>\n<p>数据库、数据表、数据的关系介绍：</p>\n<ul>\n<li>\n<p>数据库</p>\n<ul>\n<li>用于存储和管理数据的仓库</li>\n<li>一个库中可以包含多个数据表</li>\n</ul>\n</li>\n<li>\n<p>数据表</p>\n<ul>\n<li>数据库最重要的组成部分之一</li>\n<li>由纵向的列和横向的行组成（类似 excel 表格）</li>\n<li>可以指定列名、数据类型、约束等</li>\n<li>一个表中可以存储多条数据</li>\n</ul>\n</li>\n<li>\n<p>数据：想要永久化存储的数据</p>\n</li>\n</ul>\n<p>参考视频：<a href=\"https://www.bilibili.com/video/BV1zJ411M7TB\">https://www.bilibili.com/video/BV1zJ411M7TB</a></p>\n<p>参考专栏：<a href=\"https://time.geekbang.org/column/intro/139\">https://time.geekbang.org/column/intro/139</a></p>\n<p>参考书籍：<a href=\"https://book.douban.com/subject/35231266/\">https://book.douban.com/subject/35231266/</a></p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/MySQL_Basic\" target=\"_blank\">https://imlklaus.github.io/posts/MySQL_Basic</a> 阅读全文。</p>",
-            "url": "https://imlklaus.github.io/posts/MySQL_Basic",
-            "title": "MySQL - 简介与架构",
-            "date_modified": "2025-03-18T16:01:20.000Z",
-            "date_published": "2025-03-18T17:38:42.156Z",
-            "author": {
-                "name": "imklaus",
-                "url": "https://imlklaus.github.io/"
-            }
-        },
-        {
-            "id": "",
-            "content_html": "<p>目录指引：</p>\n<p>[[toc]]</p>\n<h2>表优化</h2>\n<h3>分区表</h3>\n<h4>基本介绍</h4>\n<p>分区表是将大表的数据按分区字段分成许多小的子集，建立一个以 ftime 年份为分区的表：</p>\n<br/><p>访问 <a href=\"https://imlklaus.github.io/posts/MySQL_Optimization\" target=\"_blank\">https://imlklaus.github.io/posts/MySQL_Optimization</a> 阅读全文。</p>",
-            "url": "https://imlklaus.github.io/posts/MySQL_Optimization",
-            "title": "MySQL - 系统优化",
-            "date_modified": "2025-03-18T16:38:32.000Z",
-            "date_published": "2025-03-18T17:33:50.368Z",
             "author": {
                 "name": "imklaus",
                 "url": "https://imlklaus.github.io/"
