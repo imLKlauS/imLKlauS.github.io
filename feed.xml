@@ -4,7 +4,7 @@
         <title>imklaus's Blog </title>
         <link>https://www.imlklaus.cn/</link>
         <description></description>
-        <lastBuildDate>Wed, 09 Apr 2025 11:43:12 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 09 Apr 2025 16:44:39 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -22,7 +22,7 @@
             <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV16J411h7Rd">满神JUC并发编程全套教程</a></p>
 <p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/Concurrent_Programming-Memory" target="_blank">https://www.imlklaus.cn/posts/Concurrent_Programming-Memory</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[MySQL - 事务]]></title>
@@ -56,7 +56,7 @@
 <li>提交的（committed）：当处于部分提交状态的事务刷脏成功，就处于提交状态</li>
 </ul>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/MySQL_Transaction" target="_blank">https://www.imlklaus.cn/posts/MySQL_Transaction</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[MySQL - 表]]></title>
@@ -119,7 +119,7 @@
 </li>
 </ul>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/MySQL_Table" target="_blank">https://www.imlklaus.cn/posts/MySQL_Table</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[MySQL - 主从]]></title>
@@ -142,7 +142,7 @@
 </li>
 </ul>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/MySQL_Master_Slave" target="_blank">https://www.imlklaus.cn/posts/MySQL_Master_Slave</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[MySQL - 日志]]></title>
@@ -162,7 +162,7 @@
 <li>中继日志（relay log）</li>
 </ol>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/MySQL_Log" target="_blank">https://www.imlklaus.cn/posts/MySQL_Log</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[MySQL - 锁]]></title>
@@ -173,7 +173,7 @@
 <p>锁机制：数据库为了保证数据的一致性，在共享的资源被并发访问时变得安全有序所设计的一种规则</p>
 <p>利用 MVCC 性质进行读取的操作叫<strong>一致性读</strong>，读取数据前加锁的操作叫<strong>锁定读</strong></p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/MySQL_Lock" target="_blank">https://www.imlklaus.cn/posts/MySQL_Lock</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[MySQL - 存储引擎与索引]]></title>
@@ -196,7 +196,7 @@
 <li>MySQL5.5 之前的默认存储引擎是 MyISAM，5.5 之后就改为了 InnoDB</li>
 </ul>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/MySQL_Index" target="_blank">https://www.imlklaus.cn/posts/MySQL_Index</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[MySQL - 简介与架构]]></title>
@@ -238,7 +238,7 @@
 <p>参考专栏：<a href="https://time.geekbang.org/column/intro/139">https://time.geekbang.org/column/intro/139</a></p>
 <p>参考书籍：<a href="https://book.douban.com/subject/35231266/">https://book.douban.com/subject/35231266/</a></p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/MySQL_Basic" target="_blank">https://www.imlklaus.cn/posts/MySQL_Basic</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[并发编程整理版-线程池]]></title>
@@ -248,7 +248,7 @@
             <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV16J411h7Rd">满神JUC并发编程全套教程</a></p>
 <p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/Concurrent_Programming-threadPool" target="_blank">https://www.imlklaus.cn/posts/Concurrent_Programming-threadPool</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[并发编程整理版-同步器]]></title>
@@ -258,7 +258,7 @@
             <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV16J411h7Rd">满神JUC并发编程全套教程</a></p>
 <p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/Concurrent_Programming-Synchronizer" target="_blank">https://www.imlklaus.cn/posts/Concurrent_Programming-Synchronizer</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[并发编程整理版-无锁]]></title>
@@ -268,7 +268,7 @@
             <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV16J411h7Rd">满神JUC并发编程全套教程</a></p>
 <p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/Concurrent_Programming-Lock_Free" target="_blank">https://www.imlklaus.cn/posts/Concurrent_Programming-Lock_Free</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[并发编程整理版-JUC]]></title>
@@ -278,7 +278,7 @@
             <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV16J411h7Rd">满神JUC并发编程全套教程</a></p>
 <p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/Concurrent_Programming-JUC" target="_blank">https://www.imlklaus.cn/posts/Concurrent_Programming-JUC</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[并发编程整理版-基础/同步]]></title>
@@ -288,7 +288,7 @@
             <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV16J411h7Rd">满神JUC并发编程全套教程</a></p>
 <p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/Concurrent_Programming-Basic+Synchronous" target="_blank">https://www.imlklaus.cn/posts/Concurrent_Programming-Basic+Synchronous</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[MySQL - 优化]]></title>
@@ -302,7 +302,7 @@
 <h4>基本介绍</h4>
 <p>分区表是将大表的数据按分区字段分成许多小的子集，建立一个以 ftime 年份为分区的表：</p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/MySQL_Optimization" target="_blank">https://www.imlklaus.cn/posts/MySQL_Optimization</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[如何使用线程池不容易出故障]]></title>
@@ -317,7 +317,7 @@
 <li>三方框架 RocketMQ、Dubbo 等线程池无法动态修改参数，修改后只能重启应用。</li>
 </ul>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/DynamicThreadPool" target="_blank">https://www.imlklaus.cn/posts/DynamicThreadPool</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[分布式文件系统-minio]]></title>
@@ -326,7 +326,7 @@
             <pubDate>Wed, 19 Mar 2025 17:36:10 GMT</pubDate>
             <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1j8411N7Bm/">黑马学成在线项目</a></p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/minio" target="_blank">https://www.imlklaus.cn/posts/minio</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[接口幂等性]]></title>
@@ -343,7 +343,7 @@
 <li><strong>接口幂等性就是用户对于同一操作发起的一次请求或者多次请求的结果是一致的</strong>，不会因为多次点击而产生了副作用；比如说支付场景，用户购买了商品支付扣款成功，但是返回结果的时候网络异常，此时钱已经扣了，用户再次点击按钮，此时会进行第二次扣款，返回结果成功，用户查询余额返发现多扣钱了，流水记录也变成了两条......，这就没有保证接口的幂等性。</li>
 </ul>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/Idempotence_of_interfaces" target="_blank">https://www.imlklaus.cn/posts/Idempotence_of_interfaces</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[系统接口]]></title>
@@ -354,7 +354,7 @@
 <p><a href="http://doc.ruoyi.vip/ruoyi/document/htsc.html#%E7%B3%BB%E7%BB%9F%E6%8E%A5%E5%8F%A3">参考系统接口实现</a></p>
 <p>在现在的开发过程中还有很大一部分公司都是以口口相传的方式来进行前后端的联调，而接口文档很大一部分都只停留在了说说而已的地步，或者写了代码再写文档。 还有一点就是文档的修改，定义好的接口并不是一成不变的，可能在开发过程中文档修改不止一次的变化，这个时候就会很难受了。 只要不是强制性要求，没人会愿意写这东西，而且在写的过程中，一个字母的错误就会导致联调时候的很大麻烦，但是通过<code>Swagger</code>，我们可以省略了这一步，而且文档出错率近乎于零， 只要你在写代码的时候，稍加几个注解，文档自动生成。</p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/System_interface" target="_blank">https://www.imlklaus.cn/posts/System_interface</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[Netty]]></title>
@@ -364,7 +364,7 @@
             <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1py4y1E7oA">满神Netty深入浅出Java网络编程教程</a></p>
 <p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/Netty" target="_blank">https://www.imlklaus.cn/posts/Netty</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[缓存+分布式锁在Java项目中的应用]]></title>
@@ -373,7 +373,7 @@
             <pubDate>Tue, 18 Mar 2025 18:10:12 GMT</pubDate>
             <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1np4y1C7Yf/">雷神谷粒商城项目</a></p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/Cache_Project" target="_blank">https://www.imlklaus.cn/posts/Cache_Project</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[秒杀]]></title>
@@ -394,7 +394,7 @@
 </ul>
 <p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20230429153744600.png" alt="image-20230429153744600"></p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/Flash_killing" target="_blank">https://www.imlklaus.cn/posts/Flash_killing</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[Java面试专题-框架篇]]></title>
@@ -404,7 +404,7 @@
             <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV15b4y117RJ">满神Java面试专题</a></p>
 <p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/Java_Interview_Topics-Framework" target="_blank">https://www.imlklaus.cn/posts/Java_Interview_Topics-Framework</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[认证授权-Spring Security]]></title>
@@ -413,7 +413,7 @@
             <pubDate>Tue, 18 Mar 2025 18:10:12 GMT</pubDate>
             <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1j8411N7Bm/">黑马学成在线项目</a></p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/Spring-Security" target="_blank">https://www.imlklaus.cn/posts/Spring-Security</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[分布式任务调度-xxlJob]]></title>
@@ -422,7 +422,7 @@
             <pubDate>Tue, 18 Mar 2025 18:10:11 GMT</pubDate>
             <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1j8411N7Bm/">黑马学成在线项目</a></p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/xxlJob" target="_blank">https://www.imlklaus.cn/posts/xxlJob</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[mall项目总结]]></title>
@@ -444,7 +444,7 @@
 <li>本系统采用微服务架构设计，在分布式环境下利用Spring Cloud框架，通过业务划分，设计独立模块的微服务，拆分为订单服务、购物车服务、支付服务、用户管理服务、商品管理服务、文件上传服务等模块，结合了当前比较流行的互联网电商模式，为消费者提供商品贸易平台。</li>
 </ul>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/mall" target="_blank">https://www.imlklaus.cn/posts/mall</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[设计模式之抽象策略模式-Strategy]]></title>
@@ -458,7 +458,7 @@
 </blockquote>
 <p>策略设计模式（Strategy Pattern）是一种面向对象设计模式，它定义了一系列算法，并将每个算法封装起来，使它们可以相互替换。这种模式使得算法可以独立于使用它们的客户端而变化。</p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/Design_Patterns-Strategy" target="_blank">https://www.imlklaus.cn/posts/Design_Patterns-Strategy</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[Java面试专题-虚拟机篇]]></title>
@@ -468,7 +468,7 @@
             <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV15b4y117RJ">满神Java面试专题</a></p>
 <p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/Java_Interview_Topics-JVM" target="_blank">https://www.imlklaus.cn/posts/Java_Interview_Topics-JVM</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[Java面试专题-并发篇]]></title>
@@ -478,7 +478,7 @@
             <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV15b4y117RJ">满神Java面试专题</a></p>
 <p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/Java_Interview_Topics-Concurrent" target="_blank">https://www.imlklaus.cn/posts/Java_Interview_Topics-Concurrent</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[Java面试专题-基础篇]]></title>
@@ -488,7 +488,7 @@
             <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV15b4y117RJ">满神Java面试专题</a></p>
 <p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/Java_Interview_Topics-Basic" target="_blank">https://www.imlklaus.cn/posts/Java_Interview_Topics-Basic</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[Hello, Valaxy!]]></title>
@@ -528,7 +528,7 @@ export default defineValaxyConfig&lt;ThemeConfig&gt;({
 <p>Combinedhttps://valaxy.site/ with <a href="https://www.yuumi.link/posts/valaxy">Super cute! Build your own Blog with Valaxy -Yuumi's Blog-</a></p>
 <p>:::</p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/hello-valaxy" target="_blank">https://www.imlklaus.cn/posts/hello-valaxy</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[利用valaxy+github+PicGo搭建github图床问题]]></title>
@@ -556,7 +556,7 @@ export default defineValaxyConfig&lt;ThemeConfig&gt;({
 </ol>
 <p>:::</p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/GitHub_Pages_Problem2" target="_blank">https://www.imlklaus.cn/posts/GitHub_Pages_Problem2</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[Valaxy+github-pages部署问题]]></title>
@@ -579,7 +579,7 @@ When setting up a personal blog, because the project name is not case sensitive 
 但是如果把仓库中设置的项目名设置为：<a href="http://xn--github+-l45kw16a8u9a7s7beodga.github+.io">你的github的用户名+.github+.io</a>,马上就可以访问啦。一定要是你github的用户名，要和github的用户名保持一致，如果不想要这种后缀为.io的访问地址，后期可以购买一个个人域名部署上去。在你github项目的settings里面设置一下就好了。</p>
 <p>:::</p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/GitHub_Pages_Problem1" target="_blank">https://www.imlklaus.cn/posts/GitHub_Pages_Problem1</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[设计模式之抽象责任链模式-Chain]]></title>
@@ -590,7 +590,7 @@ When setting up a personal blog, because the project name is not case sensitive 
 <h3>1. 什么是责任链</h3>
 <p>责任链设计模式是一种行为型设计模式，其主要目的是解耦请求发送者和请求接收者，让多个对象都有机会处理请求，从而避免请求发送者和接收者之间的紧耦合。</p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/Design_Patterns-Chain" target="_blank">https://www.imlklaus.cn/posts/Design_Patterns-Chain</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[Spring Cloud组件]]></title>
@@ -611,7 +611,7 @@ When setting up a personal blog, because the project name is not case sensitive 
 </li>
 </ul>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/SpringCloud-Component" target="_blank">https://www.imlklaus.cn/posts/SpringCloud-Component</a> 阅读全文。</p>]]></content:encoded>
-            <author>q1064779584@163.com (imklaus)</author>
+            <author>me@imlklaus.cn (imklaus)</author>
         </item>
     </channel>
 </rss>
