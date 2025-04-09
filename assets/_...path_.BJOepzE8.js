@@ -1,0 +1,1 @@
+import{a,u as s,e as t}from"./chunks/vue-router.BWaMq8wg.js";import{f as e,K as r,Q as o,P as p}from"./framework.BHkQnU1p.js";const n=e({__name:"[...path]",setup(t){const e=s(),n=a();return r((()=>{"/"!==n.path&&n.path.endsWith("/")&&e.replace(n.path.slice(0,-1))})),(a,s)=>(p(),o("div"))}});"function"==typeof t&&t(n);export{n as default};
