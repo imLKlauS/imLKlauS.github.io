@@ -1,0 +1,1 @@
+import{o}from"./app.DSp6gQ5y.js";import{k as r}from"./framework.DynTIHnG.js";function s(s){if(!s)return{color:"",icon:"",styles:void 0};const t=o();s in t.value.types||(s="link");const e=t.value.types[s].color,i=t.value.types[s].icon,c=r((()=>s?{"--card-c-primary":e}:void 0));return{color:e,icon:i,styles:c}}export{s as u};
