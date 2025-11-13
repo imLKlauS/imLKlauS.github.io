@@ -1,0 +1,1 @@
+import"./chunks/@vueuse/motion.Bi21X01W.js";import{c6 as o,bf as r,X as s,b3 as e}from"./framework.qkCuDjfX.js";const t=o({},[["render",function(o,t){const n=r("RouterView");return e(),s(n)}]]);export{t as default};

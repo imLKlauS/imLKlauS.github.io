@@ -4,7 +4,7 @@
         <title>imklaus's Blog </title>
         <link>https://www.imlklaus.cn/</link>
         <description>The Winner Takes It All.</description>
-        <lastBuildDate>Fri, 18 Apr 2025 12:10:04 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Nov 2025 19:01:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -15,156 +15,75 @@
         <copyright>CC BY-NC-SA 4.0 2025 © imklaus</copyright>
         <atom:link href="https://www.imlklaus.cn/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[并发编程整理版-同步器]]></title>
-            <link>https://www.imlklaus.cn/posts/Concurrent_Programming-Synchronizer</link>
-            <guid>https://www.imlklaus.cn/posts/Concurrent_Programming-Synchronizer</guid>
-            <pubDate>Thu, 10 Apr 2025 05:24:20 GMT</pubDate>
-            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV16J411h7Rd">满神JUC并发编程全套教程</a></p>
-<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
-<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Concurrent_Programming-Synchronizer" target="_blank">https://www.imlklaus.cn/posts/Concurrent_Programming-Synchronizer</a> 阅读全文。</p>]]></content:encoded>
-            <author>me@imlklaus.cn (imklaus)</author>
-        </item>
-        <item>
-            <title><![CDATA[并发编程整理版-内存]]></title>
-            <link>https://www.imlklaus.cn/posts/Concurrent_Programming-Memory</link>
-            <guid>https://www.imlklaus.cn/posts/Concurrent_Programming-Memory</guid>
-            <pubDate>Thu, 10 Apr 2025 05:23:52 GMT</pubDate>
-            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV16J411h7Rd">满神JUC并发编程全套教程</a></p>
-<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
-<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Concurrent_Programming-Memory" target="_blank">https://www.imlklaus.cn/posts/Concurrent_Programming-Memory</a> 阅读全文。</p>]]></content:encoded>
-            <author>me@imlklaus.cn (imklaus)</author>
-        </item>
-        <item>
-            <title><![CDATA[并发编程整理版-线程池]]></title>
-            <link>https://www.imlklaus.cn/posts/Concurrent_Programming-threadPool</link>
-            <guid>https://www.imlklaus.cn/posts/Concurrent_Programming-threadPool</guid>
-            <pubDate>Thu, 10 Apr 2025 05:23:52 GMT</pubDate>
-            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV16J411h7Rd">满神JUC并发编程全套教程</a></p>
-<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
-<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Concurrent_Programming-threadPool" target="_blank">https://www.imlklaus.cn/posts/Concurrent_Programming-threadPool</a> 阅读全文。</p>]]></content:encoded>
-            <author>me@imlklaus.cn (imklaus)</author>
-        </item>
-        <item>
-            <title><![CDATA[Java面试专题-框架篇]]></title>
-            <link>https://www.imlklaus.cn/posts/Java_Interview_Topics-Framework</link>
-            <guid>https://www.imlklaus.cn/posts/Java_Interview_Topics-Framework</guid>
-            <pubDate>Thu, 10 Apr 2025 05:23:52 GMT</pubDate>
-            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV15b4y117RJ">满神Java面试专题</a></p>
-<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
-<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Java_Interview_Topics-Framework" target="_blank">https://www.imlklaus.cn/posts/Java_Interview_Topics-Framework</a> 阅读全文。</p>]]></content:encoded>
-            <author>me@imlklaus.cn (imklaus)</author>
-        </item>
-        <item>
-            <title><![CDATA[Java面试专题-虚拟机篇]]></title>
-            <link>https://www.imlklaus.cn/posts/Java_Interview_Topics-JVM</link>
-            <guid>https://www.imlklaus.cn/posts/Java_Interview_Topics-JVM</guid>
-            <pubDate>Thu, 10 Apr 2025 05:23:52 GMT</pubDate>
-            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV15b4y117RJ">满神Java面试专题</a></p>
-<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
-<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Java_Interview_Topics-JVM" target="_blank">https://www.imlklaus.cn/posts/Java_Interview_Topics-JVM</a> 阅读全文。</p>]]></content:encoded>
-            <author>me@imlklaus.cn (imklaus)</author>
-        </item>
-        <item>
-            <title><![CDATA[并发编程整理版-无锁]]></title>
-            <link>https://www.imlklaus.cn/posts/Concurrent_Programming-Lock_Free</link>
-            <guid>https://www.imlklaus.cn/posts/Concurrent_Programming-Lock_Free</guid>
-            <pubDate>Thu, 10 Apr 2025 05:23:52 GMT</pubDate>
-            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV16J411h7Rd">满神JUC并发编程全套教程</a></p>
-<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
-<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Concurrent_Programming-Lock_Free" target="_blank">https://www.imlklaus.cn/posts/Concurrent_Programming-Lock_Free</a> 阅读全文。</p>]]></content:encoded>
-            <author>me@imlklaus.cn (imklaus)</author>
-        </item>
-        <item>
-            <title><![CDATA[并发编程整理版-JUC]]></title>
-            <link>https://www.imlklaus.cn/posts/Concurrent_Programming-JUC</link>
-            <guid>https://www.imlklaus.cn/posts/Concurrent_Programming-JUC</guid>
-            <pubDate>Thu, 10 Apr 2025 05:07:16 GMT</pubDate>
-            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV16J411h7Rd">满神JUC并发编程全套教程</a></p>
-<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
-<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Concurrent_Programming-JUC" target="_blank">https://www.imlklaus.cn/posts/Concurrent_Programming-JUC</a> 阅读全文。</p>]]></content:encoded>
-            <author>me@imlklaus.cn (imklaus)</author>
-        </item>
-        <item>
-            <title><![CDATA[并发编程整理版-基础/同步]]></title>
-            <link>https://www.imlklaus.cn/posts/Concurrent_Programming-Basic+Synchronous</link>
-            <guid>https://www.imlklaus.cn/posts/Concurrent_Programming-Basic+Synchronous</guid>
-            <pubDate>Thu, 10 Apr 2025 05:07:14 GMT</pubDate>
-            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV16J411h7Rd">满神JUC并发编程全套教程</a></p>
-<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
-<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Concurrent_Programming-Basic+Synchronous" target="_blank">https://www.imlklaus.cn/posts/Concurrent_Programming-Basic+Synchronous</a> 阅读全文。</p>]]></content:encoded>
-            <author>me@imlklaus.cn (imklaus)</author>
-        </item>
-        <item>
-            <title><![CDATA[mall项目总结]]></title>
-            <link>https://www.imlklaus.cn/posts/mall</link>
-            <guid>https://www.imlklaus.cn/posts/mall</guid>
-            <pubDate>Thu, 10 Apr 2025 04:12:55 GMT</pubDate>
-            <description><![CDATA[基于微服务架构的商品贸易平台]]></description>
-            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1np4y1C7Yf/">雷神谷粒商城项目</a></p>
-<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20230315150052611.png" alt="mall"></p>
-<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20230315145952769.png" alt="mall"></p>
-<h2>项目名称</h2>
+            <title><![CDATA[第五章. 后端之于前端 - React]]></title>
+            <link>https://www.imlklaus.cn/posts/React</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/React</guid>
+            <pubDate>Thu, 13 Nov 2025 18:02:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>1. React 基础</h2>
+<p>react 是前端三大框架之一</p>
 <ul>
-<li>书阁”图书商城管理系统、微盟电子商城网络交易系统、高校闲置资源交易系统</li>
-<li>购物在“e”零售商城平台、惠农通—智慧农资商城 、农产品轻量级微商城系统</li>
-<li>精美鞋业贸易系统</li>
+<li>没有 vue 的基础更好，因为两者思想不太一样，不能用 vue 的习惯学习 react</li>
+<li>需要有 js</li>
 </ul>
-<h2>项目简介</h2>
-<ul>
-<li>本系统采用微服务架构设计，在分布式环境下利用Spring Cloud框架，通过业务划分，设计独立模块的微服务，拆分为订单服务、购物车服务、支付服务、用户管理服务、商品管理服务、文件上传服务等模块，结合了当前比较流行的互联网电商模式，为消费者提供商品贸易平台。</li>
-</ul>
-<br/><p>访问 <a href="https://www.imlklaus.cn/posts/mall" target="_blank">https://www.imlklaus.cn/posts/mall</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/React" target="_blank">https://www.imlklaus.cn/posts/React</a> 阅读全文。</p>]]></content:encoded>
             <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
-            <title><![CDATA[Netty]]></title>
-            <link>https://www.imlklaus.cn/posts/Netty</link>
-            <guid>https://www.imlklaus.cn/posts/Netty</guid>
-            <pubDate>Thu, 10 Apr 2025 04:10:51 GMT</pubDate>
-            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1py4y1E7oA">满神Netty深入浅出Java网络编程教程</a></p>
-<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
-<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Netty" target="_blank">https://www.imlklaus.cn/posts/Netty</a> 阅读全文。</p>]]></content:encoded>
+            <title><![CDATA[第四章. 后端之于前端 - Vue3]]></title>
+            <link>https://www.imlklaus.cn/posts/Vue3</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/Vue3</guid>
+            <pubDate>Thu, 13 Nov 2025 18:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>1. TypeScript</h2>
+<h3>1) 动态类型的问题</h3>
+<p>前面我们讲过 js 属于动态类型语言，例如</p>
+<pre><code class="language-js">function test(obj) {    </code></pre>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Vue3" target="_blank">https://www.imlklaus.cn/posts/Vue3</a> 阅读全文。</p>]]></content:encoded>
             <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
-            <title><![CDATA[MySQL - 事务]]></title>
-            <link>https://www.imlklaus.cn/posts/MySQL_Transaction</link>
-            <guid>https://www.imlklaus.cn/posts/MySQL_Transaction</guid>
-            <pubDate>Sat, 22 Mar 2025 12:45:03 GMT</pubDate>
-            <content:encoded><![CDATA[<h3>基本介绍</h3>
-<p>事务（Transaction）是访问和更新数据库的程序执行单元；事务中可能包含一个或多个 SQL 语句，这些语句要么都执行，要么都不执行，作为一个关系型数据库，MySQL 支持事务。</p>
-<p>单元中的每条 SQL 语句都相互依赖，形成一个整体</p>
+            <title><![CDATA[第三章. 后端之于前端 - Vue]]></title>
+            <link>https://www.imlklaus.cn/posts/Vue</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/Vue</guid>
+            <pubDate>Thu, 13 Nov 2025 17:57:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>1. Vue 基础</h2>
+<h3>1) 环境准备</h3>
+<h4>安装脚手架</h4>
+<pre><code>npm install -g @vue/cli
+</code></pre>
 <ul>
-<li>
-<p>如果某条 SQL 语句执行失败或者出现错误，那么整个单元就会回滚，撤回到事务最初的状态</p>
-</li>
-<li>
-<p>如果单元中所有的 SQL 语句都执行成功，则事务就顺利执行</p>
-</li>
+<li>-g 参数表示全局安</li>
 </ul>
-<p>事务的四大特征：ACID</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Vue" target="_blank">https://www.imlklaus.cn/posts/Vue</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[第二章. 后端之于前端 - Javascript]]></title>
+            <link>https://www.imlklaus.cn/posts/Javascript</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/Javascript</guid>
+            <pubDate>Thu, 13 Nov 2025 17:51:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>它是一种脚本语言，可以用来更改页面内容，控制多媒体，制作图像、动画等等</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Javascript" target="_blank">https://www.imlklaus.cn/posts/Javascript</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[第一章. 后端之于前端 - HTML 与 CSS]]></title>
+            <link>https://www.imlklaus.cn/posts/HTML-CSS</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/HTML-CSS</guid>
+            <pubDate>Thu, 13 Nov 2025 17:46:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>HTML 是什么：即 HyperText Markup language 超文本标记语言，咱们熟知的网页就是用它编写的，HTML 的作用是定义网页的内容和结构。</p>
 <ul>
-<li>原子性 (atomicity)</li>
-<li>一致性 (consistency)</li>
-<li>隔离性 (isolaction)</li>
-<li>持久性 (durability)</li>
+<li>HyperText 是指用超链接的方式组织网页，把网页联系起来</li>
+<li>Markup 是指用 <code>&lt;标签&gt;</code> 的方式赋予内容不同的功能和含义</li>
 </ul>
-<p>事务的几种状态：</p>
-<ul>
-<li>活动的（active）：事务对应的数据库操作正在执行中</li>
-<li>部分提交的（partially committed）：事务的最后一个操作执行完，但是内存还没刷新至磁盘</li>
-<li>失败的（failed）：当事务处于活动状态或部分提交状态时，如果数据库遇到了错误或刷脏失败，或者用户主动停止当前的事务</li>
-<li>中止的（aborted）：失败状态的事务回滚完成后的状态</li>
-<li>提交的（committed）：当处于部分提交状态的事务刷脏成功，就处于提交状态</li>
-</ul>
-<br/><p>访问 <a href="https://www.imlklaus.cn/posts/MySQL_Transaction" target="_blank">https://www.imlklaus.cn/posts/MySQL_Transaction</a> 阅读全文。</p>]]></content:encoded>
+<p>CSS 是什么：即 Cascading  Style  Sheets 级联（层叠）样式表，它描述了网页的表现与展示效果</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/HTML-CSS" target="_blank">https://www.imlklaus.cn/posts/HTML-CSS</a> 阅读全文。</p>]]></content:encoded>
             <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[MySQL - 表]]></title>
             <link>https://www.imlklaus.cn/posts/MySQL_Table</link>
-            <guid>https://www.imlklaus.cn/posts/MySQL_Table</guid>
-            <pubDate>Sat, 22 Mar 2025 12:44:58 GMT</pubDate>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/MySQL_Table</guid>
+            <pubDate>Tue, 18 Mar 2025 17:55:11 GMT</pubDate>
             <content:encoded><![CDATA[<h2>单表操作</h2>
 <h3>SQL</h3>
 <ul>
@@ -224,10 +143,30 @@
             <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
+            <title><![CDATA[MySQL - 日志]]></title>
+            <link>https://www.imlklaus.cn/posts/MySQL_Log</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/MySQL_Log</guid>
+            <pubDate>Tue, 18 Mar 2025 17:00:07 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>日志分类</h3>
+<p>在任何一种数据库中，都会有各种各样的日志，记录着数据库工作的过程，可以帮助数据库管理员追踪数据库曾经发生过的各种事件</p>
+<p>MySQL日志主要包括六种：</p>
+<ol>
+<li>重做日志（redo log）</li>
+<li>回滚日志（undo log）</li>
+<li>归档日志（binlog）（二进制日志）</li>
+<li>错误日志（errorlog）</li>
+<li>慢查询日志（slow query log）</li>
+<li>一般查询日志（general log）</li>
+<li>中继日志（relay log）</li>
+</ol>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/MySQL_Log" target="_blank">https://www.imlklaus.cn/posts/MySQL_Log</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
+        <item>
             <title><![CDATA[MySQL - 主从]]></title>
             <link>https://www.imlklaus.cn/posts/MySQL_Master_Slave</link>
-            <guid>https://www.imlklaus.cn/posts/MySQL_Master_Slave</guid>
-            <pubDate>Sat, 22 Mar 2025 12:44:48 GMT</pubDate>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/MySQL_Master_Slave</guid>
+            <pubDate>Tue, 18 Mar 2025 16:58:52 GMT</pubDate>
             <content:encoded><![CDATA[<h3>基本介绍</h3>
 <p>主从复制是指将主数据库的 DDL 和 DML 操作通过二进制日志传到从库服务器中，然后在从库上对这些日志重新执行（也叫重做），从而使得从库和主库的数据保持同步</p>
 <p>MySQL 支持一台主库同时向多台从库进行复制，从库同时也可以作为其他从服务器的主库，实现链状复制</p>
@@ -247,30 +186,10 @@
             <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
-            <title><![CDATA[MySQL - 日志]]></title>
-            <link>https://www.imlklaus.cn/posts/MySQL_Log</link>
-            <guid>https://www.imlklaus.cn/posts/MySQL_Log</guid>
-            <pubDate>Sat, 22 Mar 2025 12:44:41 GMT</pubDate>
-            <content:encoded><![CDATA[<h3>日志分类</h3>
-<p>在任何一种数据库中，都会有各种各样的日志，记录着数据库工作的过程，可以帮助数据库管理员追踪数据库曾经发生过的各种事件</p>
-<p>MySQL日志主要包括六种：</p>
-<ol>
-<li>重做日志（redo log）</li>
-<li>回滚日志（undo log）</li>
-<li>归档日志（binlog）（二进制日志）</li>
-<li>错误日志（errorlog）</li>
-<li>慢查询日志（slow query log）</li>
-<li>一般查询日志（general log）</li>
-<li>中继日志（relay log）</li>
-</ol>
-<br/><p>访问 <a href="https://www.imlklaus.cn/posts/MySQL_Log" target="_blank">https://www.imlklaus.cn/posts/MySQL_Log</a> 阅读全文。</p>]]></content:encoded>
-            <author>me@imlklaus.cn (imklaus)</author>
-        </item>
-        <item>
             <title><![CDATA[MySQL - 锁]]></title>
             <link>https://www.imlklaus.cn/posts/MySQL_Lock</link>
-            <guid>https://www.imlklaus.cn/posts/MySQL_Lock</guid>
-            <pubDate>Sat, 22 Mar 2025 12:44:36 GMT</pubDate>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/MySQL_Lock</guid>
+            <pubDate>Tue, 18 Mar 2025 16:54:45 GMT</pubDate>
             <content:encoded><![CDATA[<h3>基本介绍</h3>
 <p>锁机制：数据库为了保证数据的一致性，在共享的资源被并发访问时变得安全有序所设计的一种规则</p>
 <p>利用 MVCC 性质进行读取的操作叫<strong>一致性读</strong>，读取数据前加锁的操作叫<strong>锁定读</strong></p>
@@ -278,10 +197,58 @@
             <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
+            <title><![CDATA[MySQL - 事务]]></title>
+            <link>https://www.imlklaus.cn/posts/MySQL_Transaction</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/MySQL_Transaction</guid>
+            <pubDate>Tue, 18 Mar 2025 16:49:55 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>基本介绍</h3>
+<p>事务（Transaction）是访问和更新数据库的程序执行单元；事务中可能包含一个或多个 SQL 语句，这些语句要么都执行，要么都不执行，作为一个关系型数据库，MySQL 支持事务。</p>
+<p>单元中的每条 SQL 语句都相互依赖，形成一个整体</p>
+<ul>
+<li>
+<p>如果某条 SQL 语句执行失败或者出现错误，那么整个单元就会回滚，撤回到事务最初的状态</p>
+</li>
+<li>
+<p>如果单元中所有的 SQL 语句都执行成功，则事务就顺利执行</p>
+</li>
+</ul>
+<p>事务的四大特征：ACID</p>
+<ul>
+<li>原子性 (atomicity)</li>
+<li>一致性 (consistency)</li>
+<li>隔离性 (isolaction)</li>
+<li>持久性 (durability)</li>
+</ul>
+<p>事务的几种状态：</p>
+<ul>
+<li>活动的（active）：事务对应的数据库操作正在执行中</li>
+<li>部分提交的（partially committed）：事务的最后一个操作执行完，但是内存还没刷新至磁盘</li>
+<li>失败的（failed）：当事务处于活动状态或部分提交状态时，如果数据库遇到了错误或刷脏失败，或者用户主动停止当前的事务</li>
+<li>中止的（aborted）：失败状态的事务回滚完成后的状态</li>
+<li>提交的（committed）：当处于部分提交状态的事务刷脏成功，就处于提交状态</li>
+</ul>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/MySQL_Transaction" target="_blank">https://www.imlklaus.cn/posts/MySQL_Transaction</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[MySQL - 优化]]></title>
+            <link>https://www.imlklaus.cn/posts/MySQL_Optimization</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/MySQL_Optimization</guid>
+            <pubDate>Tue, 18 Mar 2025 16:38:32 GMT</pubDate>
+            <content:encoded><![CDATA[<p>目录指引：</p>
+<p>[[toc]]</p>
+<h2>表优化</h2>
+<h3>分区表</h3>
+<h4>基本介绍</h4>
+<p>分区表是将大表的数据按分区字段分成许多小的子集，建立一个以 ftime 年份为分区的表：</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/MySQL_Optimization" target="_blank">https://www.imlklaus.cn/posts/MySQL_Optimization</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
+        <item>
             <title><![CDATA[MySQL - 存储引擎与索引]]></title>
             <link>https://www.imlklaus.cn/posts/MySQL_Index</link>
-            <guid>https://www.imlklaus.cn/posts/MySQL_Index</guid>
-            <pubDate>Sat, 22 Mar 2025 12:44:29 GMT</pubDate>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/MySQL_Index</guid>
+            <pubDate>Tue, 18 Mar 2025 16:14:40 GMT</pubDate>
             <content:encoded><![CDATA[<h2>存储引擎</h2>
 <h3>基本介绍</h3>
 <p>对比其他数据库，MySQL 的架构可以在不同场景应用并发挥良好作用，主要体现在存储引擎，插件式的存储引擎架构将查询处理和其他的系统任务以及数据的存储提取分离，可以针对不同的存储需求可以选择最优的存储引擎</p>
@@ -303,8 +270,8 @@
         <item>
             <title><![CDATA[MySQL - 简介与架构]]></title>
             <link>https://www.imlklaus.cn/posts/MySQL_Basic</link>
-            <guid>https://www.imlklaus.cn/posts/MySQL_Basic</guid>
-            <pubDate>Sat, 22 Mar 2025 12:44:23 GMT</pubDate>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/MySQL_Basic</guid>
+            <pubDate>Tue, 18 Mar 2025 16:01:20 GMT</pubDate>
             <content:encoded><![CDATA[<h2>简介</h2>
 <h3>数据库</h3>
 <p>数据库：DataBase，简称 DB，存储和管理数据的仓库</p>
@@ -343,24 +310,20 @@
             <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
-            <title><![CDATA[MySQL - 优化]]></title>
-            <link>https://www.imlklaus.cn/posts/MySQL_Optimization</link>
-            <guid>https://www.imlklaus.cn/posts/MySQL_Optimization</guid>
-            <pubDate>Wed, 19 Mar 2025 17:57:18 GMT</pubDate>
-            <content:encoded><![CDATA[<p>目录指引：</p>
-<p>[[toc]]</p>
-<h2>表优化</h2>
-<h3>分区表</h3>
-<h4>基本介绍</h4>
-<p>分区表是将大表的数据按分区字段分成许多小的子集，建立一个以 ftime 年份为分区的表：</p>
-<br/><p>访问 <a href="https://www.imlklaus.cn/posts/MySQL_Optimization" target="_blank">https://www.imlklaus.cn/posts/MySQL_Optimization</a> 阅读全文。</p>]]></content:encoded>
+            <title><![CDATA[Netty]]></title>
+            <link>https://www.imlklaus.cn/posts/Netty</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/Netty</guid>
+            <pubDate>Sun, 06 Oct 2024 14:58:47 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1py4y1E7oA">满神Netty深入浅出Java网络编程教程</a></p>
+<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Netty" target="_blank">https://www.imlklaus.cn/posts/Netty</a> 阅读全文。</p>]]></content:encoded>
             <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[如何使用线程池不容易出故障]]></title>
             <link>https://www.imlklaus.cn/posts/DynamicThreadPool</link>
-            <guid>https://www.imlklaus.cn/posts/DynamicThreadPool</guid>
-            <pubDate>Wed, 19 Mar 2025 17:51:53 GMT</pubDate>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/DynamicThreadPool</guid>
+            <pubDate>Tue, 19 Mar 2024 11:03:22 GMT</pubDate>
             <content:encoded><![CDATA[<p>你是否在项目中使用线程池遇到过以下问题？</p>
 <ul>
 <li>创建线程池核心参数不好评估，随着业务流量的波动，极有可能出现生产故障。</li>
@@ -372,56 +335,122 @@
             <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
+            <title><![CDATA[并发编程整理版-内存]]></title>
+            <link>https://www.imlklaus.cn/posts/Concurrent_Programming-Memory</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/Concurrent_Programming-Memory</guid>
+            <pubDate>Wed, 22 Nov 2023 15:57:58 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV16J411h7Rd">满神JUC并发编程全套教程</a></p>
+<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Concurrent_Programming-Memory" target="_blank">https://www.imlklaus.cn/posts/Concurrent_Programming-Memory</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[设计模式之抽象责任链模式-Chain]]></title>
+            <link>https://www.imlklaus.cn/posts/Design_Patterns-Chain</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/Design_Patterns-Chain</guid>
+            <pubDate>Fri, 01 Sep 2023 16:46:45 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>责任链模式</h2>
+<h3>1. 什么是责任链</h3>
+<p>责任链设计模式是一种行为型设计模式，其主要目的是解耦请求发送者和请求接收者，让多个对象都有机会处理请求，从而避免请求发送者和接收者之间的紧耦合。</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Design_Patterns-Chain" target="_blank">https://www.imlklaus.cn/posts/Design_Patterns-Chain</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[设计模式之抽象策略模式-Strategy]]></title>
+            <link>https://www.imlklaus.cn/posts/Design_Patterns-Strategy</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/Design_Patterns-Strategy</guid>
+            <pubDate>Fri, 01 Sep 2023 11:57:12 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>策略模式是什么</h2>
+<p>策略模式在 GoF 的《设计模式》一书中，是这样定义的：</p>
+<blockquote>
+<p>Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.</p>
+</blockquote>
+<p>策略设计模式（Strategy Pattern）是一种面向对象设计模式，它定义了一系列算法，并将每个算法封装起来，使它们可以相互替换。这种模式使得算法可以独立于使用它们的客户端而变化。</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Design_Patterns-Strategy" target="_blank">https://www.imlklaus.cn/posts/Design_Patterns-Strategy</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[并发编程整理版-JUC]]></title>
+            <link>https://www.imlklaus.cn/posts/Concurrent_Programming-JUC</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/Concurrent_Programming-JUC</guid>
+            <pubDate>Thu, 24 Aug 2023 11:13:57 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV16J411h7Rd">满神JUC并发编程全套教程</a></p>
+<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Concurrent_Programming-JUC" target="_blank">https://www.imlklaus.cn/posts/Concurrent_Programming-JUC</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[并发编程整理版-同步器]]></title>
+            <link>https://www.imlklaus.cn/posts/Concurrent_Programming-Synchronizer</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/Concurrent_Programming-Synchronizer</guid>
+            <pubDate>Thu, 24 Aug 2023 11:11:16 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV16J411h7Rd">满神JUC并发编程全套教程</a></p>
+<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Concurrent_Programming-Synchronizer" target="_blank">https://www.imlklaus.cn/posts/Concurrent_Programming-Synchronizer</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[并发编程整理版-线程池]]></title>
+            <link>https://www.imlklaus.cn/posts/Concurrent_Programming-threadPool</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/Concurrent_Programming-threadPool</guid>
+            <pubDate>Thu, 24 Aug 2023 11:03:22 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV16J411h7Rd">满神JUC并发编程全套教程</a></p>
+<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Concurrent_Programming-threadPool" target="_blank">https://www.imlklaus.cn/posts/Concurrent_Programming-threadPool</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[并发编程整理版-基础/同步]]></title>
+            <link>https://www.imlklaus.cn/posts/Concurrent_Programming-Basic+Synchronous</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/Concurrent_Programming-Basic+Synchronous</guid>
+            <pubDate>Thu, 24 Aug 2023 10:49:36 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV16J411h7Rd">满神JUC并发编程全套教程</a></p>
+<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Concurrent_Programming-Basic+Synchronous" target="_blank">https://www.imlklaus.cn/posts/Concurrent_Programming-Basic+Synchronous</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[并发编程整理版-无锁]]></title>
+            <link>https://www.imlklaus.cn/posts/Concurrent_Programming-Lock_Free</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/Concurrent_Programming-Lock_Free</guid>
+            <pubDate>Thu, 24 Aug 2023 10:49:36 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV16J411h7Rd">满神JUC并发编程全套教程</a></p>
+<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Concurrent_Programming-Lock_Free" target="_blank">https://www.imlklaus.cn/posts/Concurrent_Programming-Lock_Free</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[认证授权-Spring Security]]></title>
+            <link>https://www.imlklaus.cn/posts/Spring-Security</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/Spring-Security</guid>
+            <pubDate>Wed, 05 Jul 2023 13:50:51 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1j8411N7Bm/">黑马学成在线项目</a></p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Spring-Security" target="_blank">https://www.imlklaus.cn/posts/Spring-Security</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[分布式任务调度-xxlJob]]></title>
+            <link>https://www.imlklaus.cn/posts/xxlJob</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/xxlJob</guid>
+            <pubDate>Wed, 05 Jul 2023 10:00:06 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1j8411N7Bm/">黑马学成在线项目</a></p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/xxlJob" target="_blank">https://www.imlklaus.cn/posts/xxlJob</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
+        <item>
             <title><![CDATA[分布式文件系统-minio]]></title>
             <link>https://www.imlklaus.cn/posts/minio</link>
-            <guid>https://www.imlklaus.cn/posts/minio</guid>
-            <pubDate>Wed, 19 Mar 2025 17:36:10 GMT</pubDate>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/minio</guid>
+            <pubDate>Tue, 04 Jul 2023 13:21:17 GMT</pubDate>
             <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1j8411N7Bm/">黑马学成在线项目</a></p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/minio" target="_blank">https://www.imlklaus.cn/posts/minio</a> 阅读全文。</p>]]></content:encoded>
             <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
-            <title><![CDATA[接口幂等性]]></title>
-            <link>https://www.imlklaus.cn/posts/Idempotence_of_interfaces</link>
-            <guid>https://www.imlklaus.cn/posts/Idempotence_of_interfaces</guid>
-            <pubDate>Tue, 18 Mar 2025 18:14:10 GMT</pubDate>
-            <content:encoded><![CDATA[<h2>一、幂等性的意义</h2>
-<h3><strong>1、什么是幂等性</strong></h3>
-<ul>
-<li>看一下维基百科怎么说的：</li>
-</ul>
-<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20230429205227388.png" alt="image-20230429205227388"></p>
-<ul>
-<li><strong>接口幂等性就是用户对于同一操作发起的一次请求或者多次请求的结果是一致的</strong>，不会因为多次点击而产生了副作用；比如说支付场景，用户购买了商品支付扣款成功，但是返回结果的时候网络异常，此时钱已经扣了，用户再次点击按钮，此时会进行第二次扣款，返回结果成功，用户查询余额返发现多扣钱了，流水记录也变成了两条......，这就没有保证接口的幂等性。</li>
-</ul>
-<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Idempotence_of_interfaces" target="_blank">https://www.imlklaus.cn/posts/Idempotence_of_interfaces</a> 阅读全文。</p>]]></content:encoded>
-            <author>me@imlklaus.cn (imklaus)</author>
-        </item>
-        <item>
-            <title><![CDATA[系统接口]]></title>
-            <link>https://www.imlklaus.cn/posts/System_interface</link>
-            <guid>https://www.imlklaus.cn/posts/System_interface</guid>
-            <pubDate>Tue, 18 Mar 2025 18:13:51 GMT</pubDate>
-            <content:encoded><![CDATA[<h2>基本介绍</h2>
-<p><a href="http://doc.ruoyi.vip/ruoyi/document/htsc.html#%E7%B3%BB%E7%BB%9F%E6%8E%A5%E5%8F%A3">参考系统接口实现</a></p>
-<p>在现在的开发过程中还有很大一部分公司都是以口口相传的方式来进行前后端的联调，而接口文档很大一部分都只停留在了说说而已的地步，或者写了代码再写文档。 还有一点就是文档的修改，定义好的接口并不是一成不变的，可能在开发过程中文档修改不止一次的变化，这个时候就会很难受了。 只要不是强制性要求，没人会愿意写这东西，而且在写的过程中，一个字母的错误就会导致联调时候的很大麻烦，但是通过<code>Swagger</code>，我们可以省略了这一步，而且文档出错率近乎于零， 只要你在写代码的时候，稍加几个注解，文档自动生成。</p>
-<br/><p>访问 <a href="https://www.imlklaus.cn/posts/System_interface" target="_blank">https://www.imlklaus.cn/posts/System_interface</a> 阅读全文。</p>]]></content:encoded>
-            <author>me@imlklaus.cn (imklaus)</author>
-        </item>
-        <item>
-            <title><![CDATA[缓存+分布式锁在Java项目中的应用]]></title>
-            <link>https://www.imlklaus.cn/posts/Cache_Project</link>
-            <guid>https://www.imlklaus.cn/posts/Cache_Project</guid>
-            <pubDate>Tue, 18 Mar 2025 18:10:12 GMT</pubDate>
-            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1np4y1C7Yf/">雷神谷粒商城项目</a></p>
-<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Cache_Project" target="_blank">https://www.imlklaus.cn/posts/Cache_Project</a> 阅读全文。</p>]]></content:encoded>
-            <author>me@imlklaus.cn (imklaus)</author>
-        </item>
-        <item>
             <title><![CDATA[秒杀]]></title>
             <link>https://www.imlklaus.cn/posts/Flash_killing</link>
-            <guid>https://www.imlklaus.cn/posts/Flash_killing</guid>
-            <pubDate>Tue, 18 Mar 2025 18:10:12 GMT</pubDate>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/Flash_killing</guid>
+            <pubDate>Thu, 27 Apr 2023 05:43:29 GMT</pubDate>
             <content:encoded><![CDATA[<h2>如何设计一个秒杀系统？</h2>
 <ul>
 <li>
@@ -439,42 +468,78 @@
             <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
-            <title><![CDATA[认证授权-Spring Security]]></title>
-            <link>https://www.imlklaus.cn/posts/Spring-Security</link>
-            <guid>https://www.imlklaus.cn/posts/Spring-Security</guid>
-            <pubDate>Tue, 18 Mar 2025 18:10:12 GMT</pubDate>
-            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1j8411N7Bm/">黑马学成在线项目</a></p>
-<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Spring-Security" target="_blank">https://www.imlklaus.cn/posts/Spring-Security</a> 阅读全文。</p>]]></content:encoded>
+            <title><![CDATA[接口幂等性]]></title>
+            <link>https://www.imlklaus.cn/posts/Idempotence_of_interfaces</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/Idempotence_of_interfaces</guid>
+            <pubDate>Thu, 27 Apr 2023 05:43:29 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>一、幂等性的意义</h2>
+<h3><strong>1、什么是幂等性</strong></h3>
+<ul>
+<li>看一下维基百科怎么说的：</li>
+</ul>
+<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20230429205227388.png" alt="image-20230429205227388"></p>
+<ul>
+<li><strong>接口幂等性就是用户对于同一操作发起的一次请求或者多次请求的结果是一致的</strong>，不会因为多次点击而产生了副作用；比如说支付场景，用户购买了商品支付扣款成功，但是返回结果的时候网络异常，此时钱已经扣了，用户再次点击按钮，此时会进行第二次扣款，返回结果成功，用户查询余额返发现多扣钱了，流水记录也变成了两条......，这就没有保证接口的幂等性。</li>
+</ul>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Idempotence_of_interfaces" target="_blank">https://www.imlklaus.cn/posts/Idempotence_of_interfaces</a> 阅读全文。</p>]]></content:encoded>
             <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
-            <title><![CDATA[分布式任务调度-xxlJob]]></title>
-            <link>https://www.imlklaus.cn/posts/xxlJob</link>
-            <guid>https://www.imlklaus.cn/posts/xxlJob</guid>
-            <pubDate>Tue, 18 Mar 2025 18:10:11 GMT</pubDate>
-            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1j8411N7Bm/">黑马学成在线项目</a></p>
-<br/><p>访问 <a href="https://www.imlklaus.cn/posts/xxlJob" target="_blank">https://www.imlklaus.cn/posts/xxlJob</a> 阅读全文。</p>]]></content:encoded>
+            <title><![CDATA[Spring Cloud组件]]></title>
+            <link>https://www.imlklaus.cn/posts/SpringCloud-Component</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/SpringCloud-Component</guid>
+            <pubDate>Wed, 26 Apr 2023 15:30:14 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>1、SpringCloud Alibaba 简介</h2>
+<h3>1）、简介</h3>
+<ul>
+<li>
+<p>Spring Cloud Alibaba 致力于提供微服务开发的一站式解决方案。此项目包含开发分布式应用微服务的必需组件，方便开发者通过 Spring Cloud 编程模型轻松使用这些组件来开发分布式应用服务。</p>
+</li>
+<li>
+<p>依托 Spring Cloud Alibaba，您只需要添加一些注解和少量配置，就可以将 Spring Cloud 应用接入阿里微服务解决方案，通过阿里中间件来迅速搭建分布式应用系统。</p>
+</li>
+<li>
+<p><a href="https://github.com/alibaba/spring-cloud-alibaba">https://github.com/alibaba/spring-cloud-alibaba</a></p>
+</li>
+</ul>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/SpringCloud-Component" target="_blank">https://www.imlklaus.cn/posts/SpringCloud-Component</a> 阅读全文。</p>]]></content:encoded>
             <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
-            <title><![CDATA[设计模式之抽象策略模式-Strategy]]></title>
-            <link>https://www.imlklaus.cn/posts/Design_Patterns-Strategy</link>
-            <guid>https://www.imlklaus.cn/posts/Design_Patterns-Strategy</guid>
-            <pubDate>Fri, 14 Mar 2025 18:08:34 GMT</pubDate>
-            <content:encoded><![CDATA[<h2>策略模式是什么</h2>
-<p>策略模式在 GoF 的《设计模式》一书中，是这样定义的：</p>
-<blockquote>
-<p>Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.</p>
-</blockquote>
-<p>策略设计模式（Strategy Pattern）是一种面向对象设计模式，它定义了一系列算法，并将每个算法封装起来，使它们可以相互替换。这种模式使得算法可以独立于使用它们的客户端而变化。</p>
-<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Design_Patterns-Strategy" target="_blank">https://www.imlklaus.cn/posts/Design_Patterns-Strategy</a> 阅读全文。</p>]]></content:encoded>
+            <title><![CDATA[系统接口]]></title>
+            <link>https://www.imlklaus.cn/posts/System_interface</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/System_interface</guid>
+            <pubDate>Wed, 26 Apr 2023 07:50:12 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>基本介绍</h2>
+<p><a href="http://doc.ruoyi.vip/ruoyi/document/htsc.html#%E7%B3%BB%E7%BB%9F%E6%8E%A5%E5%8F%A3">参考系统接口实现</a></p>
+<p>在现在的开发过程中还有很大一部分公司都是以口口相传的方式来进行前后端的联调，而接口文档很大一部分都只停留在了说说而已的地步，或者写了代码再写文档。 还有一点就是文档的修改，定义好的接口并不是一成不变的，可能在开发过程中文档修改不止一次的变化，这个时候就会很难受了。 只要不是强制性要求，没人会愿意写这东西，而且在写的过程中，一个字母的错误就会导致联调时候的很大麻烦，但是通过<code>Swagger</code>，我们可以省略了这一步，而且文档出错率近乎于零， 只要你在写代码的时候，稍加几个注解，文档自动生成。</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/System_interface" target="_blank">https://www.imlklaus.cn/posts/System_interface</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[缓存+分布式锁在Java项目中的应用]]></title>
+            <link>https://www.imlklaus.cn/posts/Cache_Project</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/Cache_Project</guid>
+            <pubDate>Mon, 24 Apr 2023 11:32:34 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1np4y1C7Yf/">雷神谷粒商城项目</a></p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Cache_Project" target="_blank">https://www.imlklaus.cn/posts/Cache_Project</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[Java面试专题-框架篇]]></title>
+            <link>https://www.imlklaus.cn/posts/Java_Interview_Topics-Framework</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/Java_Interview_Topics-Framework</guid>
+            <pubDate>Fri, 21 Apr 2023 11:52:05 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV15b4y117RJ">满神Java面试专题</a></p>
+<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Java_Interview_Topics-Framework" target="_blank">https://www.imlklaus.cn/posts/Java_Interview_Topics-Framework</a> 阅读全文。</p>]]></content:encoded>
             <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
             <title><![CDATA[Java面试专题-并发篇]]></title>
             <link>https://www.imlklaus.cn/posts/Java_Interview_Topics-Concurrent</link>
-            <guid>https://www.imlklaus.cn/posts/Java_Interview_Topics-Concurrent</guid>
-            <pubDate>Fri, 14 Mar 2025 18:05:21 GMT</pubDate>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/Java_Interview_Topics-Concurrent</guid>
+            <pubDate>Wed, 19 Apr 2023 06:52:05 GMT</pubDate>
             <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV15b4y117RJ">满神Java面试专题</a></p>
 <p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/Java_Interview_Topics-Concurrent" target="_blank">https://www.imlklaus.cn/posts/Java_Interview_Topics-Concurrent</a> 阅读全文。</p>]]></content:encoded>
@@ -483,18 +548,69 @@
         <item>
             <title><![CDATA[Java面试专题-基础篇]]></title>
             <link>https://www.imlklaus.cn/posts/Java_Interview_Topics-Basic</link>
-            <guid>https://www.imlklaus.cn/posts/Java_Interview_Topics-Basic</guid>
-            <pubDate>Fri, 14 Mar 2025 18:05:17 GMT</pubDate>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/Java_Interview_Topics-Basic</guid>
+            <pubDate>Tue, 18 Apr 2023 06:52:05 GMT</pubDate>
             <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV15b4y117RJ">满神Java面试专题</a></p>
 <p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/Java_Interview_Topics-Basic" target="_blank">https://www.imlklaus.cn/posts/Java_Interview_Topics-Basic</a> 阅读全文。</p>]]></content:encoded>
             <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
+            <title><![CDATA[利用valaxy+github+PicGo搭建github图床问题]]></title>
+            <link>https://www.imlklaus.cn/posts/GitHub_Pages_Problem2</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/GitHub_Pages_Problem2</guid>
+            <pubDate>Sun, 16 Apr 2023 17:10:32 GMT</pubDate>
+            <content:encoded><![CDATA[<p>:::warning NEW CDN!!!</p>
+<blockquote>
+<p><code>https://gcore.jsdelivr.net/gh/ {{owner}}/{{repo}}@{{branch}}/{{path}}</code></p>
+</blockquote>
+<p>:::</p>
+<p>::: details 已失效解决方法</p>
+<ol>
+<li>利用valaxy+github搭建个人博客图片不显示?</li>
+</ol>
+<ul>
+<li>使用图床传输图片
+<ul>
+<li>问题：使用牛七、Gitee图床均有问题</li>
+</ul>
+</li>
+</ul>
+<ol start="2">
+<li>2023使用picgo + github搭建图床（typora）,解决jsdelivr问题</li>
+</ol>
+<p>:::</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/GitHub_Pages_Problem2" target="_blank">https://www.imlklaus.cn/posts/GitHub_Pages_Problem2</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[Valaxy+github-pages部署问题]]></title>
+            <link>https://www.imlklaus.cn/posts/GitHub_Pages_Problem1</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/GitHub_Pages_Problem1</guid>
+            <pubDate>Sun, 16 Apr 2023 11:40:50 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Using Valaxy+github to create a personal blog showing 404 errors{lang=&quot;en&quot;}</h2>
+<p>::: en<br>
+When setting up a personal blog, because the project name is not case sensitive when creating the repository, then deploy access to 404 as shown in the image below：<img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/20190917114816230.png" alt="1"><br>
+:::</p>
+<p>::: en</p>
+<p>But if you set the project name in the repository to your github username +.github+.io, you'll be able to access it immediately It must be your github user name, which should be consistent with the github user name. If you do not want to access the address with the <a href="http://suffix.io">suffix.io</a>, you can purchase a personal domain and deploy it in your github project settings</p>
+<p>:::</p>
+<h1>利用Valaxy+github搭建个人博客显示404错误? {lang=&quot;zh-CN&quot;}</h1>
+<p>::: zh-CN<br>
+在搭建个人博客的时候，因为创建仓库设置项目名时没注意大小写，然后部署访问一直404。像下图这样：<img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/20190917114816230.png" alt="1"></p>
+<p>:::</p>
+<p>::: zh-CN</p>
+<p>后来全部改成小写也没有用，翻盘重新安装也没有用。<br>
+但是如果把仓库中设置的项目名设置为：<a href="http://xn--github+-l45kw16a8u9a7s7beodga.github+.io">你的github的用户名+.github+.io</a>,马上就可以访问啦。一定要是你github的用户名，要和github的用户名保持一致，如果不想要这种后缀为.io的访问地址，后期可以购买一个个人域名部署上去。在你github项目的settings里面设置一下就好了。</p>
+<p>:::</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/GitHub_Pages_Problem1" target="_blank">https://www.imlklaus.cn/posts/GitHub_Pages_Problem1</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
+        <item>
             <title><![CDATA[Hello, Valaxy!]]></title>
             <link>https://www.imlklaus.cn/posts/hello-valaxy</link>
-            <guid>https://www.imlklaus.cn/posts/hello-valaxy</guid>
-            <pubDate>Fri, 14 Mar 2025 17:57:56 GMT</pubDate>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/hello-valaxy</guid>
+            <pubDate>Sun, 16 Apr 2023 06:52:05 GMT</pubDate>
             <content:encoded><![CDATA[<h2>What is Valaxy? {lang=&quot;en&quot;}</h2>
 <p>::: en<br>
 Valaxy aims to be a next generation of static blogging frameworks/generators.<br>
@@ -531,86 +647,35 @@ export default defineValaxyConfig&lt;ThemeConfig&gt;({
             <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
-            <title><![CDATA[利用valaxy+github+PicGo搭建github图床问题]]></title>
-            <link>https://www.imlklaus.cn/posts/GitHub_Pages_Problem2</link>
-            <guid>https://www.imlklaus.cn/posts/GitHub_Pages_Problem2</guid>
-            <pubDate>Fri, 14 Mar 2025 17:57:53 GMT</pubDate>
-            <content:encoded><![CDATA[<p>:::warning NEW CDN!!!</p>
-<blockquote>
-<p><code>https://gcore.jsdelivr.net/gh/ {{owner}}/{{repo}}@{{branch}}/{{path}}</code></p>
-</blockquote>
-<p>:::</p>
-<p>::: details 已失效解决方法</p>
-<ol>
-<li>利用valaxy+github搭建个人博客图片不显示?</li>
-</ol>
-<ul>
-<li>使用图床传输图片
-<ul>
-<li>问题：使用牛七、Gitee图床均有问题</li>
-</ul>
-</li>
-</ul>
-<ol start="2">
-<li>2023使用picgo + github搭建图床（typora）,解决jsdelivr问题</li>
-</ol>
-<p>:::</p>
-<br/><p>访问 <a href="https://www.imlklaus.cn/posts/GitHub_Pages_Problem2" target="_blank">https://www.imlklaus.cn/posts/GitHub_Pages_Problem2</a> 阅读全文。</p>]]></content:encoded>
+            <title><![CDATA[Java面试专题-虚拟机篇]]></title>
+            <link>https://www.imlklaus.cn/posts/Java_Interview_Topics-JVM</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/Java_Interview_Topics-JVM</guid>
+            <pubDate>Sun, 16 Apr 2023 06:52:05 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV15b4y117RJ">满神Java面试专题</a></p>
+<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Java_Interview_Topics-JVM" target="_blank">https://www.imlklaus.cn/posts/Java_Interview_Topics-JVM</a> 阅读全文。</p>]]></content:encoded>
             <author>me@imlklaus.cn (imklaus)</author>
         </item>
         <item>
-            <title><![CDATA[Valaxy+github-pages部署问题]]></title>
-            <link>https://www.imlklaus.cn/posts/GitHub_Pages_Problem1</link>
-            <guid>https://www.imlklaus.cn/posts/GitHub_Pages_Problem1</guid>
-            <pubDate>Fri, 14 Mar 2025 17:57:51 GMT</pubDate>
-            <content:encoded><![CDATA[<h2>Using Valaxy+github to create a personal blog showing 404 errors{lang=&quot;en&quot;}</h2>
-<p>::: en<br>
-When setting up a personal blog, because the project name is not case sensitive when creating the repository, then deploy access to 404 as shown in the image below：<img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/20190917114816230.png" alt="1"><br>
-:::</p>
-<p>::: en</p>
-<p>But if you set the project name in the repository to your github username +.github+.io, you'll be able to access it immediately It must be your github user name, which should be consistent with the github user name. If you do not want to access the address with the <a href="http://suffix.io">suffix.io</a>, you can purchase a personal domain and deploy it in your github project settings</p>
-<p>:::</p>
-<h1>利用Valaxy+github搭建个人博客显示404错误? {lang=&quot;zh-CN&quot;}</h1>
-<p>::: zh-CN<br>
-在搭建个人博客的时候，因为创建仓库设置项目名时没注意大小写，然后部署访问一直404。像下图这样：<img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/20190917114816230.png" alt="1"></p>
-<p>:::</p>
-<p>::: zh-CN</p>
-<p>后来全部改成小写也没有用，翻盘重新安装也没有用。<br>
-但是如果把仓库中设置的项目名设置为：<a href="http://xn--github+-l45kw16a8u9a7s7beodga.github+.io">你的github的用户名+.github+.io</a>,马上就可以访问啦。一定要是你github的用户名，要和github的用户名保持一致，如果不想要这种后缀为.io的访问地址，后期可以购买一个个人域名部署上去。在你github项目的settings里面设置一下就好了。</p>
-<p>:::</p>
-<br/><p>访问 <a href="https://www.imlklaus.cn/posts/GitHub_Pages_Problem1" target="_blank">https://www.imlklaus.cn/posts/GitHub_Pages_Problem1</a> 阅读全文。</p>]]></content:encoded>
-            <author>me@imlklaus.cn (imklaus)</author>
-        </item>
-        <item>
-            <title><![CDATA[设计模式之抽象责任链模式-Chain]]></title>
-            <link>https://www.imlklaus.cn/posts/Design_Patterns-Chain</link>
-            <guid>https://www.imlklaus.cn/posts/Design_Patterns-Chain</guid>
-            <pubDate>Fri, 14 Mar 2025 17:53:24 GMT</pubDate>
-            <content:encoded><![CDATA[<h2>责任链模式</h2>
-<h3>1. 什么是责任链</h3>
-<p>责任链设计模式是一种行为型设计模式，其主要目的是解耦请求发送者和请求接收者，让多个对象都有机会处理请求，从而避免请求发送者和接收者之间的紧耦合。</p>
-<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Design_Patterns-Chain" target="_blank">https://www.imlklaus.cn/posts/Design_Patterns-Chain</a> 阅读全文。</p>]]></content:encoded>
-            <author>me@imlklaus.cn (imklaus)</author>
-        </item>
-        <item>
-            <title><![CDATA[Spring Cloud组件]]></title>
-            <link>https://www.imlklaus.cn/posts/SpringCloud-Component</link>
-            <guid>https://www.imlklaus.cn/posts/SpringCloud-Component</guid>
-            <pubDate>Wed, 26 Apr 2023 15:30:14 GMT</pubDate>
-            <content:encoded><![CDATA[<h2>1、SpringCloud Alibaba 简介</h2>
-<h3>1）、简介</h3>
+            <title><![CDATA[mall项目总结]]></title>
+            <link>https://www.imlklaus.cn/posts/mall</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/mall</guid>
+            <pubDate>Tue, 11 Apr 2023 16:45:36 GMT</pubDate>
+            <description><![CDATA[基于微服务架构的商品贸易平台]]></description>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1np4y1C7Yf/">雷神谷粒商城项目</a></p>
+<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20230315150052611.png" alt="mall"></p>
+<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20230315145952769.png" alt="mall"></p>
+<h2>项目名称</h2>
 <ul>
-<li>
-<p>Spring Cloud Alibaba 致力于提供微服务开发的一站式解决方案。此项目包含开发分布式应用微服务的必需组件，方便开发者通过 Spring Cloud 编程模型轻松使用这些组件来开发分布式应用服务。</p>
-</li>
-<li>
-<p>依托 Spring Cloud Alibaba，您只需要添加一些注解和少量配置，就可以将 Spring Cloud 应用接入阿里微服务解决方案，通过阿里中间件来迅速搭建分布式应用系统。</p>
-</li>
-<li>
-<p><a href="https://github.com/alibaba/spring-cloud-alibaba">https://github.com/alibaba/spring-cloud-alibaba</a></p>
-</li>
+<li>书阁”图书商城管理系统、微盟电子商城网络交易系统、高校闲置资源交易系统</li>
+<li>购物在“e”零售商城平台、惠农通—智慧农资商城 、农产品轻量级微商城系统</li>
+<li>精美鞋业贸易系统</li>
 </ul>
-<br/><p>访问 <a href="https://www.imlklaus.cn/posts/SpringCloud-Component" target="_blank">https://www.imlklaus.cn/posts/SpringCloud-Component</a> 阅读全文。</p>]]></content:encoded>
+<h2>项目简介</h2>
+<ul>
+<li>本系统采用微服务架构设计，在分布式环境下利用Spring Cloud框架，通过业务划分，设计独立模块的微服务，拆分为订单服务、购物车服务、支付服务、用户管理服务、商品管理服务、文件上传服务等模块，结合了当前比较流行的互联网电商模式，为消费者提供商品贸易平台。</li>
+</ul>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/mall" target="_blank">https://www.imlklaus.cn/posts/mall</a> 阅读全文。</p>]]></content:encoded>
             <author>me@imlklaus.cn (imklaus)</author>
         </item>
     </channel>
