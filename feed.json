@@ -360,7 +360,7 @@
         },
         {
             "id": "https://www.imlklaus.cn/posts/System_interface",
-            "content_html": "<h2>基本介绍</h2>\n<p><a href=\"http://doc.ruoyi.vip/ruoyi/document/htsc.html#%E7%B3%BB%E7%BB%9F%E6%8E%A5%E5%8F%A3\">参考系统接口实现</a></p>\n<p>在现在的开发过程中还有很大一部分公司都是以口口相传的方式来进行前后端的联调，而接口文档很大一部分都只停留在了说说而已的地步，或者写了代码再写文档。 还有一点就是文档的修改，定义好的接口并不是一成不变的，可能在开发过程中文档修改不止一次的变化，这个时候就会很难受了。 只要不是强制性要求，没人会愿意写这东西，而且在写的过程中，一个字母的错误就会导致联调时候的很大麻烦，但是通过<code>Swagger</code>，我们可以省略了这一步，而且文档出错率近乎于零， 只要你在写代码的时候，稍加几个注解，文档自动生成。</p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/System_interface\" target=\"_blank\">https://www.imlklaus.cn/posts/System_interface</a> 阅读全文。</p>",
+            "content_html": "<h2>基本介绍</h2>\n<p><a href=\"https://doc.ruoyi.vip/ruoyi/document/htsc.html#%E7%B3%BB%E7%BB%9F%E6%8E%A5%E5%8F%A3\">参考系统接口实现</a></p>\n<p>在现在的开发过程中还有很大一部分公司都是以口口相传的方式来进行前后端的联调，而接口文档很大一部分都只停留在了说说而已的地步，或者写了代码再写文档。 还有一点就是文档的修改，定义好的接口并不是一成不变的，可能在开发过程中文档修改不止一次的变化，这个时候就会很难受了。 只要不是强制性要求，没人会愿意写这东西，而且在写的过程中，一个字母的错误就会导致联调时候的很大麻烦，但是通过<code>Swagger</code>，我们可以省略了这一步，而且文档出错率近乎于零， 只要你在写代码的时候，稍加几个注解，文档自动生成。</p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/System_interface\" target=\"_blank\">https://www.imlklaus.cn/posts/System_interface</a> 阅读全文。</p>",
             "url": "https://www.imlklaus.cn/posts/System_interface",
             "title": "系统接口",
             "date_modified": "2023-04-26T07:50:12.000Z",
