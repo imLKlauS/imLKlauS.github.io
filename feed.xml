@@ -4,7 +4,7 @@
         <title>imklaus's Blog </title>
         <link>https://www.imlklaus.cn/</link>
         <description>The Winner Takes It All.</description>
-        <lastBuildDate>Sun, 16 Nov 2025 19:30:13 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 16 Nov 2025 19:44:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,16 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2025 © imklaus</copyright>
         <atom:link href="https://www.imlklaus.cn/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Java虚拟机从入门到精通]]></title>
+            <link>https://www.imlklaus.cn/posts/JVM</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/JVM</guid>
+            <pubDate>Sun, 16 Nov 2025 19:18:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1yE411Z7AP">满神Java虚拟机快速入门</a></p>
+<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/JVM" target="_blank">https://www.imlklaus.cn/posts/JVM</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
         <item>
             <title><![CDATA[第五章. 后端之于前端 - React]]></title>
             <link>https://www.imlklaus.cn/posts/React</link>
