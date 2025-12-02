@@ -206,7 +206,7 @@
             "id": "https://www.imlklaus.cn/posts/Concurrent_Programming-Memory",
             "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV16J411h7Rd\">满神JUC并发编程全套教程</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/Concurrent_Programming-Memory\" target=\"_blank\">https://www.imlklaus.cn/posts/Concurrent_Programming-Memory</a> 阅读全文。</p>",
             "url": "https://www.imlklaus.cn/posts/Concurrent_Programming-Memory",
-            "title": "并发编程整理版-内存",
+            "title": "并发编程整理版 - 内存",
             "date_modified": "2023-11-22T15:57:58.000Z",
             "date_published": "2023-11-22T15:57:58.000Z",
             "author": {
@@ -242,7 +242,7 @@
             "id": "https://www.imlklaus.cn/posts/Concurrent_Programming-JUC",
             "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV16J411h7Rd\">满神JUC并发编程全套教程</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/Concurrent_Programming-JUC\" target=\"_blank\">https://www.imlklaus.cn/posts/Concurrent_Programming-JUC</a> 阅读全文。</p>",
             "url": "https://www.imlklaus.cn/posts/Concurrent_Programming-JUC",
-            "title": "并发编程整理版-JUC",
+            "title": "并发编程整理版 - JUC",
             "date_modified": "2023-08-24T11:13:57.000Z",
             "date_published": "2023-08-24T11:13:57.000Z",
             "author": {
@@ -254,7 +254,7 @@
             "id": "https://www.imlklaus.cn/posts/Concurrent_Programming-Synchronizer",
             "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV16J411h7Rd\">满神JUC并发编程全套教程</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/Concurrent_Programming-Synchronizer\" target=\"_blank\">https://www.imlklaus.cn/posts/Concurrent_Programming-Synchronizer</a> 阅读全文。</p>",
             "url": "https://www.imlklaus.cn/posts/Concurrent_Programming-Synchronizer",
-            "title": "并发编程整理版-同步器",
+            "title": "并发编程整理版 - 同步器",
             "date_modified": "2023-08-24T11:11:16.000Z",
             "date_published": "2023-08-24T11:11:16.000Z",
             "author": {
@@ -266,7 +266,7 @@
             "id": "https://www.imlklaus.cn/posts/Concurrent_Programming-threadPool",
             "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV16J411h7Rd\">满神JUC并发编程全套教程</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/Concurrent_Programming-threadPool\" target=\"_blank\">https://www.imlklaus.cn/posts/Concurrent_Programming-threadPool</a> 阅读全文。</p>",
             "url": "https://www.imlklaus.cn/posts/Concurrent_Programming-threadPool",
-            "title": "并发编程整理版-线程池",
+            "title": "并发编程整理版 - 线程池",
             "date_modified": "2023-08-24T11:03:22.000Z",
             "date_published": "2023-08-24T11:03:22.000Z",
             "author": {
@@ -278,7 +278,7 @@
             "id": "https://www.imlklaus.cn/posts/Concurrent_Programming-Basic+Synchronous",
             "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV16J411h7Rd\">满神JUC并发编程全套教程</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/Concurrent_Programming-Basic+Synchronous\" target=\"_blank\">https://www.imlklaus.cn/posts/Concurrent_Programming-Basic+Synchronous</a> 阅读全文。</p>",
             "url": "https://www.imlklaus.cn/posts/Concurrent_Programming-Basic+Synchronous",
-            "title": "并发编程整理版-基础/同步",
+            "title": "并发编程整理版 - 基础/同步",
             "date_modified": "2023-08-24T10:49:36.000Z",
             "date_published": "2023-08-24T10:49:36.000Z",
             "author": {
@@ -290,7 +290,7 @@
             "id": "https://www.imlklaus.cn/posts/Concurrent_Programming-Lock_Free",
             "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV16J411h7Rd\">满神JUC并发编程全套教程</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/Concurrent_Programming-Lock_Free\" target=\"_blank\">https://www.imlklaus.cn/posts/Concurrent_Programming-Lock_Free</a> 阅读全文。</p>",
             "url": "https://www.imlklaus.cn/posts/Concurrent_Programming-Lock_Free",
-            "title": "并发编程整理版-无锁",
+            "title": "并发编程整理版 - 无锁",
             "date_modified": "2023-08-24T10:49:36.000Z",
             "date_published": "2023-08-24T10:49:36.000Z",
             "author": {
@@ -302,7 +302,7 @@
             "id": "https://www.imlklaus.cn/posts/Spring-Security",
             "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV1j8411N7Bm/\">黑马学成在线项目</a></p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/Spring-Security\" target=\"_blank\">https://www.imlklaus.cn/posts/Spring-Security</a> 阅读全文。</p>",
             "url": "https://www.imlklaus.cn/posts/Spring-Security",
-            "title": "认证授权-Spring Security",
+            "title": "认证授权 - Spring Security",
             "date_modified": "2023-07-05T13:50:51.000Z",
             "date_published": "2023-07-05T13:50:51.000Z",
             "author": {
@@ -314,7 +314,7 @@
             "id": "https://www.imlklaus.cn/posts/xxlJob",
             "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV1j8411N7Bm/\">黑马学成在线项目</a></p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/xxlJob\" target=\"_blank\">https://www.imlklaus.cn/posts/xxlJob</a> 阅读全文。</p>",
             "url": "https://www.imlklaus.cn/posts/xxlJob",
-            "title": "分布式任务调度-xxlJob",
+            "title": "分布式任务调度 - xxlJob",
             "date_modified": "2023-07-05T10:00:06.000Z",
             "date_published": "2023-07-05T10:00:06.000Z",
             "author": {
@@ -326,7 +326,7 @@
             "id": "https://www.imlklaus.cn/posts/minio",
             "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV1j8411N7Bm/\">黑马学成在线项目</a></p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/minio\" target=\"_blank\">https://www.imlklaus.cn/posts/minio</a> 阅读全文。</p>",
             "url": "https://www.imlklaus.cn/posts/minio",
-            "title": "分布式文件系统-minio",
+            "title": "分布式文件系统 - minio",
             "date_modified": "2023-07-04T13:21:17.000Z",
             "date_published": "2023-07-04T13:21:17.000Z",
             "author": {
@@ -398,7 +398,7 @@
             "id": "https://www.imlklaus.cn/posts/Java_Interview_Topics-Framework",
             "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV15b4y117RJ\">满神Java面试专题</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/Java_Interview_Topics-Framework\" target=\"_blank\">https://www.imlklaus.cn/posts/Java_Interview_Topics-Framework</a> 阅读全文。</p>",
             "url": "https://www.imlklaus.cn/posts/Java_Interview_Topics-Framework",
-            "title": "Java面试专题-框架篇",
+            "title": "Java面试专题 - 框架篇",
             "date_modified": "2023-04-21T11:52:05.000Z",
             "date_published": "2023-04-21T11:52:05.000Z",
             "author": {
@@ -410,7 +410,7 @@
             "id": "https://www.imlklaus.cn/posts/Java_Interview_Topics-Concurrent",
             "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV15b4y117RJ\">满神Java面试专题</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/Java_Interview_Topics-Concurrent\" target=\"_blank\">https://www.imlklaus.cn/posts/Java_Interview_Topics-Concurrent</a> 阅读全文。</p>",
             "url": "https://www.imlklaus.cn/posts/Java_Interview_Topics-Concurrent",
-            "title": "Java面试专题-并发篇",
+            "title": "Java面试专题 - 并发篇",
             "date_modified": "2023-04-19T06:52:05.000Z",
             "date_published": "2023-04-19T06:52:05.000Z",
             "author": {
@@ -422,7 +422,7 @@
             "id": "https://www.imlklaus.cn/posts/Java_Interview_Topics-Basic",
             "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV15b4y117RJ\">满神Java面试专题</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/Java_Interview_Topics-Basic\" target=\"_blank\">https://www.imlklaus.cn/posts/Java_Interview_Topics-Basic</a> 阅读全文。</p>",
             "url": "https://www.imlklaus.cn/posts/Java_Interview_Topics-Basic",
-            "title": "Java面试专题-基础篇",
+            "title": "Java面试专题 - 基础篇",
             "date_modified": "2023-04-18T06:52:05.000Z",
             "date_published": "2023-04-18T06:52:05.000Z",
             "author": {
@@ -470,7 +470,7 @@
             "id": "https://www.imlklaus.cn/posts/Java_Interview_Topics-JVM",
             "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV15b4y117RJ\">满神Java面试专题</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/Java_Interview_Topics-JVM\" target=\"_blank\">https://www.imlklaus.cn/posts/Java_Interview_Topics-JVM</a> 阅读全文。</p>",
             "url": "https://www.imlklaus.cn/posts/Java_Interview_Topics-JVM",
-            "title": "Java面试专题-虚拟机篇",
+            "title": "Java面试专题 - 虚拟机篇",
             "date_modified": "2023-04-16T06:52:05.000Z",
             "date_published": "2023-04-16T06:52:05.000Z",
             "author": {
