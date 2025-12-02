@@ -11,6 +11,18 @@
     },
     "items": [
         {
+            "id": "https://www.imlklaus.cn/posts/interview2025",
+            "content_html": "<h2>自我介绍</h2>\n<hr>\n<h3>核心原则</h3>\n<ol>\n<li><strong>结构化清晰</strong>：遵循“总 - 分 - 总”的逻辑，让面试官轻松跟上你的思路。</li>\n<li><strong>价值导向</strong>：不说“我做了XX</li>\n</ol>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/interview2025\" target=\"_blank\">https://www.imlklaus.cn/posts/interview2025</a> 阅读全文。</p>",
+            "url": "https://www.imlklaus.cn/posts/interview2025",
+            "title": "面试笔录",
+            "date_modified": "2025-12-02T18:31:00.000Z",
+            "date_published": "2025-12-02T18:31:00.000Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://www.imlklaus.cn/"
+            }
+        },
+        {
             "id": "https://www.imlklaus.cn/posts/JVM",
             "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV1yE411Z7AP\">满神Java虚拟机快速入门</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/JVM\" target=\"_blank\">https://www.imlklaus.cn/posts/JVM</a> 阅读全文。</p>",
             "url": "https://www.imlklaus.cn/posts/JVM",
