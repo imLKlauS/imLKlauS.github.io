@@ -4,7 +4,7 @@
         <title>imklaus's Blog </title>
         <link>https://www.imlklaus.cn/</link>
         <description>The Winner Takes It All.</description>
-        <lastBuildDate>Wed, 03 Dec 2025 16:30:39 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Dec 2025 17:41:06 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -19,13 +19,7 @@
             <link>https://www.imlklaus.cn/posts/interview2025</link>
             <guid isPermaLink="false">https://www.imlklaus.cn/posts/interview2025</guid>
             <pubDate>Tue, 02 Dec 2025 18:31:00 GMT</pubDate>
-            <content:encoded><![CDATA[<h2>自我介绍</h2>
-<hr>
-<h3>核心原则</h3>
-<ol>
-<li><strong>结构化清晰</strong>：遵循“总 - 分 - 总”的逻辑，让面试官轻松跟上你的思路。</li>
-<li><strong>价值导向</strong>：不说“我做了XX</li>
-</ol>
+            <content:encoded><![CDATA[<p>Java 后端开发2025年面经与项目面试技巧（DeepSeek总结版）</p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/interview2025" target="_blank">https://www.imlklaus.cn/posts/interview2025</a> 阅读全文。</p>]]></content:encoded>
             <author>me@imlklaus.cn (imklaus)</author>
         </item>
