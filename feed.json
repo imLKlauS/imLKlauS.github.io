@@ -11,8 +11,32 @@
     },
     "items": [
         {
+            "id": "https://www.imlklaus.cn/posts/Multi-level_cache",
+            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV1LQ4y127n4\">黑马SpringCloud微服务技术栈原理篇</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<p><strong>目录指引</strong>：</p>\n<p>[[toc]]</p>\n<h2>1. 什么是多级缓存</h2>\n<p>传统的缓存策略一般是请求到达Tomcat后，先查询Redis，如果未命中则查询数据库，如图：</p>\n<p><img src=\"https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20210821075259137.png\" alt=\"image-20210821075259137\"></p>\n<p>存在下面的问题：</p>\n<ul>\n<li>\n<p>请求要经过Tomcat处理，Tomcat的性能成为整个系统的瓶颈</p>\n</li>\n<li>\n<p>Redis缓存失效时，会对数据库产生冲击</p>\n</li>\n</ul>\n<p>多级缓存就是充分利用请求处理的每个环节，分别添加缓存，减轻Tomcat压力，提升服务性能：</p>\n<ul>\n<li>浏览器访问静态资源时，优先读取浏览器本地缓存</li>\n<li>访问非静态资源（ajax查询数据）时，访问服务端</li>\n<li>请求到达Nginx后，优先读取Nginx本地缓存</li>\n<li>如果Nginx本地缓存未命中，则去直接查询Redis（不经过Tomcat）</li>\n<li>如果Redis查询未命中，则查询Tomcat</li>\n<li>请求进入Tomcat后，优先查询JVM进程缓存</li>\n<li>如果JVM进程缓存未命中，则查询数据库</li>\n</ul>\n<p><img src=\"https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20210821075558137.png\" alt=\"image-20210821075558137\"></p>\n<p>在多级缓存架构中，Nginx内部需要编写本地缓存查询、Redis查询、Tomcat查询的业务逻辑，因此这样的nginx服务不再是一个<strong>反向代理服务器</strong>，而是一个编写<strong>业务的Web服务器了</strong>。</p>\n<p>因此这样的业务Nginx服务也需要搭建集群来提高并发，再有专门的nginx服务来做反向代理，如图：</p>\n<p><img src=\"https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20210821080511581.png\" alt=\"image-20210821080511581\"></p>\n<p>另外，我们的Tomcat服务将来也会部署为集群模式：</p>\n<p><img src=\"https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20210821080954947.png\" alt=\"image-20210821080954947\"></p>\n<p>可见，多级缓存的关键有两个：</p>\n<ul>\n<li>\n<p>一个是在nginx中编写业务，实现nginx本地缓存、Redis、Tomcat的查询</p>\n</li>\n<li>\n<p>另一个就是在Tomcat中实现JVM进程缓存</p>\n</li>\n</ul>\n<p>其中Nginx编程则会用到OpenResty框架结合Lua这样的语言。</p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/Multi-level_cache\" target=\"_blank\">https://www.imlklaus.cn/posts/Multi-level_cache</a> 阅读全文。</p>",
+            "url": "https://www.imlklaus.cn/posts/Multi-level_cache",
+            "title": "深入理解多级缓存",
+            "date_modified": "2025-12-05T15:01:00.000Z",
+            "date_published": "2025-12-05T15:01:00.000Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://www.imlklaus.cn/"
+            }
+        },
+        {
+            "id": "https://www.imlklaus.cn/posts/Java_Interview_Topics-Microservices+Middleware",
+            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV1LQ4y127n4\">黑马SpringCloud微服务技术栈面试篇</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/Java_Interview_Topics-Microservices+Middleware\" target=\"_blank\">https://www.imlklaus.cn/posts/Java_Interview_Topics-Microservices+Middleware</a> 阅读全文。</p>",
+            "url": "https://www.imlklaus.cn/posts/Java_Interview_Topics-Microservices+Middleware",
+            "title": "Java面试专题 - 微服务与中间件",
+            "date_modified": "2025-12-05T10:00:10.000Z",
+            "date_published": "2025-12-05T10:00:10.000Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://www.imlklaus.cn/"
+            }
+        },
+        {
             "id": "https://www.imlklaus.cn/posts/RabbitMQ",
-            "content_html": "<h2>服务异步通信-实用篇</h2>\n<h3>1. 初识MQ</h3>\n<h4>1.1 同步和异步通讯</h4>\n<p>微服务间通讯有同步和异步两种方式：</p>\n<p>同步通讯：就像打电话，需要实时响应。</p>\n<p>异步通讯：就像发邮件，不需要马上回复。</p>\n<p><img src=\"https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20210717161939695.png\" alt=\"image-20210717161939695\"></p>\n<p>两种方式各有优劣，打电话可以立即得到响应，但是你却不能跟多个人同时通话。发送邮件可以同时与多个人收发邮件，但是往往响应会有延迟。</p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/RabbitMQ\" target=\"_blank\">https://www.imlklaus.cn/posts/RabbitMQ</a> 阅读全文。</p>",
+            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV1mN4y1Z7t9\">黑马RabbitMQ深入学习</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<p><strong>目录指引</strong>：</p>\n<p>[[toc]]</p>\n<h2>服务异步通信-实用篇</h2>\n<hr>\n<h3>1. 初识MQ</h3>\n<h4>1.1 同步和异步通讯</h4>\n<p>微服务间通讯有同步和异步两种方式：</p>\n<p>同步通讯：就像打电话，需要实时响应。</p>\n<p>异步通讯：就像发邮件，不需要马上回复。</p>\n<p><img src=\"https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20210717161939695.png\" alt=\"image-20210717161939695\"></p>\n<p>两种方式各有优劣，打电话可以立即得到响应，但是你却不能跟多个人同时通话。发送邮件可以同时与多个人收发邮件，但是往往响应会有延迟。</p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/RabbitMQ\" target=\"_blank\">https://www.imlklaus.cn/posts/RabbitMQ</a> 阅读全文。</p>",
             "url": "https://www.imlklaus.cn/posts/RabbitMQ",
             "title": "深入理解 RabbitMQ",
             "date_modified": "2025-12-05T07:00:10.000Z",
@@ -24,7 +48,7 @@
         },
         {
             "id": "https://www.imlklaus.cn/posts/Redis",
-            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV1cr4y1671t\">黑马 Redis 快速入门</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<h2>Redis 快速入门</h2>\n<p>Redis的常见命令和客户端使用</p>\n<hr>\n<h3>1. 初识 Redis</h3>\n<p>Redis是一种键值型的NoSql数据库，这里有两个关键字：</p>\n<ul>\n<li>\n<p>键值型</p>\n</li>\n<li>\n<p>NoSql</p>\n</li>\n</ul>\n<p>其中<strong>键值型</strong>，是指Redis中存储的数据都是以key、value对的形式存储，而value的形式多种多样，可以是字符串、数值、甚至json：</p>\n<p><img src=\"https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/6U1Rhxo.png\" alt=\"image-20220502190959608\"></p>\n<p>而NoSql则是相对于传统关系型数据库而言，有很大差异的一种数据库。</p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/Redis\" target=\"_blank\">https://www.imlklaus.cn/posts/Redis</a> 阅读全文。</p>",
+            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV1cr4y1671t\">黑马 Redis 快速入门</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<p><strong>目录指引</strong>：</p>\n<p>[[toc]]</p>\n<h2>Redis 快速入门</h2>\n<p>Redis的常见命令和客户端使用</p>\n<hr>\n<h3>1. 初识 Redis</h3>\n<p>Redis是一种键值型的NoSql数据库，这里有两个关键字：</p>\n<ul>\n<li>\n<p>键值型</p>\n</li>\n<li>\n<p>NoSql</p>\n</li>\n</ul>\n<p>其中<strong>键值型</strong>，是指Redis中存储的数据都是以key、value对的形式存储，而value的形式多种多样，可以是字符串、数值、甚至json：</p>\n<p><img src=\"https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/6U1Rhxo.png\" alt=\"image-20220502190959608\"></p>\n<p>而NoSql则是相对于传统关系型数据库而言，有很大差异的一种数据库。</p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/Redis\" target=\"_blank\">https://www.imlklaus.cn/posts/Redis</a> 阅读全文。</p>",
             "url": "https://www.imlklaus.cn/posts/Redis",
             "title": "深入理解 Redis",
             "date_modified": "2025-12-04T12:00:10.000Z",
@@ -48,7 +72,7 @@
         },
         {
             "id": "https://www.imlklaus.cn/posts/JVM",
-            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV1yE411Z7AP\">满神Java虚拟机快速入门</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/JVM\" target=\"_blank\">https://www.imlklaus.cn/posts/JVM</a> 阅读全文。</p>",
+            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV1yE411Z7AP\">满神Java虚拟机快速入门</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<p><strong>目录指引</strong>：</p>\n<p>[[toc]]</p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/JVM\" target=\"_blank\">https://www.imlklaus.cn/posts/JVM</a> 阅读全文。</p>",
             "url": "https://www.imlklaus.cn/posts/JVM",
             "title": "Java 虚拟机从入门到精通",
             "date_modified": "2025-11-16T19:18:00.000Z",

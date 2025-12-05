@@ -4,7 +4,7 @@
         <title>imklaus's Blog </title>
         <link>https://www.imlklaus.cn/</link>
         <description>The Winner Takes It All.</description>
-        <lastBuildDate>Fri, 05 Dec 2025 08:32:06 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 05 Dec 2025 17:59:59 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -15,11 +15,76 @@
         <copyright>CC BY-NC-SA 4.0 2025 © imklaus</copyright>
         <atom:link href="https://www.imlklaus.cn/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[深入理解多级缓存]]></title>
+            <link>https://www.imlklaus.cn/posts/Multi-level_cache</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/Multi-level_cache</guid>
+            <pubDate>Fri, 05 Dec 2025 15:01:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1LQ4y127n4">黑马SpringCloud微服务技术栈原理篇</a></p>
+<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
+<p><strong>目录指引</strong>：</p>
+<p>[[toc]]</p>
+<h2>1. 什么是多级缓存</h2>
+<p>传统的缓存策略一般是请求到达Tomcat后，先查询Redis，如果未命中则查询数据库，如图：</p>
+<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20210821075259137.png" alt="image-20210821075259137"></p>
+<p>存在下面的问题：</p>
+<ul>
+<li>
+<p>请求要经过Tomcat处理，Tomcat的性能成为整个系统的瓶颈</p>
+</li>
+<li>
+<p>Redis缓存失效时，会对数据库产生冲击</p>
+</li>
+</ul>
+<p>多级缓存就是充分利用请求处理的每个环节，分别添加缓存，减轻Tomcat压力，提升服务性能：</p>
+<ul>
+<li>浏览器访问静态资源时，优先读取浏览器本地缓存</li>
+<li>访问非静态资源（ajax查询数据）时，访问服务端</li>
+<li>请求到达Nginx后，优先读取Nginx本地缓存</li>
+<li>如果Nginx本地缓存未命中，则去直接查询Redis（不经过Tomcat）</li>
+<li>如果Redis查询未命中，则查询Tomcat</li>
+<li>请求进入Tomcat后，优先查询JVM进程缓存</li>
+<li>如果JVM进程缓存未命中，则查询数据库</li>
+</ul>
+<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20210821075558137.png" alt="image-20210821075558137"></p>
+<p>在多级缓存架构中，Nginx内部需要编写本地缓存查询、Redis查询、Tomcat查询的业务逻辑，因此这样的nginx服务不再是一个<strong>反向代理服务器</strong>，而是一个编写<strong>业务的Web服务器了</strong>。</p>
+<p>因此这样的业务Nginx服务也需要搭建集群来提高并发，再有专门的nginx服务来做反向代理，如图：</p>
+<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20210821080511581.png" alt="image-20210821080511581"></p>
+<p>另外，我们的Tomcat服务将来也会部署为集群模式：</p>
+<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20210821080954947.png" alt="image-20210821080954947"></p>
+<p>可见，多级缓存的关键有两个：</p>
+<ul>
+<li>
+<p>一个是在nginx中编写业务，实现nginx本地缓存、Redis、Tomcat的查询</p>
+</li>
+<li>
+<p>另一个就是在Tomcat中实现JVM进程缓存</p>
+</li>
+</ul>
+<p>其中Nginx编程则会用到OpenResty框架结合Lua这样的语言。</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Multi-level_cache" target="_blank">https://www.imlklaus.cn/posts/Multi-level_cache</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[Java面试专题 - 微服务与中间件]]></title>
+            <link>https://www.imlklaus.cn/posts/Java_Interview_Topics-Microservices+Middleware</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/Java_Interview_Topics-Microservices+Middleware</guid>
+            <pubDate>Fri, 05 Dec 2025 10:00:10 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1LQ4y127n4">黑马SpringCloud微服务技术栈面试篇</a></p>
+<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Java_Interview_Topics-Microservices+Middleware" target="_blank">https://www.imlklaus.cn/posts/Java_Interview_Topics-Microservices+Middleware</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
+        <item>
             <title><![CDATA[深入理解 RabbitMQ]]></title>
             <link>https://www.imlklaus.cn/posts/RabbitMQ</link>
             <guid isPermaLink="false">https://www.imlklaus.cn/posts/RabbitMQ</guid>
             <pubDate>Fri, 05 Dec 2025 07:00:10 GMT</pubDate>
-            <content:encoded><![CDATA[<h2>服务异步通信-实用篇</h2>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1mN4y1Z7t9">黑马RabbitMQ深入学习</a></p>
+<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
+<p><strong>目录指引</strong>：</p>
+<p>[[toc]]</p>
+<h2>服务异步通信-实用篇</h2>
+<hr>
 <h3>1. 初识MQ</h3>
 <h4>1.1 同步和异步通讯</h4>
 <p>微服务间通讯有同步和异步两种方式：</p>
@@ -37,6 +102,8 @@
             <pubDate>Thu, 04 Dec 2025 12:00:10 GMT</pubDate>
             <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1cr4y1671t">黑马 Redis 快速入门</a></p>
 <p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
+<p><strong>目录指引</strong>：</p>
+<p>[[toc]]</p>
 <h2>Redis 快速入门</h2>
 <p>Redis的常见命令和客户端使用</p>
 <hr>
@@ -72,6 +139,8 @@
             <pubDate>Sun, 16 Nov 2025 19:18:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1yE411Z7AP">满神Java虚拟机快速入门</a></p>
 <p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
+<p><strong>目录指引</strong>：</p>
+<p>[[toc]]</p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/JVM" target="_blank">https://www.imlklaus.cn/posts/JVM</a> 阅读全文。</p>]]></content:encoded>
             <author>me@imlklaus.cn (imklaus)</author>
         </item>
