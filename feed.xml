@@ -4,7 +4,7 @@
         <title>imklaus's Blog </title>
         <link>https://www.imlklaus.cn/</link>
         <description>The Winner Takes It All.</description>
-        <lastBuildDate>Thu, 04 Dec 2025 20:13:32 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 05 Dec 2025 08:32:06 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -15,12 +15,44 @@
         <copyright>CC BY-NC-SA 4.0 2025 © imklaus</copyright>
         <atom:link href="https://www.imlklaus.cn/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[Redis 从入门到精通]]></title>
+            <title><![CDATA[深入理解 RabbitMQ]]></title>
+            <link>https://www.imlklaus.cn/posts/RabbitMQ</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/RabbitMQ</guid>
+            <pubDate>Fri, 05 Dec 2025 07:00:10 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>服务异步通信-实用篇</h2>
+<h3>1. 初识MQ</h3>
+<h4>1.1 同步和异步通讯</h4>
+<p>微服务间通讯有同步和异步两种方式：</p>
+<p>同步通讯：就像打电话，需要实时响应。</p>
+<p>异步通讯：就像发邮件，不需要马上回复。</p>
+<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20210717161939695.png" alt="image-20210717161939695"></p>
+<p>两种方式各有优劣，打电话可以立即得到响应，但是你却不能跟多个人同时通话。发送邮件可以同时与多个人收发邮件，但是往往响应会有延迟。</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/RabbitMQ" target="_blank">https://www.imlklaus.cn/posts/RabbitMQ</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[深入理解 Redis]]></title>
             <link>https://www.imlklaus.cn/posts/Redis</link>
             <guid isPermaLink="false">https://www.imlklaus.cn/posts/Redis</guid>
             <pubDate>Thu, 04 Dec 2025 12:00:10 GMT</pubDate>
-            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1cr4y1671t">黑马<code>Redis</code>快速入门</a></p>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1cr4y1671t">黑马 Redis 快速入门</a></p>
 <p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
+<h2>Redis 快速入门</h2>
+<p>Redis的常见命令和客户端使用</p>
+<hr>
+<h3>1. 初识 Redis</h3>
+<p>Redis是一种键值型的NoSql数据库，这里有两个关键字：</p>
+<ul>
+<li>
+<p>键值型</p>
+</li>
+<li>
+<p>NoSql</p>
+</li>
+</ul>
+<p>其中<strong>键值型</strong>，是指Redis中存储的数据都是以key、value对的形式存储，而value的形式多种多样，可以是字符串、数值、甚至json：</p>
+<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/6U1Rhxo.png" alt="image-20220502190959608"></p>
+<p>而NoSql则是相对于传统关系型数据库而言，有很大差异的一种数据库。</p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/Redis" target="_blank">https://www.imlklaus.cn/posts/Redis</a> 阅读全文。</p>]]></content:encoded>
             <author>me@imlklaus.cn (imklaus)</author>
         </item>
