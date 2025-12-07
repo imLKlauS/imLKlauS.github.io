@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.imlklaus.cn/</id>
     <title>imklaus's Blog </title>
-    <updated>2025-12-05T17:59:59.212Z</updated>
+    <updated>2025-12-07T20:23:17.689Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>imklaus</name>
@@ -15,6 +15,140 @@
     <logo>https://www.imlklaus.cn/images/tiamat8.jpg</logo>
     <icon>https://www.imlklaus.cn/favicon/dinosaur-egg.png</icon>
     <rights>CC BY-NC-SA 4.0 2025 © imklaus</rights>
+    <entry>
+        <title type="html"><![CDATA[Nacos源码分析]]></title>
+        <id>https://www.imlklaus.cn/posts/Nacos-Source_Code_Analysis</id>
+        <link href="https://www.imlklaus.cn/posts/Nacos-Source_Code_Analysis"/>
+        <updated>2025-12-07T19:44:00.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/2880613-20240312164528519-1002970787.png" alt=""></p>
+<p>参考视频：<a href="https://www.bilibili.com/video/BV1LQ4y127n4">黑马SpringCloud微服务技术栈原理篇</a></p>
+<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
+<p><strong>目录指引</strong>：</p>
+<p>[[toc]]</p>
+<h2>1. 下载Nacos源码并运行</h2>
+<p>要研究Nacos源码自然不能用打包好的Nacos服务端jar包来运行，需要下载源码自己编译来运行。</p>
+<h3>1.1 下载Nacos源码</h3>
+<p>Nacos的GitHub地址：<a href="https://github.com/alibaba/nacos">https://github.com/alibaba/nacos</a></p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Nacos-Source_Code_Analysis" target="_blank">https://www.imlklaus.cn/posts/Nacos-Source_Code_Analysis</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>imklaus</name>
+            <email>me@imlklaus.cn</email>
+            <uri>https://www.imlklaus.cn/</uri>
+        </author>
+        <published>2025-12-07T19:44:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sentinel源码分析]]></title>
+        <id>https://www.imlklaus.cn/posts/Sentinel-Source_Code_Analysis</id>
+        <link href="https://www.imlklaus.cn/posts/Sentinel-Source_Code_Analysis"/>
+        <updated>2025-12-07T19:27:10.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20251208033330494.png" alt="image-20251208033330494"></p>
+<p>参考视频：<a href="https://www.bilibili.com/video/BV1LQ4y127n4">黑马SpringCloud微服务技术栈原理篇</a></p>
+<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
+<p><strong>目录指引</strong>：</p>
+<p>[[toc]]</p>
+<h2>1. Sentinel的基本概念</h2>
+<p>Sentinel实现限流、隔离、降级、熔断等功能，本质要做的就是两件事情：</p>
+<ul>
+<li>统计数据：统计某个资源的访问数据（QPS、RT等信息）</li>
+<li>规则判断：判断限流规则、隔离规则、降级规则、熔断规则是否满足</li>
+</ul>
+<p>这里的<strong>资源</strong>就是希望被Sentinel保护的业务，例如项目中定义的controller方法就是默认被Sentinel保护的资源。</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Sentinel-Source_Code_Analysis" target="_blank">https://www.imlklaus.cn/posts/Sentinel-Source_Code_Analysis</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>imklaus</name>
+            <email>me@imlklaus.cn</email>
+            <uri>https://www.imlklaus.cn/</uri>
+        </author>
+        <published>2025-12-07T19:27:10.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[微服务保护]]></title>
+        <id>https://www.imlklaus.cn/posts/Microservices_Protection</id>
+        <link href="https://www.imlklaus.cn/posts/Microservices_Protection"/>
+        <updated>2025-12-07T17:29:00.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20251208014226027.png" alt="image-20251208014226027"></p>
+<p>参考视频：<a href="https://www.bilibili.com/video/BV1LQ4y127n4">黑马SpringCloud微服务技术栈高级篇</a></p>
+<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
+<p><strong>目录指引</strong>：</p>
+<p>[[toc]]</p>
+<h2>1. 初识Sentinel</h2>
+<h3>1.1 雪崩问题及解决方案</h3>
+<h4>1.1.1 雪崩问题</h4>
+<p>微服务中，服务间调用关系错综复杂，一个微服务往往依赖于多个其它微服务。</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Microservices_Protection" target="_blank">https://www.imlklaus.cn/posts/Microservices_Protection</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>imklaus</name>
+            <email>me@imlklaus.cn</email>
+            <uri>https://www.imlklaus.cn/</uri>
+        </author>
+        <published>2025-12-07T17:29:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Elasticsearch 从入门到实战]]></title>
+        <id>https://www.imlklaus.cn/posts/Elasticsearch</id>
+        <link href="https://www.imlklaus.cn/posts/Elasticsearch"/>
+        <updated>2025-12-07T14:51:00.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/v2-37905c52c75915f998824731a75e8d38_720w.jpg" alt=""></p>
+<p>参考视频：<a href="https://www.bilibili.com/video/BV1LQ4y127n4">黑马SpringCloud微服务技术栈Elasticsearch篇</a></p>
+<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
+<p><strong>目录指引</strong>：</p>
+<p>[[toc]]</p>
+<h2>1. 初识elasticsearch</h2>
+<h3>1.1 了解ES</h3>
+<h4>1.1.1 elasticsearch的作用</h4>
+<p>elasticsearch是一款非常强大的开源搜索引擎，具备非常多强大功能，可以帮助我们从海量数据中快速找到需要的内容</p>
+<p>例如：</p>
+<ul>
+<li>
+<p>在GitHub搜索代码</p>
+<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20210720193623245.png" alt="image-20210720193623245"></p>
+</li>
+</ul>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Elasticsearch" target="_blank">https://www.imlklaus.cn/posts/Elasticsearch</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>imklaus</name>
+            <email>me@imlklaus.cn</email>
+            <uri>https://www.imlklaus.cn/</uri>
+        </author>
+        <published>2025-12-07T14:51:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Docker 从入门到实战]]></title>
+        <id>https://www.imlklaus.cn/posts/Docker</id>
+        <link href="https://www.imlklaus.cn/posts/Docker"/>
+        <updated>2025-12-07T09:34:00.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/self-hosting-overpass-api-us-only-on-docker-a-journey-with-bumps.png" alt=""></p>
+<p>参考视频：<a href="https://www.bilibili.com/video/BV1LQ4y127n4">黑马SpringCloud微服务技术栈Docker篇</a></p>
+<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
+<p><strong>目录指引</strong>：</p>
+<p>[[toc]]</p>
+<h2>1. 初识Docker</h2>
+<hr>
+<h3>1.1 什么是Docker</h3>
+<p>微服务虽然具备各种各样的优势，但服务的拆分通用给部署带来了很大的麻烦。</p>
+<ul>
+<li>分布式系统中，依赖的组件非常多，不同组件之间部署时往往会产生一些冲突。</li>
+<li>在数百上千台服务中重复部署，环境不一定一致，会遇到各种问题</li>
+</ul>
+<h4>1.1.1 应用部署的环境问题</h4>
+<p>大型项目组件较多，运行环境也较为复杂，部署时会碰到一些问题：</p>
+<ul>
+<li>
+<p>依赖关系复杂，容易出现兼容性问题</p>
+</li>
+<li>
+<p>开发、测试、生产环境有差异</p>
+</li>
+</ul>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Docker" target="_blank">https://www.imlklaus.cn/posts/Docker</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>imklaus</name>
+            <email>me@imlklaus.cn</email>
+            <uri>https://www.imlklaus.cn/</uri>
+        </author>
+        <published>2025-12-07T09:34:00.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[深入理解多级缓存]]></title>
         <id>https://www.imlklaus.cn/posts/Multi-level_cache</id>
@@ -36,32 +170,6 @@
 <p>Redis缓存失效时，会对数据库产生冲击</p>
 </li>
 </ul>
-<p>多级缓存就是充分利用请求处理的每个环节，分别添加缓存，减轻Tomcat压力，提升服务性能：</p>
-<ul>
-<li>浏览器访问静态资源时，优先读取浏览器本地缓存</li>
-<li>访问非静态资源（ajax查询数据）时，访问服务端</li>
-<li>请求到达Nginx后，优先读取Nginx本地缓存</li>
-<li>如果Nginx本地缓存未命中，则去直接查询Redis（不经过Tomcat）</li>
-<li>如果Redis查询未命中，则查询Tomcat</li>
-<li>请求进入Tomcat后，优先查询JVM进程缓存</li>
-<li>如果JVM进程缓存未命中，则查询数据库</li>
-</ul>
-<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20210821075558137.png" alt="image-20210821075558137"></p>
-<p>在多级缓存架构中，Nginx内部需要编写本地缓存查询、Redis查询、Tomcat查询的业务逻辑，因此这样的nginx服务不再是一个<strong>反向代理服务器</strong>，而是一个编写<strong>业务的Web服务器了</strong>。</p>
-<p>因此这样的业务Nginx服务也需要搭建集群来提高并发，再有专门的nginx服务来做反向代理，如图：</p>
-<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20210821080511581.png" alt="image-20210821080511581"></p>
-<p>另外，我们的Tomcat服务将来也会部署为集群模式：</p>
-<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20210821080954947.png" alt="image-20210821080954947"></p>
-<p>可见，多级缓存的关键有两个：</p>
-<ul>
-<li>
-<p>一个是在nginx中编写业务，实现nginx本地缓存、Redis、Tomcat的查询</p>
-</li>
-<li>
-<p>另一个就是在Tomcat中实现JVM进程缓存</p>
-</li>
-</ul>
-<p>其中Nginx编程则会用到OpenResty框架结合Lua这样的语言。</p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/Multi-level_cache" target="_blank">https://www.imlklaus.cn/posts/Multi-level_cache</a> 阅读全文。</p>]]></content>
         <author>
             <name>imklaus</name>
@@ -86,11 +194,12 @@
         <published>2025-12-05T10:00:10.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[深入理解 RabbitMQ]]></title>
+        <title type="html"><![CDATA[RabbitMQ 从入门到实战]]></title>
         <id>https://www.imlklaus.cn/posts/RabbitMQ</id>
         <link href="https://www.imlklaus.cn/posts/RabbitMQ"/>
         <updated>2025-12-05T07:00:10.000Z</updated>
-        <content type="html"><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1mN4y1Z7t9">黑马RabbitMQ深入学习</a></p>
+        <content type="html"><![CDATA[<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/rabbitmq-beginners-updated.png" alt=""></p>
+<p>参考视频：<a href="https://www.bilibili.com/video/BV1mN4y1Z7t9">黑马RabbitMQ深入学习</a></p>
 <p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
 <p><strong>目录指引</strong>：</p>
 <p>[[toc]]</p>
@@ -101,8 +210,6 @@
 <p>微服务间通讯有同步和异步两种方式：</p>
 <p>同步通讯：就像打电话，需要实时响应。</p>
 <p>异步通讯：就像发邮件，不需要马上回复。</p>
-<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20210717161939695.png" alt="image-20210717161939695"></p>
-<p>两种方式各有优劣，打电话可以立即得到响应，但是你却不能跟多个人同时通话。发送邮件可以同时与多个人收发邮件，但是往往响应会有延迟。</p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/RabbitMQ" target="_blank">https://www.imlklaus.cn/posts/RabbitMQ</a> 阅读全文。</p>]]></content>
         <author>
             <name>imklaus</name>
@@ -112,11 +219,12 @@
         <published>2025-12-05T07:00:10.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[深入理解 Redis]]></title>
+        <title type="html"><![CDATA[Redis 从入门到实战]]></title>
         <id>https://www.imlklaus.cn/posts/Redis</id>
         <link href="https://www.imlklaus.cn/posts/Redis"/>
         <updated>2025-12-04T12:00:10.000Z</updated>
-        <content type="html"><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1cr4y1671t">黑马 Redis 快速入门</a></p>
+        <content type="html"><![CDATA[<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20251207203742532.png" alt="image-20251207203742532"></p>
+<p>参考视频：<a href="https://www.bilibili.com/video/BV1cr4y1671t">黑马 Redis 快速入门</a></p>
 <p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
 <p><strong>目录指引</strong>：</p>
 <p>[[toc]]</p>
@@ -133,9 +241,6 @@
 <p>NoSql</p>
 </li>
 </ul>
-<p>其中<strong>键值型</strong>，是指Redis中存储的数据都是以key、value对的形式存储，而value的形式多种多样，可以是字符串、数值、甚至json：</p>
-<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/6U1Rhxo.png" alt="image-20220502190959608"></p>
-<p>而NoSql则是相对于传统关系型数据库而言，有很大差异的一种数据库。</p>
 <br/><p>访问 <a href="https://www.imlklaus.cn/posts/Redis" target="_blank">https://www.imlklaus.cn/posts/Redis</a> 阅读全文。</p>]]></content>
         <author>
             <name>imklaus</name>
