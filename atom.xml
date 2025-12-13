@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.imlklaus.cn/</id>
     <title>imklaus's Blog </title>
-    <updated>2025-12-07T20:23:17.689Z</updated>
+    <updated>2025-12-13T15:59:44.109Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>imklaus</name>
@@ -12,9 +12,29 @@
     <link rel="alternate" href="https://www.imlklaus.cn/"/>
     <link rel="self" href="https://www.imlklaus.cn/atom.xml"/>
     <subtitle>The Winner Takes It All.</subtitle>
-    <logo>https://www.imlklaus.cn/images/tiamat8.jpg</logo>
+    <logo>https://www.imlklaus.cn/images/tiamat9.jpeg</logo>
     <icon>https://www.imlklaus.cn/favicon/dinosaur-egg.png</icon>
     <rights>CC BY-NC-SA 4.0 2025 © imklaus</rights>
+    <entry>
+        <title type="html"><![CDATA[物联网亿万级通信一站式解决方案EMQ]]></title>
+        <id>https://www.imlklaus.cn/posts/EMQ</id>
+        <link href="https://www.imlklaus.cn/posts/EMQ"/>
+        <updated>2025-12-13T13:01:00.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/2f85f4ebf7f70733a6110af3551300b1.png" alt=""></p>
+<p><strong>目录指引</strong>：</p>
+<p>[[toc]]</p>
+<h2>1. MQTT</h2>
+<h3>1.1 MQTT简介</h3>
+<h4>1.1.1 什么是MQTT</h4>
+<p>​	MQTT（Message Queuing Telemetry  Transport，消息队列遥测传输协议），是一种基于发布/订阅（publish/subscribe）模式的&quot;轻量级&quot;通讯协议，该协议构建于TCP/IP协议上，由IBM在1999年发布。MQTT最大优点在于，可以以极少的代码和有限的带宽，为连接远程设备提供实时可靠的消息服务。作为一种低开销、低带宽占用的即时通讯协议，使其在物联网、小型设备、移动应用等方面有较广泛的应用。</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/EMQ" target="_blank">https://www.imlklaus.cn/posts/EMQ</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>imklaus</name>
+            <email>me@imlklaus.cn</email>
+            <uri>https://www.imlklaus.cn/</uri>
+        </author>
+        <published>2025-12-13T13:01:00.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Nacos源码分析]]></title>
         <id>https://www.imlklaus.cn/posts/Nacos-Source_Code_Analysis</id>
@@ -969,8 +989,9 @@ INSERT INTO t VALUES('2017-4-1',1),('2018-4-1',1);-- 这两行记录分别落在
         <id>https://www.imlklaus.cn/posts/SpringCloud-Component</id>
         <link href="https://www.imlklaus.cn/posts/SpringCloud-Component"/>
         <updated>2023-04-26T07:50:12.000Z</updated>
-        <content type="html"><![CDATA[<h2>1、SpringCloud Alibaba 简介</h2>
-<h3>1）、简介</h3>
+        <content type="html"><![CDATA[<h2>一、SpringCloud Alibaba</h2>
+<h3>1. SpringCloud Alibaba 简介</h3>
+<h4>1）简介</h4>
 <ul>
 <li>
 <p>Spring Cloud Alibaba 致力于提供微服务开发的一站式解决方案。此项目包含开发分布式应用微服务的必需组件，方便开发者通过 Spring Cloud 编程模型轻松使用这些组件来开发分布式应用服务。</p>
@@ -988,7 +1009,7 @@ INSERT INTO t VALUES('2017-4-1',1),('2018-4-1',1);-- 这两行记录分别落在
             <email>me@imlklaus.cn</email>
             <uri>https://www.imlklaus.cn/</uri>
         </author>
-        <published>2023-04-26T15:30:14.000Z</published>
+        <published>2023-04-26T07:50:12.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[系统接口]]></title>

@@ -4,16 +4,31 @@
         <title>imklaus's Blog </title>
         <link>https://www.imlklaus.cn/</link>
         <description>The Winner Takes It All.</description>
-        <lastBuildDate>Sun, 07 Dec 2025 20:23:17 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 13 Dec 2025 15:59:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
             <title>imklaus's Blog </title>
-            <url>https://www.imlklaus.cn/images/tiamat8.jpg</url>
+            <url>https://www.imlklaus.cn/images/tiamat9.jpeg</url>
             <link>https://www.imlklaus.cn/</link>
         </image>
         <copyright>CC BY-NC-SA 4.0 2025 © imklaus</copyright>
         <atom:link href="https://www.imlklaus.cn/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[物联网亿万级通信一站式解决方案EMQ]]></title>
+            <link>https://www.imlklaus.cn/posts/EMQ</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/EMQ</guid>
+            <pubDate>Sat, 13 Dec 2025 13:01:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/2f85f4ebf7f70733a6110af3551300b1.png" alt=""></p>
+<p><strong>目录指引</strong>：</p>
+<p>[[toc]]</p>
+<h2>1. MQTT</h2>
+<h3>1.1 MQTT简介</h3>
+<h4>1.1.1 什么是MQTT</h4>
+<p>​	MQTT（Message Queuing Telemetry  Transport，消息队列遥测传输协议），是一种基于发布/订阅（publish/subscribe）模式的&quot;轻量级&quot;通讯协议，该协议构建于TCP/IP协议上，由IBM在1999年发布。MQTT最大优点在于，可以以极少的代码和有限的带宽，为连接远程设备提供实时可靠的消息服务。作为一种低开销、低带宽占用的即时通讯协议，使其在物联网、小型设备、移动应用等方面有较广泛的应用。</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/EMQ" target="_blank">https://www.imlklaus.cn/posts/EMQ</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
         <item>
             <title><![CDATA[Nacos源码分析]]></title>
             <link>https://www.imlklaus.cn/posts/Nacos-Source_Code_Analysis</link>
@@ -772,9 +787,10 @@ INSERT INTO t VALUES('2017-4-1',1),('2018-4-1',1);-- 这两行记录分别落在
             <title><![CDATA[Spring Cloud组件]]></title>
             <link>https://www.imlklaus.cn/posts/SpringCloud-Component</link>
             <guid isPermaLink="false">https://www.imlklaus.cn/posts/SpringCloud-Component</guid>
-            <pubDate>Wed, 26 Apr 2023 15:30:14 GMT</pubDate>
-            <content:encoded><![CDATA[<h2>1、SpringCloud Alibaba 简介</h2>
-<h3>1）、简介</h3>
+            <pubDate>Wed, 26 Apr 2023 07:50:12 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>一、SpringCloud Alibaba</h2>
+<h3>1. SpringCloud Alibaba 简介</h3>
+<h4>1）简介</h4>
 <ul>
 <li>
 <p>Spring Cloud Alibaba 致力于提供微服务开发的一站式解决方案。此项目包含开发分布式应用微服务的必需组件，方便开发者通过 Spring Cloud 编程模型轻松使用这些组件来开发分布式应用服务。</p>

@@ -4,12 +4,24 @@
     "home_page_url": "https://www.imlklaus.cn/",
     "feed_url": "https://www.imlklaus.cn/feed.json",
     "description": "The Winner Takes It All.",
-    "icon": "https://www.imlklaus.cn/images/tiamat8.jpg",
+    "icon": "https://www.imlklaus.cn/images/tiamat9.jpeg",
     "author": {
         "name": "imklaus",
         "url": "https://www.imlklaus.cn/"
     },
     "items": [
+        {
+            "id": "https://www.imlklaus.cn/posts/EMQ",
+            "content_html": "<p><img src=\"https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/2f85f4ebf7f70733a6110af3551300b1.png\" alt=\"\"></p>\n<p><strong>目录指引</strong>：</p>\n<p>[[toc]]</p>\n<h2>1. MQTT</h2>\n<h3>1.1 MQTT简介</h3>\n<h4>1.1.1 什么是MQTT</h4>\n<p>​\tMQTT（Message Queuing Telemetry  Transport，消息队列遥测传输协议），是一种基于发布/订阅（publish/subscribe）模式的&quot;轻量级&quot;通讯协议，该协议构建于TCP/IP协议上，由IBM在1999年发布。MQTT最大优点在于，可以以极少的代码和有限的带宽，为连接远程设备提供实时可靠的消息服务。作为一种低开销、低带宽占用的即时通讯协议，使其在物联网、小型设备、移动应用等方面有较广泛的应用。</p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/EMQ\" target=\"_blank\">https://www.imlklaus.cn/posts/EMQ</a> 阅读全文。</p>",
+            "url": "https://www.imlklaus.cn/posts/EMQ",
+            "title": "物联网亿万级通信一站式解决方案EMQ",
+            "date_modified": "2025-12-13T13:01:00.000Z",
+            "date_published": "2025-12-13T13:01:00.000Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://www.imlklaus.cn/"
+            }
+        },
         {
             "id": "https://www.imlklaus.cn/posts/Nacos-Source_Code_Analysis",
             "content_html": "<p><img src=\"https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/2880613-20240312164528519-1002970787.png\" alt=\"\"></p>\n<p>参考视频：<a href=\"https://www.bilibili.com/video/BV1LQ4y127n4\">黑马SpringCloud微服务技术栈原理篇</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<p><strong>目录指引</strong>：</p>\n<p>[[toc]]</p>\n<h2>1. 下载Nacos源码并运行</h2>\n<p>要研究Nacos源码自然不能用打包好的Nacos服务端jar包来运行，需要下载源码自己编译来运行。</p>\n<h3>1.1 下载Nacos源码</h3>\n<p>Nacos的GitHub地址：<a href=\"https://github.com/alibaba/nacos\">https://github.com/alibaba/nacos</a></p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/Nacos-Source_Code_Analysis\" target=\"_blank\">https://www.imlklaus.cn/posts/Nacos-Source_Code_Analysis</a> 阅读全文。</p>",
@@ -480,11 +492,11 @@
         },
         {
             "id": "https://www.imlklaus.cn/posts/SpringCloud-Component",
-            "content_html": "<h2>1、SpringCloud Alibaba 简介</h2>\n<h3>1）、简介</h3>\n<ul>\n<li>\n<p>Spring Cloud Alibaba 致力于提供微服务开发的一站式解决方案。此项目包含开发分布式应用微服务的必需组件，方便开发者通过 Spring Cloud 编程模型轻松使用这些组件来开发分布式应用服务。</p>\n</li>\n<li>\n<p>依托 Spring Cloud Alibaba，您只需要添加一些注解和少量配置，就可以将 Spring Cloud 应用接入阿里微服务解决方案，通过阿里中间件来迅速搭建分布式应用系统。</p>\n</li>\n<li>\n<p><a href=\"https://github.com/alibaba/spring-cloud-alibaba\">https://github.com/alibaba/spring-cloud-alibaba</a></p>\n</li>\n</ul>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/SpringCloud-Component\" target=\"_blank\">https://www.imlklaus.cn/posts/SpringCloud-Component</a> 阅读全文。</p>",
+            "content_html": "<h2>一、SpringCloud Alibaba</h2>\n<h3>1. SpringCloud Alibaba 简介</h3>\n<h4>1）简介</h4>\n<ul>\n<li>\n<p>Spring Cloud Alibaba 致力于提供微服务开发的一站式解决方案。此项目包含开发分布式应用微服务的必需组件，方便开发者通过 Spring Cloud 编程模型轻松使用这些组件来开发分布式应用服务。</p>\n</li>\n<li>\n<p>依托 Spring Cloud Alibaba，您只需要添加一些注解和少量配置，就可以将 Spring Cloud 应用接入阿里微服务解决方案，通过阿里中间件来迅速搭建分布式应用系统。</p>\n</li>\n<li>\n<p><a href=\"https://github.com/alibaba/spring-cloud-alibaba\">https://github.com/alibaba/spring-cloud-alibaba</a></p>\n</li>\n</ul>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/SpringCloud-Component\" target=\"_blank\">https://www.imlklaus.cn/posts/SpringCloud-Component</a> 阅读全文。</p>",
             "url": "https://www.imlklaus.cn/posts/SpringCloud-Component",
             "title": "Spring Cloud组件",
             "date_modified": "2023-04-26T07:50:12.000Z",
-            "date_published": "2023-04-26T15:30:14.000Z",
+            "date_published": "2023-04-26T07:50:12.000Z",
             "author": {
                 "name": "imklaus",
                 "url": "https://www.imlklaus.cn/"
