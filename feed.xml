@@ -4,7 +4,7 @@
         <title>imklaus's Blog </title>
         <link>https://www.imlklaus.cn/</link>
         <description>The Winner Takes It All.</description>
-        <lastBuildDate>Sat, 13 Dec 2025 15:59:44 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 13 Dec 2025 20:23:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -34,7 +34,7 @@
             <link>https://www.imlklaus.cn/posts/Nacos-Source_Code_Analysis</link>
             <guid isPermaLink="false">https://www.imlklaus.cn/posts/Nacos-Source_Code_Analysis</guid>
             <pubDate>Sun, 07 Dec 2025 19:44:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/2880613-20240312164528519-1002970787.png" alt=""></p>
+            <content:encoded><![CDATA[<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20251214040428114.png" alt="image-20251214040428114"></p>
 <p>参考视频：<a href="https://www.bilibili.com/video/BV1LQ4y127n4">黑马SpringCloud微服务技术栈原理篇</a></p>
 <p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
 <p><strong>目录指引</strong>：</p>

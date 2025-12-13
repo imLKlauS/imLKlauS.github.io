@@ -24,7 +24,7 @@
         },
         {
             "id": "https://www.imlklaus.cn/posts/Nacos-Source_Code_Analysis",
-            "content_html": "<p><img src=\"https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/2880613-20240312164528519-1002970787.png\" alt=\"\"></p>\n<p>参考视频：<a href=\"https://www.bilibili.com/video/BV1LQ4y127n4\">黑马SpringCloud微服务技术栈原理篇</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<p><strong>目录指引</strong>：</p>\n<p>[[toc]]</p>\n<h2>1. 下载Nacos源码并运行</h2>\n<p>要研究Nacos源码自然不能用打包好的Nacos服务端jar包来运行，需要下载源码自己编译来运行。</p>\n<h3>1.1 下载Nacos源码</h3>\n<p>Nacos的GitHub地址：<a href=\"https://github.com/alibaba/nacos\">https://github.com/alibaba/nacos</a></p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/Nacos-Source_Code_Analysis\" target=\"_blank\">https://www.imlklaus.cn/posts/Nacos-Source_Code_Analysis</a> 阅读全文。</p>",
+            "content_html": "<p><img src=\"https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20251214040428114.png\" alt=\"image-20251214040428114\"></p>\n<p>参考视频：<a href=\"https://www.bilibili.com/video/BV1LQ4y127n4\">黑马SpringCloud微服务技术栈原理篇</a></p>\n<p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>\n<p><strong>目录指引</strong>：</p>\n<p>[[toc]]</p>\n<h2>1. 下载Nacos源码并运行</h2>\n<p>要研究Nacos源码自然不能用打包好的Nacos服务端jar包来运行，需要下载源码自己编译来运行。</p>\n<h3>1.1 下载Nacos源码</h3>\n<p>Nacos的GitHub地址：<a href=\"https://github.com/alibaba/nacos\">https://github.com/alibaba/nacos</a></p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/Nacos-Source_Code_Analysis\" target=\"_blank\">https://www.imlklaus.cn/posts/Nacos-Source_Code_Analysis</a> 阅读全文。</p>",
             "url": "https://www.imlklaus.cn/posts/Nacos-Source_Code_Analysis",
             "title": "Nacos源码分析",
             "date_modified": "2025-12-07T19:44:00.000Z",

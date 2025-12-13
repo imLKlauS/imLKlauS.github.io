@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.imlklaus.cn/</id>
     <title>imklaus's Blog </title>
-    <updated>2025-12-13T15:59:44.109Z</updated>
+    <updated>2025-12-13T20:23:33.702Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>imklaus</name>
@@ -40,7 +40,7 @@
         <id>https://www.imlklaus.cn/posts/Nacos-Source_Code_Analysis</id>
         <link href="https://www.imlklaus.cn/posts/Nacos-Source_Code_Analysis"/>
         <updated>2025-12-07T19:44:00.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/2880613-20240312164528519-1002970787.png" alt=""></p>
+        <content type="html"><![CDATA[<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/image-20251214040428114.png" alt="image-20251214040428114"></p>
 <p>参考视频：<a href="https://www.bilibili.com/video/BV1LQ4y127n4">黑马SpringCloud微服务技术栈原理篇</a></p>
 <p>笔记的整体结构依据视频编写，并随着学习的深入补充了很多知识</p>
 <p><strong>目录指引</strong>：</p>
