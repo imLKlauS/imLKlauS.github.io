@@ -1,1 +1,0 @@
-const e="virtual:valaxy-addons:empty",t=e;function a(t){return t&&t.name===e}const n={name:t},o=Object.freeze(Object.defineProperty({__proto__:null,default:n,emptyAddonName:e,isEmptyAddon:a,name:t},Symbol.toStringTag,{value:"Module"}));export{o as a,a as i};

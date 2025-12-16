@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.imlklaus.cn/</id>
     <title>imklaus's Blog </title>
-    <updated>2025-12-13T20:23:33.702Z</updated>
+    <updated>2025-12-16T09:26:47.657Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>imklaus</name>
@@ -15,6 +15,34 @@
     <logo>https://www.imlklaus.cn/images/tiamat9.jpeg</logo>
     <icon>https://www.imlklaus.cn/favicon/dinosaur-egg.png</icon>
     <rights>CC BY-NC-SA 4.0 2025 © imklaus</rights>
+    <entry>
+        <title type="html"><![CDATA[面试笔录 - 面经与场景题]]></title>
+        <id>https://www.imlklaus.cn/posts/interview2025_02</id>
+        <link href="https://www.imlklaus.cn/posts/interview2025_02"/>
+        <updated>2025-12-15T18:04:00.000Z</updated>
+        <content type="html"><![CDATA[<p>Java 后端开发2025年面经与场景题（DeepSeek总结版）</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/interview2025_02" target="_blank">https://www.imlklaus.cn/posts/interview2025_02</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>imklaus</name>
+            <email>me@imlklaus.cn</email>
+            <uri>https://www.imlklaus.cn/</uri>
+        </author>
+        <published>2025-12-15T18:04:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[面试笔录 - 自我介绍与项目面试技巧]]></title>
+        <id>https://www.imlklaus.cn/posts/interview2025_01</id>
+        <link href="https://www.imlklaus.cn/posts/interview2025_01"/>
+        <updated>2025-12-15T18:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>Java 后端开发2025年自我介绍与项目面试技巧（DeepSeek总结版）</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/interview2025_01" target="_blank">https://www.imlklaus.cn/posts/interview2025_01</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>imklaus</name>
+            <email>me@imlklaus.cn</email>
+            <uri>https://www.imlklaus.cn/</uri>
+        </author>
+        <published>2025-12-15T18:00:00.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[物联网亿万级通信一站式解决方案EMQ]]></title>
         <id>https://www.imlklaus.cn/posts/EMQ</id>
@@ -268,20 +296,6 @@
             <uri>https://www.imlklaus.cn/</uri>
         </author>
         <published>2025-12-04T12:00:10.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[面试笔录]]></title>
-        <id>https://www.imlklaus.cn/posts/interview2025</id>
-        <link href="https://www.imlklaus.cn/posts/interview2025"/>
-        <updated>2025-12-02T18:31:00.000Z</updated>
-        <content type="html"><![CDATA[<p>Java 后端开发2025年面经与项目面试技巧（DeepSeek总结版）</p>
-<br/><p>访问 <a href="https://www.imlklaus.cn/posts/interview2025" target="_blank">https://www.imlklaus.cn/posts/interview2025</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>imklaus</name>
-            <email>me@imlklaus.cn</email>
-            <uri>https://www.imlklaus.cn/</uri>
-        </author>
-        <published>2025-12-02T18:31:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Java 虚拟机从入门到精通]]></title>
