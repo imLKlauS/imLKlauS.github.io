@@ -4,7 +4,7 @@
         <title>imklaus's Blog </title>
         <link>https://www.imlklaus.cn/</link>
         <description>The Winner Takes It All.</description>
-        <lastBuildDate>Tue, 16 Dec 2025 19:49:30 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 Jun 2026 16:05:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -12,26 +12,8 @@
             <url>https://www.imlklaus.cn/images/1759298648265.png</url>
             <link>https://www.imlklaus.cn/</link>
         </image>
-        <copyright>CC BY-NC-SA 4.0 2025 © imklaus</copyright>
+        <copyright>CC BY-NC-SA 4.0 2026 © imklaus</copyright>
         <atom:link href="https://www.imlklaus.cn/feed.xml" rel="self" type="application/rss+xml"/>
-        <item>
-            <title><![CDATA[面试笔录 - 面经与场景题]]></title>
-            <link>https://www.imlklaus.cn/posts/interview2025_02</link>
-            <guid isPermaLink="false">https://www.imlklaus.cn/posts/interview2025_02</guid>
-            <pubDate>Mon, 15 Dec 2025 18:04:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p>Java 后端开发2025年面经与场景题（DeepSeek总结版）</p>
-<br/><p>访问 <a href="https://www.imlklaus.cn/posts/interview2025_02" target="_blank">https://www.imlklaus.cn/posts/interview2025_02</a> 阅读全文。</p>]]></content:encoded>
-            <author>me@imlklaus.cn (imklaus)</author>
-        </item>
-        <item>
-            <title><![CDATA[面试笔录 - 自我介绍与项目面试技巧]]></title>
-            <link>https://www.imlklaus.cn/posts/interview2025_01</link>
-            <guid isPermaLink="false">https://www.imlklaus.cn/posts/interview2025_01</guid>
-            <pubDate>Mon, 15 Dec 2025 18:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p>Java 后端开发2025年自我介绍与项目面试技巧（DeepSeek总结版）</p>
-<br/><p>访问 <a href="https://www.imlklaus.cn/posts/interview2025_01" target="_blank">https://www.imlklaus.cn/posts/interview2025_01</a> 阅读全文。</p>]]></content:encoded>
-            <author>me@imlklaus.cn (imklaus)</author>
-        </item>
         <item>
             <title><![CDATA[物联网亿万级通信一站式解决方案EMQ]]></title>
             <link>https://www.imlklaus.cn/posts/EMQ</link>

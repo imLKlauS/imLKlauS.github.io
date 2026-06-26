@@ -1,0 +1,1 @@
+import{Z as s,ct as m,ot as l}from"./theme.ByYer--o.js";import{listItemResolver as o}from"./index16.BkomzGOe.js";var v=s({defaults:{"@type":"ItemList"},resolve(e,t){if(e.itemListElement){let i=1;e.itemListElement=l(e.itemListElement,t,o,{array:!0,afterResolve(r){m(r,"position",i++)}})}return e}});export{v as itemListResolver};
