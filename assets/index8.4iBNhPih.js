@@ -1,1 +1,0 @@
-import{Z as s,ot as a}from"./theme.ByYer--o.js";import{addressResolver as o}from"./index28.DPPT5LNA.js";var d=s({defaults:{"@type":"Place"},resolve(e,r){return typeof e.address!="string"&&(e.address=a(e.address,r,o)),e}});export{d as placeResolver};
