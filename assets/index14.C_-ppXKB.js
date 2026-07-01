@@ -1,0 +1,1 @@
+import{J as s,at as m,rt as l}from"./theme.CGzkiwn0.js";import{listItemResolver as a}from"./index16.DY5LTH4O.js";var v=s({defaults:{"@type":"ItemList"},resolve(e,t){if(e.itemListElement){let r=1;e.itemListElement=l(e.itemListElement,t,a,{array:!0,afterResolve(i){m(i,"position",r++)}})}return e}});export{v as itemListResolver};
