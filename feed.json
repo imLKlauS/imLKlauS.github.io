@@ -11,6 +11,126 @@
     },
     "items": [
         {
+            "id": "https://www.imlklaus.cn/posts/Tianji_Academy-AI_Assistant4",
+            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV1MtZnYtEB3\">黑马程序员SpringAI+DeepSeek大模型应用开发实战视频教程</a></p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/Tianji_Academy-AI_Assistant4\" target=\"_blank\">https://www.imlklaus.cn/posts/Tianji_Academy-AI_Assistant4</a> 阅读全文。</p>",
+            "url": "https://www.imlklaus.cn/posts/Tianji_Academy-AI_Assistant4",
+            "title": "天机学堂AI助手智能体 - 平台智能体、通用文本模型与语音",
+            "date_modified": "2026-07-23T09:39:00.000Z",
+            "date_published": "2026-07-23T09:39:00.000Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://www.imlklaus.cn/"
+            }
+        },
+        {
+            "id": "https://www.imlklaus.cn/posts/Tianji_Academy-AI_Assistant3",
+            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV1MtZnYtEB3\">黑马程序员SpringAI+DeepSeek大模型应用开发实战视频教程</a></p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/Tianji_Academy-AI_Assistant3\" target=\"_blank\">https://www.imlklaus.cn/posts/Tianji_Academy-AI_Assistant3</a> 阅读全文。</p>",
+            "url": "https://www.imlklaus.cn/posts/Tianji_Academy-AI_Assistant3",
+            "title": "天机学堂AI助手智能体 - 多智能体协同工作",
+            "date_modified": "2026-07-23T08:36:00.000Z",
+            "date_published": "2026-07-23T08:36:00.000Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://www.imlklaus.cn/"
+            }
+        },
+        {
+            "id": "https://www.imlklaus.cn/posts/Tianji_Academy-AI_Assistant2",
+            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV1MtZnYtEB3\">黑马程序员SpringAI+DeepSeek大模型应用开发实战视频教程</a></p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/Tianji_Academy-AI_Assistant2\" target=\"_blank\">https://www.imlklaus.cn/posts/Tianji_Academy-AI_Assistant2</a> 阅读全文。</p>",
+            "url": "https://www.imlklaus.cn/posts/Tianji_Academy-AI_Assistant2",
+            "title": "天机学堂AI助手智能体 - 购买课程与知识库",
+            "date_modified": "2026-07-23T08:00:00.000Z",
+            "date_published": "2026-07-23T08:00:00.000Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://www.imlklaus.cn/"
+            }
+        },
+        {
+            "id": "https://www.imlklaus.cn/posts/Tianji_Academy-AI_Assistant1",
+            "content_html": "<p>参考视频：<a href=\"https://www.bilibili.com/video/BV1MtZnYtEB3\">黑马程序员SpringAI+DeepSeek大模型应用开发实战视频教程</a></p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/Tianji_Academy-AI_Assistant1\" target=\"_blank\">https://www.imlklaus.cn/posts/Tianji_Academy-AI_Assistant1</a> 阅读全文。</p>",
+            "url": "https://www.imlklaus.cn/posts/Tianji_Academy-AI_Assistant1",
+            "title": "天机学堂AI助手智能体 - 基本对话与课程咨询",
+            "date_modified": "2026-07-22T16:50:00.000Z",
+            "date_published": "2026-07-22T16:50:00.000Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://www.imlklaus.cn/"
+            }
+        },
+        {
+            "id": "https://www.imlklaus.cn/posts/RAG-Embedding",
+            "content_html": "<p>今天我们继续大模型应用开发的实战学习。我们会利用RAG技术来实现一个个人知识库应用：ChatPDF</p>\n<p>由于训练大模型非常耗时，再加上训练语料本身比较滞后，所以大模型存在<strong>知识限制</strong>问题：</p>\n<ul>\n<li>知识数据比较落后，往往是几个月之前的</li>\n<li>不包含太过<strong>专业领域</strong>或者<strong>企业私有</strong>的数据</li>\n</ul>\n<p>为了解决这些问题，我们就需要用到RAG了。下面我们简单回顾下RAG原理</p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/RAG-Embedding\" target=\"_blank\">https://www.imlklaus.cn/posts/RAG-Embedding</a> 阅读全文。</p>",
+            "url": "https://www.imlklaus.cn/posts/RAG-Embedding",
+            "title": "📗RAG Embedding",
+            "date_modified": "2026-07-22T16:05:00.000Z",
+            "date_published": "2026-07-22T16:05:00.000Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://www.imlklaus.cn/"
+            }
+        },
+        {
+            "id": "https://www.imlklaus.cn/posts/PromptEngineer&ToolCalling",
+            "content_html": "<p>今天我们正式进入大模型应用开发实战阶段，利用大模型来解决实际问题。</p>\n<p>那么大模型与传统应用结合有哪些不同的方案呢？</p>\n<h2>1. 大模型应用开发技术架构</h2>\n<p>接下来我们就来了解下常见的大模型开发技术架构。</p>\n<h3>1.1 技术架构</h3>\n<p>目前，大模型应用开发的技术架构主要有四种：</p>\n<p><img src=\"https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/ai19.png\" alt=\"img\"></p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/PromptEngineer&ToolCalling\" target=\"_blank\">https://www.imlklaus.cn/posts/PromptEngineer&ToolCalling</a> 阅读全文。</p>",
+            "url": "https://www.imlklaus.cn/posts/PromptEngineer&ToolCalling",
+            "title": "📗PromptEngineer和ToolCalling",
+            "date_modified": "2026-07-22T10:00:00.000Z",
+            "date_published": "2026-07-22T10:00:00.000Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://www.imlklaus.cn/"
+            }
+        },
+        {
+            "id": "https://www.imlklaus.cn/posts/AI_Fundamentals&SpringAI",
+            "content_html": "<p><img src=\"https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/asynccode\" alt=\"img\"></p>\n<h2>AI时代Java程序员的出路在哪里？</h2>\n<p>2022年11月30日，OpenAI公司发布了GPT3.5模型，同时对外开放了ChatGPT产品。人工智能突然进入了普通人的生活中，各种AI应用如雨后春笋般出现。</p>\n<p>不过，由于大模型研究的成本很高，大部分中小型企业只能望而却步，参与者有限，AI的发展也似乎陷入了瓶颈。</p>\n<p>2025年1月20日，位于杭州的DeepSeek公司正式发布了具有划时代意义的DeepSeek-R1模型，该模型在数学、代码、自然语言推理等任务上，性能比肩 OpenAI o1 正式版，且训练成本仅为 560 万美元，远低于美国科技巨头的数亿美元乃至数十亿美元投入，这一突破彻底震惊了全球科技界。</p>\n<p>DeepSeek的出现像是向一潭死水的AI领域投入了一颗巨石，引起了巨大的波澜。特别是其低廉的训练成本，让中小型企业有了参与AI开发的资格。</p>\n<p>毫无疑问，接下来各行各业都将进入传统应用AI化、智能化的变革之中。Java更应该成为这场变革的引领者！</p>\n<p>要知道，<strong>全球有25亿+的Java应用正在运行，超过90的服务端应用都是采用Java语言！传统应用要向AI领域进军，最好的办法一定是使用Java语言。</strong></p>\n<p>然而，一直以来，AI开发似乎都是Python的强项，<strong>传统Java应用想要AI化，缺少完善的解决方案和即懂Java、又懂AI的人才，而这就是最大的机会</strong>！</p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/AI_Fundamentals&SpringAI\" target=\"_blank\">https://www.imlklaus.cn/posts/AI_Fundamentals&SpringAI</a> 阅读全文。</p>",
+            "url": "https://www.imlklaus.cn/posts/AI_Fundamentals&SpringAI",
+            "title": "AI基础与SpringAI",
+            "date_modified": "2026-07-22T07:38:00.000Z",
+            "date_published": "2026-07-22T07:38:00.000Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://www.imlklaus.cn/"
+            }
+        },
+        {
+            "id": "https://www.imlklaus.cn/posts/ms3",
+            "content_html": "<p>Java 后端开发2026年项目面试技巧（DeepSeek总结版）与面经总结</p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/ms3\" target=\"_blank\">https://www.imlklaus.cn/posts/ms3</a> 阅读全文。</p>",
+            "url": "https://www.imlklaus.cn/posts/ms3",
+            "title": "面试笔录 - 2026项目面试技巧与面经",
+            "date_modified": "2026-06-26T09:12:00.000Z",
+            "date_published": "2026-06-26T09:12:00.000Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://www.imlklaus.cn/"
+            }
+        },
+        {
+            "id": "https://www.imlklaus.cn/posts/ms2",
+            "content_html": "<p>Java 后端开发2025年面经与场景题（DeepSeek总结版）</p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/ms2\" target=\"_blank\">https://www.imlklaus.cn/posts/ms2</a> 阅读全文。</p>",
+            "url": "https://www.imlklaus.cn/posts/ms2",
+            "title": "面试笔录 - 面经与场景题",
+            "date_modified": "2025-12-15T18:04:00.000Z",
+            "date_published": "2025-12-15T18:04:00.000Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://www.imlklaus.cn/"
+            }
+        },
+        {
+            "id": "https://www.imlklaus.cn/posts/ms1",
+            "content_html": "<p>Java 后端开发2025年自我介绍与项目面试技巧（DeepSeek总结版）</p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/ms1\" target=\"_blank\">https://www.imlklaus.cn/posts/ms1</a> 阅读全文。</p>",
+            "url": "https://www.imlklaus.cn/posts/ms1",
+            "title": "面试笔录 - 自我介绍与项目面试技巧",
+            "date_modified": "2025-12-15T18:00:00.000Z",
+            "date_published": "2025-12-15T18:00:00.000Z",
+            "author": {
+                "name": "imklaus",
+                "url": "https://www.imlklaus.cn/"
+            }
+        },
+        {
             "id": "https://www.imlklaus.cn/posts/EMQ",
             "content_html": "<p><img src=\"https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/2f85f4ebf7f70733a6110af3551300b1.png\" alt=\"\"></p>\n<p><strong>目录指引</strong>：</p>\n<p>[[toc]]</p>\n<h2>1. MQTT</h2>\n<h3>1.1 MQTT简介</h3>\n<h4>1.1.1 什么是MQTT</h4>\n<p>​\tMQTT（Message Queuing Telemetry  Transport，消息队列遥测传输协议），是一种基于发布/订阅（publish/subscribe）模式的&quot;轻量级&quot;通讯协议，该协议构建于TCP/IP协议上，由IBM在1999年发布。MQTT最大优点在于，可以以极少的代码和有限的带宽，为连接远程设备提供实时可靠的消息服务。作为一种低开销、低带宽占用的即时通讯协议，使其在物联网、小型设备、移动应用等方面有较广泛的应用。</p>\n<br/><p>访问 <a href=\"https://www.imlklaus.cn/posts/EMQ\" target=\"_blank\">https://www.imlklaus.cn/posts/EMQ</a> 阅读全文。</p>",
             "url": "https://www.imlklaus.cn/posts/EMQ",

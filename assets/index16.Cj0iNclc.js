@@ -1,0 +1,1 @@
+import{J as i,it as r,rt as s}from"./theme.qMAv7d3h.js";var a=i({cast(t){return typeof t=="string"&&(t={name:t}),t},defaults:{"@type":"ListItem"},resolve(t,e){return typeof t.item=="string"?t.item=r(e.meta.host,t.item):typeof t.item=="object"&&(t.item=s(t.item,e)),t}});export{a as listItemResolver};

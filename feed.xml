@@ -4,7 +4,7 @@
         <title>imklaus's Blog </title>
         <link>https://www.imlklaus.cn/</link>
         <description>The Winner Takes It All.</description>
-        <lastBuildDate>Fri, 17 Jul 2026 10:02:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 23 Jul 2026 17:05:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,116 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2026 © imklaus</copyright>
         <atom:link href="https://www.imlklaus.cn/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[天机学堂AI助手智能体 - 平台智能体、通用文本模型与语音]]></title>
+            <link>https://www.imlklaus.cn/posts/Tianji_Academy-AI_Assistant4</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/Tianji_Academy-AI_Assistant4</guid>
+            <pubDate>Thu, 23 Jul 2026 09:39:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1MtZnYtEB3">黑马程序员SpringAI+DeepSeek大模型应用开发实战视频教程</a></p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Tianji_Academy-AI_Assistant4" target="_blank">https://www.imlklaus.cn/posts/Tianji_Academy-AI_Assistant4</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[天机学堂AI助手智能体 - 多智能体协同工作]]></title>
+            <link>https://www.imlklaus.cn/posts/Tianji_Academy-AI_Assistant3</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/Tianji_Academy-AI_Assistant3</guid>
+            <pubDate>Thu, 23 Jul 2026 08:36:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1MtZnYtEB3">黑马程序员SpringAI+DeepSeek大模型应用开发实战视频教程</a></p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Tianji_Academy-AI_Assistant3" target="_blank">https://www.imlklaus.cn/posts/Tianji_Academy-AI_Assistant3</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[天机学堂AI助手智能体 - 购买课程与知识库]]></title>
+            <link>https://www.imlklaus.cn/posts/Tianji_Academy-AI_Assistant2</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/Tianji_Academy-AI_Assistant2</guid>
+            <pubDate>Thu, 23 Jul 2026 08:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1MtZnYtEB3">黑马程序员SpringAI+DeepSeek大模型应用开发实战视频教程</a></p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Tianji_Academy-AI_Assistant2" target="_blank">https://www.imlklaus.cn/posts/Tianji_Academy-AI_Assistant2</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[天机学堂AI助手智能体 - 基本对话与课程咨询]]></title>
+            <link>https://www.imlklaus.cn/posts/Tianji_Academy-AI_Assistant1</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/Tianji_Academy-AI_Assistant1</guid>
+            <pubDate>Wed, 22 Jul 2026 16:50:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>参考视频：<a href="https://www.bilibili.com/video/BV1MtZnYtEB3">黑马程序员SpringAI+DeepSeek大模型应用开发实战视频教程</a></p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/Tianji_Academy-AI_Assistant1" target="_blank">https://www.imlklaus.cn/posts/Tianji_Academy-AI_Assistant1</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[📗RAG Embedding]]></title>
+            <link>https://www.imlklaus.cn/posts/RAG-Embedding</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/RAG-Embedding</guid>
+            <pubDate>Wed, 22 Jul 2026 16:05:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>今天我们继续大模型应用开发的实战学习。我们会利用RAG技术来实现一个个人知识库应用：ChatPDF</p>
+<p>由于训练大模型非常耗时，再加上训练语料本身比较滞后，所以大模型存在<strong>知识限制</strong>问题：</p>
+<ul>
+<li>知识数据比较落后，往往是几个月之前的</li>
+<li>不包含太过<strong>专业领域</strong>或者<strong>企业私有</strong>的数据</li>
+</ul>
+<p>为了解决这些问题，我们就需要用到RAG了。下面我们简单回顾下RAG原理</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/RAG-Embedding" target="_blank">https://www.imlklaus.cn/posts/RAG-Embedding</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[📗PromptEngineer和ToolCalling]]></title>
+            <link>https://www.imlklaus.cn/posts/PromptEngineer&amp;ToolCalling</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/PromptEngineer&amp;ToolCalling</guid>
+            <pubDate>Wed, 22 Jul 2026 10:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>今天我们正式进入大模型应用开发实战阶段，利用大模型来解决实际问题。</p>
+<p>那么大模型与传统应用结合有哪些不同的方案呢？</p>
+<h2>1. 大模型应用开发技术架构</h2>
+<p>接下来我们就来了解下常见的大模型开发技术架构。</p>
+<h3>1.1 技术架构</h3>
+<p>目前，大模型应用开发的技术架构主要有四种：</p>
+<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/ai19.png" alt="img"></p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/PromptEngineer&ToolCalling" target="_blank">https://www.imlklaus.cn/posts/PromptEngineer&ToolCalling</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[AI基础与SpringAI]]></title>
+            <link>https://www.imlklaus.cn/posts/AI_Fundamentals&amp;SpringAI</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/AI_Fundamentals&amp;SpringAI</guid>
+            <pubDate>Wed, 22 Jul 2026 07:38:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img src="https://gcore.jsdelivr.net/gh/imLKlauS/blog-picture@main/blogs/asynccode" alt="img"></p>
+<h2>AI时代Java程序员的出路在哪里？</h2>
+<p>2022年11月30日，OpenAI公司发布了GPT3.5模型，同时对外开放了ChatGPT产品。人工智能突然进入了普通人的生活中，各种AI应用如雨后春笋般出现。</p>
+<p>不过，由于大模型研究的成本很高，大部分中小型企业只能望而却步，参与者有限，AI的发展也似乎陷入了瓶颈。</p>
+<p>2025年1月20日，位于杭州的DeepSeek公司正式发布了具有划时代意义的DeepSeek-R1模型，该模型在数学、代码、自然语言推理等任务上，性能比肩 OpenAI o1 正式版，且训练成本仅为 560 万美元，远低于美国科技巨头的数亿美元乃至数十亿美元投入，这一突破彻底震惊了全球科技界。</p>
+<p>DeepSeek的出现像是向一潭死水的AI领域投入了一颗巨石，引起了巨大的波澜。特别是其低廉的训练成本，让中小型企业有了参与AI开发的资格。</p>
+<p>毫无疑问，接下来各行各业都将进入传统应用AI化、智能化的变革之中。Java更应该成为这场变革的引领者！</p>
+<p>要知道，<strong>全球有25亿+的Java应用正在运行，超过90的服务端应用都是采用Java语言！传统应用要向AI领域进军，最好的办法一定是使用Java语言。</strong></p>
+<p>然而，一直以来，AI开发似乎都是Python的强项，<strong>传统Java应用想要AI化，缺少完善的解决方案和即懂Java、又懂AI的人才，而这就是最大的机会</strong>！</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/AI_Fundamentals&SpringAI" target="_blank">https://www.imlklaus.cn/posts/AI_Fundamentals&SpringAI</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[面试笔录 - 2026项目面试技巧与面经]]></title>
+            <link>https://www.imlklaus.cn/posts/ms3</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/ms3</guid>
+            <pubDate>Fri, 26 Jun 2026 09:12:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Java 后端开发2026年项目面试技巧（DeepSeek总结版）与面经总结</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/ms3" target="_blank">https://www.imlklaus.cn/posts/ms3</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[面试笔录 - 面经与场景题]]></title>
+            <link>https://www.imlklaus.cn/posts/ms2</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/ms2</guid>
+            <pubDate>Mon, 15 Dec 2025 18:04:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Java 后端开发2025年面经与场景题（DeepSeek总结版）</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/ms2" target="_blank">https://www.imlklaus.cn/posts/ms2</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
+        <item>
+            <title><![CDATA[面试笔录 - 自我介绍与项目面试技巧]]></title>
+            <link>https://www.imlklaus.cn/posts/ms1</link>
+            <guid isPermaLink="false">https://www.imlklaus.cn/posts/ms1</guid>
+            <pubDate>Mon, 15 Dec 2025 18:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Java 后端开发2025年自我介绍与项目面试技巧（DeepSeek总结版）</p>
+<br/><p>访问 <a href="https://www.imlklaus.cn/posts/ms1" target="_blank">https://www.imlklaus.cn/posts/ms1</a> 阅读全文。</p>]]></content:encoded>
+            <author>me@imlklaus.cn (imklaus)</author>
+        </item>
         <item>
             <title><![CDATA[物联网亿万级通信一站式解决方案EMQ]]></title>
             <link>https://www.imlklaus.cn/posts/EMQ</link>

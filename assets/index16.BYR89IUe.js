@@ -1,1 +1,0 @@
-import{Z as s,ot as i,st as r}from"./theme.CXbiCiqW.js";var a=s({cast(t){return typeof t=="string"&&(t={name:t}),t},defaults:{"@type":"ListItem"},resolve(t,e){return typeof t.item=="string"?t.item=r(e.meta.host,t.item):typeof t.item=="object"&&(t.item=i(t.item,e)),t}});export{a as listItemResolver};
